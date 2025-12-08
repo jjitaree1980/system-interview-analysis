@@ -1,0 +1,11 @@
+# Decision Log
+
+Document key project decisions here using the naming convention:
+YYYY-MM-DD-decision-[topic].md
+
+Include:
+- Decision made
+- Options considered
+- Rationale
+- Decision maker
+- Impact
