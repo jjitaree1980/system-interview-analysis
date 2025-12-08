@@ -1,129 +1,356 @@
-# Interview Questions - Idus
+# Interview Questions: Idus (CMMS) - Streamlined
+## Maintenance Management System Assessment
 
-## Overview
-
-| Field | Value |
-|-------|-------|
-| System | Idus |
-| Version | v1.0 |
-| Last Updated | 2025-12-08 |
-| Author | [Name] |
-| Estimated Duration | 45-60 minutes |
+**Super User:** Tom  
+**System:** Idus (CMMS)  
+**Interview Duration:** 60 minutes  
+**Date:** ___________________
 
 ---
 
-## Section 1: General Overview (10 min)
+## Section 1: Opening & Overview (10 min)
 
-### Required Questions
+### 1. What is your role, and how long have you been the super user for Idus?
 
-1. **What is your role, and how does it involve Idus?**
-   - *Follow-up: How long have you been using it?*
+**Notes:**
 
-2. **In your own words, what is Idus used for in the organization?**
-   - *Follow-up: Who are the main users?*
+___________________________________________________________________________
 
-3. **How often do you use the system?**
-   - [ ] Daily
-   - [ ] Weekly
-   - [ ] Monthly
-   - [ ] Occasionally
+___________________________________________________________________________
 
-### Optional Questions
+### 2. In your own words, what is Idus used for in our maintenance operations?
 
-4. How did you learn to use the system?
+**Probe for:** Work orders, PM, asset tracking, who uses it
 
-5. Who do you contact when you have questions about the system?
+**Notes:**
 
----
+___________________________________________________________________________
 
-## Section 2: Current Usage & Workflows (15 min)
+___________________________________________________________________________
 
-### Required Questions
+___________________________________________________________________________
 
-1. **Walk me through a typical workflow you perform in Idus.**
-   - *Follow-up: What triggers this workflow? What's the output?*
+### 3. How many maintenance requests does the system handle per month? How many assets are tracked?
 
-2. **What are the 3 most important features you use?**
-   - *Follow-up: Why are these important?*
+**Requests/month:** _________ **Assets:** _________
 
-3. **Are there features you know exist but don't use? Why not?**
+**Notes:**
 
-### Optional Questions
-
-4. How does Idus integrate with other tools or systems you use?
-
-5. Are there workarounds you've developed to get things done?
+___________________________________________________________________________
 
 ---
 
-## Section 3: Pain Points & Challenges (15 min)
+## Section 2: Business Value & Impact (15 min)
 
-### Required Questions
+### 4. Does Idus help reduce equipment downtime or prevent failures?
 
-1. **What are your biggest frustrations with Idus?**
-   - *Follow-up: How often does this occur? What's the impact?*
+○ Yes, significantly  ○ Yes, somewhat  ○ Not really  ○ Don't know
 
-2. **If you could change one thing about the system, what would it be?**
-   - *Follow-up: Why this specifically?*
+**Examples/quantification:**
 
-3. **Have you experienced any significant issues or outages?**
-   - *Follow-up: How were they handled?*
+___________________________________________________________________________
 
-### Optional Questions
+___________________________________________________________________________
 
-4. Are there tasks that take longer than they should?
+___________________________________________________________________________
 
-5. What manual work do you do that you think should be automated?
+### 5. What types of maintenance does Idus handle? What's the mix?
 
----
+**Reactive:** _____%  **Preventive:** _____%  **Predictive:** _____%
 
-## Section 4: Data & Reporting (10 min)
+**Notes:**
 
-### Required Questions
+___________________________________________________________________________
 
-1. **How confident are you in the accuracy of data in Idus?**
-   - *Follow-up: Have you encountered data quality issues?*
+___________________________________________________________________________
 
-2. **What reports do you generate from the system? Do they meet your needs?**
-   - *Follow-up: What's missing?*
+### 6. How well is preventive maintenance being tracked and executed?
 
-### Optional Questions
+**PM compliance (estimated):** _____%
 
-3. How do you get data out of the system when you need it for other purposes?
+**Are PM schedules followed or frequently skipped?**
 
-4. Is there data you need that the system doesn't capture?
+___________________________________________________________________________
 
----
+___________________________________________________________________________
 
-## Section 5: Support & Training (5 min)
+___________________________________________________________________________
 
-### Required Questions
+### 7. On a scale of 1-10, how critical is this system to maintenance operations? Why?
 
-1. **When you need help with Idus, where do you go?**
-   - *Follow-up: How responsive is support?*
+**Rating:** _____ / 10
 
-2. **Do you feel adequately trained to use the system effectively?**
-   - *Follow-up: What training gaps exist?*
+**Reasoning:**
 
----
+___________________________________________________________________________
 
-## Section 6: Future State (10 min)
+___________________________________________________________________________
 
-### Required Questions
+___________________________________________________________________________
 
-1. **What capabilities do you wish Idus had?**
-   - *Follow-up: How would this help your work?*
+### 8. What would happen if Idus was unavailable for a week?
 
-2. **If we were to replace or upgrade this system, what would be essential to keep?**
-   - *Follow-up: What could we let go of?*
+**Notes:**
 
-3. **Any other thoughts about Idus you'd like to share?**
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+___________________________________________________________________________
 
 ---
 
-## Closing
+## Section 3: Usage & Adoption (15 min)
 
-- Thank interviewee for their time
-- Explain next steps in the process
-- Ask if they can recommend others to interview
-- Provide contact information for follow-up questions
+### 9. How frequently do you use Idus?
+
+○ Daily  ○ Weekly  ○ Monthly  ○ Occasionally
+
+### 10. Walk me through a typical maintenance workflow in Idus.
+
+**Notes:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+### 11. Do people actually use Idus to submit maintenance requests, or do they still call/email you?
+
+○ Mostly use Idus  ○ Mix of both  ○ Mostly call/email
+
+**Notes:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+### 12. What percentage of maintenance work is logged in Idus versus handled informally?
+
+**Estimated:** _____% in Idus, _____% informal
+
+**Notes:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+### 13. Do production teams submit requests through Idus, or do they bypass it?
+
+○ Yes, use Idus  ○ Sometimes  ○ Mostly bypass
+
+**Notes:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+### 14. Can technicians easily access Idus from the production floor? Mobile access?
+
+○ Yes, easily  ○ Somewhat  ○ Difficult  ○ No mobile access
+
+**Notes:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+---
+
+## Section 4: User Experience & Pain Points (10 min)
+
+### 15. What do maintenance technicians appreciate most about Idus?
+
+**Notes:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+### 16. What are your top 3 frustrations with the system?
+
+**Frustration #1:** _________________________________________________________
+
+**Frustration #2:** _________________________________________________________
+
+**Frustration #3:** _________________________________________________________
+
+### 17. Can technicians easily access equipment history and documentation?
+
+○ Yes, easily  ○ Somewhat  ○ Difficult
+
+**Notes:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+### 18. How complete is the asset/equipment database in Idus?
+
+○ All assets tracked  ○ Most assets  ○ Some assets  ○ Incomplete
+
+**Notes:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+---
+
+## Section 5: Integration & Efficiency (5 min)
+
+### 19. Does Idus integrate with other systems? (Production, inventory, procurement)
+
+**Integrations:**
+- Production: ○ Yes  ○ No  ○ Partial
+- Inventory/parts: ○ Yes  ○ No  ○ Partial
+- Procurement: ○ Yes  ○ No  ○ Partial
+
+**Do you manually transfer data between systems?** ○ Yes  ○ No
+
+**Notes:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+### 20. Can you generate reports on equipment performance and maintenance costs?
+
+○ Yes, easily  ○ Yes, with effort  ○ Difficult  ○ No
+
+**Notes:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+---
+
+## Section 6: Support & Data Quality (5 min)
+
+### 21. How often do you engage IT support for Idus issues?
+
+○ Daily  ○ Weekly  ○ Monthly  ○ Rarely
+
+**Most common issues:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+### 22. How confident are you in the accuracy of data in Idus?
+
+○ Very confident  ○ Somewhat confident  ○ Not confident
+
+**Data quality issues:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+---
+
+## Section 7: Future Outlook (10 min)
+
+### 23. Is Idus meeting current maintenance management needs?
+
+○ Yes, fully  ○ Mostly  ○ Partially  ○ No
+
+**Notes:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+### 24. What capabilities do you wish Idus had?
+
+**Top missing features:**
+
+1. ____________________________________________________________________
+
+2. ____________________________________________________________________
+
+3. ____________________________________________________________________
+
+### 25. If we were to replace or upgrade, what would be essential to keep?
+
+**Must keep:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+**Could let go:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+### 26. Would you recommend: invest more, maintain, or explore alternatives?
+
+○ Invest more  ○ Maintain  ○ Explore alternatives
+
+**Reasoning:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+### 27. Any other thoughts about Idus you'd like to share?
+
+**Notes:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+---
+
+## Post-Interview Summary
+
+### Quick Assessment
+
+| Metric | Score/Status |
+|:-------|:-------------|
+| Criticality (1-10) | _____ |
+| PM Compliance Rate | ____% |
+| Work Logged in System | ____% |
+| Adoption by Production | ○ High  ○ Med  ○ Low |
+| Downtime Reduction | ○ Yes  ○ Somewhat  ○ No |
+| Asset Database Complete | ○ Yes  ○ Partial  ○ No |
+| Mobile Access Quality | ○ Good  ○ Poor  ○ None |
+| Recommendation | ○ Invest  ○ Maintain  ○ Replace |
+
+### Key Takeaways
+
+**Most important finding:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+**Biggest concern:**
+
+___________________________________________________________________________
+
+___________________________________________________________________________
+
+**Immediate action needed:** ○ Yes  ○ No
+
+**If yes:** _________________________________________________________________
+
+---
+
+**Interview completed by:** _____________________  
+**Date:** _____________________  
+**Duration:** _________ minutes
+
+**Version:** 2.0 Streamlined  
+**Created:** December 2025
