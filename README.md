@@ -2,15 +2,6 @@
 
 Comprehensive interview analysis and insights for evaluating company systems.
 
-## Systems Under Evaluation
-
-| System | Description | Status |
-|--------|-------------|--------|
-| Idus | - | Planning |
-| Agda/Visma | - | Planning |
-| Flexite | - | Planning |
-| Ascendo | - | Planning |
-
 ## Project Workflow
 
 ```
@@ -18,6 +9,9 @@ Phase 1: Review Questions → Phase 2: Conduct Interviews → Phase 3: Collect D
                                                                     ↓
 Phase 6: Present to Management ← Phase 5: Synthesize Findings ← Phase 4: Analyze
 ```
+## 📋 Project Status
+
+- [📊 Kanban Board](https://github.com/users/yourusername/projects/1/views/1)
 
 ## Folder Structure
 
@@ -58,21 +52,6 @@ Update the status in each system's tracking file as you progress:
   - `[idus] questions: add technical integration questions`
   - `[all] synthesis: complete cross-system comparison`
 
-## Contributors
-
-- Project Lead: [Name]
-- Interviewers: [Names]
-- Analysts: [Names]
-
-## Timeline
-
-| Phase | Target Date | Status |
-|-------|-------------|--------|
-| Question Review | - | - |
-| Interviews | - | - |
-| Analysis | - | - |
-| Synthesis | - | - |
-| Final Presentation | - | - |
 
 ---
 
