@@ -9,9 +9,10 @@ Phase 1: Review Questions → Phase 2: Conduct Interviews → Phase 3: Collect D
                                                                     ↓
 Phase 6: Present to Management ← Phase 5: Synthesize Findings ← Phase 4: Analyze
 ```
-## 📋 Project Status
+## Project Status
 
-- [📊 Kanban Board](https://github.com/users/yourusername/projects/1/views/1)
+- [📊 Kanban Board](https://github.com/users/jjitaree1980/projects/4/views/1)
+- [📅 Timeline View](https://github.com/users/jjitaree1980/projects/4/views/2)
 
 ## Folder Structure
 
