@@ -216,19 +216,108 @@ Even though employees are minimal users, they still need to log their time atten
 - Onboarding function in Agda PS
 
 
-## Key Insights
+# Key Insights
 
-### ✅ What's Working Well
+## ✅ What's Working Well
 
-- 
-- 
-- 
+### System Stability & Reliability
+- **Excellent uptime** - No major system issues during payroll processing in Helena's 2.5 years
+- **Minimal technical support needed** - Rarely contacts Visma support; never contacts internal IT
+- **Outstanding support quality** - Issues resolved within 1 business day maximum
+- **Mission-critical performance** - System rated 10/10 for delivering on-time salary payments
 
-### ❌ What Needs Improvement
+### Payroll Processing
+- **Easy and accurate** - Payroll process is straightforward with accurate data
+- **Significant time savings** - Workflows and processes save Helena considerable time
+- **Adequate processing window** - 1.5 weeks is sufficient for payroll preparation and completion
 
-- 
-- 
-- 
+### Compliance & Functionality
+- **Full Swedish compliance** - Handles all statutory requirements:
+  - Skatteverket (Swedish Tax Agency)
+  - Social fees
+  - Pensions
+  - Försäkringskassan (Swedish Social Insurance Agency)
+  - Collective agreement fees
+- **Always updated** - Keeps pace with changing labor laws and regulations
+- **Customization support** - Special customizations implemented quickly when needed
+
+### User Experience
+- **Centralized information** - All employee/personal information accessible in one place
+- **Moderate complexity** - New staff with system knowledge can onboard quickly (only need to learn organization structure)
+- **Time tracking integration** - Seamless connection with time tracking system
+- **Employee satisfaction** - Minimal complaints from employees; issues mainly related to computer literacy, not the system
+
+### Resource Management
+- **Optimized module usage** - Only purchased functions that are needed; no unused modules
+- **Right-sized staffing** - Adding second Agda PS user provides adequate coverage for payroll management
+
+
+## ❌ What Needs Improvement
+
+### Manual Processes & Workarounds
+
+1. **Shift time calculation review** (Current issue)
+   - **Impact:** Manual review required for new shift times implemented in October 2025
+   - **Frequency:** Ongoing until validated
+   - **Recommendation:** Work with Visma to automate validation or configure system for new shift patterns
+
+2. **Banking integration gap**
+   - **Impact:** Manual data generation and transfer to Ekonomi team for bank uploads
+   - **Frequency:** Every payroll cycle
+   - **Recommendation:** Explore direct integration with banking system
+
+3. **Accounting integration gap**
+   - **Impact:** Manual data generation and transfer to Ekonomi team
+   - **Frequency:** Every payroll cycle
+   - **Recommendation:** Explore direct integration with accounting system
+
+4. **Pension data transfers**
+   - **Impact:** Manual data generation for myndigheter (government agencies)
+   - **Frequency:** Regular
+   - **Recommendation:** Investigate automation or direct reporting capabilities
+
+5. **Pension age changes**
+   - **Impact:** Manual review and updates required
+   - **Frequency:** Occasional
+   - **Recommendation:** Low priority due to limited volume
+
+### User Adoption Issues
+
+6. **Paper leave requests**
+   - **Impact:** Some employees still submit leave requests on paper instead of using self-service
+   - **Root cause:** Old habits from pre-system processes
+   - **Recommendation:** Conduct user training/change management to encourage self-service adoption
+
+7. **Incomplete data**
+   - **Severity:** Low
+   - **Impact:** Blocks process continuation until data is corrected
+   - **Frequency:** Sometimes
+   - **Recommendation:** 
+     - Implement data validation rules at entry point
+     - Consider automated reminders for incomplete entries
+
+### Missing Functionality
+
+8. **No onboarding module**
+   - **Impact:** Manual onboarding processes outside the system
+   - **Priority:** Requested feature
+   - **Recommendation:** Evaluate Visma's onboarding module or develop integration with existing onboarding tools
+
+## Summary & Strategic Recommendation
+
+**Overall Assessment:** Agda PS is performing exceptionally well for its core payroll function with a 10/10 criticality rating. The system is stable, compliant, and significantly reduces manual work.
+
+**Strategic Direction:** **Continue investment** - Helena strongly recommends continuing with Agda PS rather than exploring alternatives.
+
+**Priority Improvements:**
+1. **High:** Resolve shift time calculation automation (temporary issue)
+2. **Medium:** Implement onboarding functionality
+3. **Medium:** Explore banking and accounting integrations to eliminate manual transfers (depend on Ekonomi policy)
+4. **Low:** Address user adoption for self-service features through training
+
+**Risk Mitigation:** 
+- Two-person coverage for payroll management is being established (appropriate for system stability)
+- System dependencies are well-managed with excellent vendor support
 
 ---
 
