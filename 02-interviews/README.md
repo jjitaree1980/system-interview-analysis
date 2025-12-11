@@ -42,14 +42,10 @@ Each interview file should include:
 - Mark sensitive information clearly
 - Don't interpret during documentation (save for analysis phase)
 
-## Interview Tracking
+## Project Status
 
-| System | Planned | Completed | Notes |
-|--------|---------|-----------|-------|
-| Idus | 0 | 0 | - |
-| Agda/Visma | 0 | 0 | - |
-| Flexite | 0 | 0 | - |
-| Ascendo | 0 | 0 | - |
+- [📊 Kanban Board](https://github.com/users/jjitaree1980/projects/4/views/1)
+- [📅 Timeline View](https://github.com/users/jjitaree1980/projects/4/views/2)
 
 ## Confidentiality Notice
 
