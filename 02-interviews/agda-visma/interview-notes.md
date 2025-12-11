@@ -47,7 +47,8 @@ Key capabilities include:
 
 **Q:** How long have you been the super user for Agda PS, and what is your primary role beyond managing the system?
 
-**A:** Helena has worked with Kubal for 2.5 years and has approximately 7 years of total experience with Agda PS. Her primary role is managing transactions through to payroll.
+**A:** Helena has worked with Kubal for 2.5 years and has approximately 7 years of total experience with Agda PS.
+Her primary role is managing transactions through to payroll.
 
 **Notes:**
 - HR has recruited an additional Agda PS user with several years of experience
@@ -60,18 +61,30 @@ Key capabilities include:
 
 **Notes:**
 - Kubal do not use visma calendar, visma approval
-  
+
+**Q:** How many employees' data does this system manage?
+
+**A:** Employee cound is around 300-500.
+
+
 ---
 
 ### 2. Technical & Functional Aspects
 
-**Q:** [Question asked]
+**Q:** What would happen if Agda PS was unavailable during payroll week?
 
-**A:** [Response]
+**A:** It would be worst as the employee would not get salary in timem. Since she working on the system, it never have that kind of problem.
 
 **Notes:**
-- 
-- 
+- Payroll week would take around 1.5 weeks to prepare until payroll is done.
+- Agda team usually use around 1 business day to fix in case there is any technical issue.
+
+**Q:** How critical is this system? Why?
+
+**A:** Rating 10/10 because we need to pay the salary in time.
+
+
+
 
 ---
 
