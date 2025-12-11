@@ -3,18 +3,12 @@
 ## Interview Details
 
 **Interview ID:** [XXX-NNN]  
-
-**System:** **Agda PS**
-
-**Date:** 2025-12-11
-
-**Time:** 10:00-11:00 | **Duration:** [60 minutes]  
-
-**Location:** In-person
-
-**Interviewer(s):** JJA
-
-**Note-taker:** JJA
+**System:** **Agda PS**  
+**Date:** 2025-12-11  
+**Time:** 10:00-11:00 | **Duration:** [60 minutes]   
+**Location:** In-person  
+**Interviewer(s):** JJA  
+**Note-taker:** JJA  
 
 ---
 
