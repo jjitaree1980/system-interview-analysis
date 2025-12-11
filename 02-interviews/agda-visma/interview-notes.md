@@ -14,20 +14,30 @@
 
 ## Interviewee Profile
 
-**Name:** Helena Eriksson Qvist
-**Role:** Lön
-**Department:** HR Personal
-**Experience:** [2,5 years with company] | [7 years using system]  
-**Usage Frequency:** [Daily / Weekly / Monthly / Occasional]
+**Name:** Helena Eriksson Qvist  
+**Role:** Lön  
+**Department:** HR Personal  
+**Experience:** [2,5 years with company] | [7 years using system]    
+**Usage Frequency:** Daily  
 
 ---
 
 ## Pre-Interview Context
 
-*Background information gathered before the interview*
+- Visma is a large Nordic software company that provides business software solutions.
+- Agda was a Swedish software company specializing in payroll and HR management that was acquired by Visma.
+- Visma Agda (or Agda PS) is now a product/brand within Visma's portfolio.
 
-- 
-- 
+The main product appears to be Agda PS (PS likely stands for Payroll System), which is a comprehensive HR and payroll management software primarily used in Sweden.
+Key capabilities include:
+
+- Payroll management (generates around 525,000 payslips monthly)
+- HR management
+- Time tracking and project management
+- Integration with various business systems
+- Support for Swedish collective agreements
+
+ **Kubal** has migrated to Agda system from 2012. All service of Agda PS is manage by the supplier.
 
 ---
 
@@ -35,14 +45,22 @@
 
 ### 1. General Overview & Current Usage
 
-**Q:** [Question asked]
+**Q:** How long have you been the super user for Agda PS, and what is your primary role beyond managing the system?
 
-**A:** [Response]
+**A:** Helena has worked with Kubal for 2.5 years and has approximately 7 years of total experience with Agda PS. Her primary role is managing transactions through to payroll.
 
 **Notes:**
-- 
-- 
+- HR has recruited an additional Agda PS user with several years of experience
+- This will provide two-person coverage for payroll management
 
+
+**Q:** What HR and payroll functions does Agda PS handle?
+
+**A:** Travel expense, payroll, time tracking, self-service, recruitment, statistik for salary survey
+
+**Notes:**
+- Kubal do not use visma calendar, visma approval
+  
 ---
 
 ### 2. Technical & Functional Aspects
