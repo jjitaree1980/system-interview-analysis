@@ -3,21 +3,27 @@
 ## Interview Details
 
 **Interview ID:** [XXX-NNN]  
-**System:** [Idus / Agda-Visma / Flexite / Ascendo]  
-**Date:** [YYYY-MM-DD]  
-**Time:** [HH:MM - HH:MM] | **Duration:** [X minutes]  
-**Location:** [In-person / Teams / Phone]  
-**Interviewer(s):** [Name(s)]  
-**Note-taker:** [Name]
+
+**System:** **Agda PS**
+
+**Date:** 2025-12-11
+
+**Time:** 10:00-11:00 | **Duration:** [60 minutes]  
+
+**Location:** In-person
+
+**Interviewer(s):** JJA
+
+**Note-taker:** JJA
 
 ---
 
 ## Interviewee Profile
 
-**Name:** [Full name]  
-**Role:** [Job title]  
-**Department:** [Department name]  
-**Experience:** [X years with company] | [X years using system]  
+**Name:** Helena Eriksson Qvist
+**Role:** Lön
+**Department:** HR Personal
+**Experience:** [2,5 years with company] | [7 years using system]  
 **Usage Frequency:** [Daily / Weekly / Monthly / Occasional]
 
 ---
