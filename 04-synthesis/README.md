@@ -44,13 +44,7 @@ This folder contains cross-system findings, comparisons, and synthesized insight
 - [ ] Risks assessed and categorized
 - [ ] Opportunities quantified where possible
 
-## Status
+## Project Status
 
-| Deliverable | Status | Last Updated |
-|-------------|--------|--------------|
-| Comparison Matrix | Not Started | - |
-| Common Themes | Not Started | - |
-| Integration Analysis | Not Started | - |
-| Priority Ranking | Not Started | - |
-| Risk Assessment | Not Started | - |
-| Opportunity Map | Not Started | - |
+- [📊 Kanban Board](https://github.com/users/jjitaree1980/projects/4/views/1)
+- [📅 Timeline View](https://github.com/users/jjitaree1980/projects/4/views/2)
