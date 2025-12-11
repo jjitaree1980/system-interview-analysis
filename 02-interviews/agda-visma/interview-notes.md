@@ -86,11 +86,11 @@ Her primary role is managing transactions through to payroll.
 ### Q: How does the system handle compliance and statutory reporting?
 
 **A:** The system fully handles data compliance with Swedish regulations, including:
-- Skatteverket (Swedish Tax Agency) - integrate data by API and need Ekonomi team to approve it
+- Skatteverket - integrate data by API and need Ekonomi team to approve it
 - Social fees
 - Pensions - manual data upload
-- Försäkringskassan (Swedish Social Insurance Agency) - manual data upload
-- Collective agreement fees (kollektivavtalade avgifter) - After doing main configuration just one time, then do manual data upload
+- Försäkringskassan - manual data upload
+- Collective agreement fees - After doing main configuration just one time, then do manual data upload
 
 
 ### Q: How frequently do you access the system? And who are the primary users?
@@ -233,10 +233,10 @@ Even though employees are minimal users, they still need to log their time atten
 
 ### Compliance & Functionality
 - **Full Swedish compliance** - Handles all statutory requirements:
-  - Skatteverket (Swedish Tax Agency)
+  - Skatteverket
   - Social fees
   - Pensions
-  - Försäkringskassan (Swedish Social Insurance Agency)
+  - Försäkringskassan
   - Collective agreement fees
 - **Always updated** - Keeps pace with changing labor laws and regulations
 - **Customization support** - Special customizations implemented quickly when needed
