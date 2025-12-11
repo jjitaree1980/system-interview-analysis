@@ -134,8 +134,9 @@ There are no regular pain points, but there is one area that requires additional
 - The system works well, and the processes/workflows save Helena a lot of time
 
 
-### 4. Pain Points & Challenges
-By the imcomplete or gabage In/Out data, sometimes she could not continue the next process or the next step could not be start until the data is fixed.
+## 4. Pain Points & Challenges
+By the imcomplete or gabage In/Out data, sometimes she could not continue the next process or the next step could not be start until the data is fixed.  
+Even employees are the minimal users but they still need to log their time attendance or leave planning like vacation, parental leave. But some user still request the leave by paper as it was like that before they start the system and they used to it.
 
 **Key Pain Points Identified:**
 
