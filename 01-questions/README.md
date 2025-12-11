@@ -40,11 +40,7 @@ Before conducting interviews, ensure:
 - [ ] Estimated interview duration calculated
 - [ ] Questions prioritized (must-ask vs nice-to-have)
 
-## Status
+## Project Status
 
-| System | Questions | Rationale | Review Status |
-|--------|-----------|-----------|---------------|
-| Idus | Draft | Draft | Not Started |
-| Agda/Visma | Draft | Draft | Not Started |
-| Flexite | Draft | Draft | Not Started |
-| Ascendo | Draft | Draft | Not Started |
+- [📊 Kanban Board](https://github.com/users/jjitaree1980/projects/4/views/1)
+- [📅 Timeline View](https://github.com/users/jjitaree1980/projects/4/views/2)
