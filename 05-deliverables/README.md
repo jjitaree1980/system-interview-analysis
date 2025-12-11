@@ -55,12 +55,7 @@ This folder contains final presentations, reports, and recommendations for manag
 4. Management presentation
 5. Feedback incorporation
 
-## Status
+## Project Status
 
-| Deliverable | Status | Review Stage |
-|-------------|--------|--------------|
-| Executive Summary | Not Started | - |
-| Detailed Report | Not Started | - |
-| Presentation | Not Started | - |
-| Recommendations | Not Started | - |
-| Appendices | Not Started | - |
+- [📊 Kanban Board](https://github.com/users/jjitaree1980/projects/4/views/1)
+- [📅 Timeline View](https://github.com/users/jjitaree1980/projects/4/views/2)
