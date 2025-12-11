@@ -1,24 +1,23 @@
 # Interview Notes
 
 ## Interview Details
-
-**Interview ID:** [XXX-NNN]  
-**System:** [Idus / Agda-Visma / Flexite / Ascendo]  
-**Date:** [YYYY-MM-DD]  
-**Time:** [HH:MM - HH:MM] | **Duration:** [X minutes]  
-**Location:** [In-person / Teams / Phone]  
-**Interviewer(s):** [Name(s)]  
-**Note-taker:** [Name]
+ 
+**System:** Idus  
+**Date:** 2025-12-10  
+**Time:** 13:00-14:15 | **Duration:** 75 minutes  
+**Location:** In-person  
+**Interviewer(s):** JJA  
+**Note-taker:** JJA
 
 ---
 
 ## Interviewee Profile
 
-**Name:** [Full name]  
+**Name:** Tom Löfgren  
 **Role:** [Job title]  
 **Department:** [Department name]  
 **Experience:** [X years with company] | [X years using system]  
-**Usage Frequency:** [Daily / Weekly / Monthly / Occasional]
+**Usage Frequency:** Daily
 
 ---
 
