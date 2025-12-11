@@ -53,11 +53,7 @@ For each system, complete:
 - [ ] Stakeholder mapping
 - [ ] Risk identification
 
-## Status
+## Project Status
 
-| System | Themes | Pain Points | Strengths | Gaps | Status |
-|--------|--------|-------------|-----------|------|--------|
-| Idus | - | - | - | - | Not Started |
-| Agda/Visma | - | - | - | - | Not Started |
-| Flexite | - | - | - | - | Not Started |
-| Ascendo | - | - | - | - | Not Started |
+- [📊 Kanban Board](https://github.com/users/jjitaree1980/projects/4/views/1)
+- [📅 Timeline View](https://github.com/users/jjitaree1980/projects/4/views/2)
