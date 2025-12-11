@@ -4,24 +4,25 @@
 
 | Field | Value |
 |-------|-------|
-| System | Idus |
-| Date | 2025-12-10 |
-| Time | 13:00-14:15 |
-| Duration | 75 minutes |
-| Location | In-person |
-| Interviewer(s) | Tom Löfgren |
-| Note-taker | JJA |
+| Interview ID | [XXX-NNN] |
+| System | [Idus / Agda-Visma / Flexite / Ascendo] |
+| Date | [YYYY-MM-DD] |
+| Time | [HH:MM - HH:MM] |
+| Duration | [X minutes] |
+| Location | [In-person / Teams / Phone] |
+| Interviewer(s) | [Name(s)] |
+| Note-taker | [Name] |
 
 ## Interviewee Information
 
 | Field | Value |
 |-------|-------|
-| Name | Tom Löfgren |
+| Name | [Full name] |
 | Role/Title | [Job title] |
-| Department | UH |
+| Department | [Department name] |
 | Years with Company | [X years] |
 | Years Using System | [X years] |
-| Usage Frequency | Daily |
+| Usage Frequency | [Daily / Weekly / Monthly / Occasional] |
 
 ## Pre-Interview Notes
 
