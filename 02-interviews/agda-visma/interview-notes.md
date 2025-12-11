@@ -86,11 +86,11 @@ Her primary role is managing transactions through to payroll.
 ### Q: How does the system handle compliance and statutory reporting?
 
 **A:** The system fully handles data compliance with Swedish regulations, including:
-- Skatteverket (Swedish Tax Agency)
+- Skatteverket (Swedish Tax Agency) - integrate data by API and need Ekonomi team to approve it
 - Social fees
-- Pensions
-- Försäkringskassan (Swedish Social Insurance Agency)
-- Collective agreement fees (kollektivavtalade avgifter)
+- Pensions - manual data upload
+- Försäkringskassan (Swedish Social Insurance Agency) - manual data upload
+- Collective agreement fees (kollektivavtalade avgifter) - After doing main configuration just one time, then do manual data upload
 
 
 ### Q: How frequently do you access the system? And who are the primary users?
@@ -133,73 +133,90 @@ There are no regular pain points, but there is one area that requires additional
 **Notes:**
 - The system works well, and the processes/workflows save Helena a lot of time
 
-
 ## 4. Pain Points & Challenges
-By the imcomplete or gabage In/Out data, sometimes she could not continue the next process or the next step could not be start until the data is fixed.  
-Even employees are the minimal users but they still need to log their time attendance or leave planning like vacation, parental leave. But some user still request the leave by paper as it was like that before they start the system and they used to it.
+
+**Overview:**
+Incomplete or erroneous In/Out data sometimes prevents Helena from continuing to the next process step until the data is corrected.
+
+Even though employees are minimal users, they still need to log their time attendance and plan leave (vacation, parental leave, etc.). However, some users still submit leave requests on paper, as this was the practice before the system was implemented, and they are accustomed to it.
 
 **Key Pain Points Identified:**
 
-1. **Imcomplete data**
+1. **Incomplete data**
    - Severity: **Low**
    - Frequency: Sometimes
    - Impact: Cannot process the next step
    - Current workaround: Enter complete data
 
-2. **[Pain point title]**
-   - Severity: [High / Medium / Low]
-   - Frequency: [Always / Often / Sometimes / Rarely]
-   - Impact: [Description of impact]
-   - Current workaround: [If any]
+2. **Some users do not use the system**
+   - Severity: **Low**
+   - Frequency: Sometimes
+   - Impact: Could result in inaccurate user data
+   - Current workaround: HR needs to manually input leave requests from some employees
 
-3. **[Pain point title]**
-   - Severity: [High / Medium / Low]
-   - Frequency: [Always / Often / Sometimes / Rarely]
-   - Impact: [Description of impact]
-   - Current workaround: [If any]
 
----
+## 5. IT Support and Maintenance
 
-### 5. Data Management & Reporting
+### Q: How often do you contact IT for Agda PS issues?
 
-**Q:** [Question asked]
+**A:** Never
 
-**A:** [Response]
+
+### Q: How often do you contact Visma support directly?
+
+**A:** Rarely. The system is quite stable with minimal technical issues.
+
+
+### Q: What are the most common tech problems?
+
+**A:** New hardware not connecting with the system or upgrades from Visma's side, but these are rare.
+
+
+### Q: How quickly are payroll-critical issues resolved?
+
+**A:** We have not experienced any payroll issues yet, but for other technical issues, they typically resolve them within 1 business day maximum. The quality of their support is quite excellent.
+
+
+## 6. Data Management & Reporting
+
+### Q: Does Agda PS integrate with our time tracking, banking, or accounting systems?
+
+**A:** Agda PS integrates with some systems. For those without integration, HR can generate data files and manually upload them.
+
+- **Time tracking:** Yes
+- **Banking:** No – HR manually generates data reports and sends them to the Ekonomi team to upload to the bank system
+- **Accounting:** No – Same process as banking
+
+
+### Q: Do you manually transfer data between systems?
+
+**A:** Yes, we manually generate payroll data for the Ekonomi team and pension data for myndigheter (government agencies). It does not take too much time, but it is manual.
+
+
+### Q: Does the system reduce manual work or create extra administrative burden?
+
+**A:** Yes, it significantly reduces manual work, except for paper leave requests which could be handled through the employee self-service function. Some changes in pension ages also need to be reviewed and changed manually, but there are not many records.
 
 **Notes:**
-- 
-- 
+- Agda PS handles specific Swedish payroll requirements quite well
 
----
 
-### 6. Future State & Wishlist
+## 7. Future State & Wishlist
 
-**Q:** [Question asked]
+### Q: Is Agda PS keeping pace with changing labor laws and regulations?
 
-**A:** [Response]
+**A:** Yes, always updated. For special customizations, if required, the support team can implement them in a short time.
+
+
+### Q: Would you recommend continuing with Agda PS or exploring alternatives?
+
+**A:** Definitely invest more
 
 **Requested Features:**
-- 
-- 
+- Onboarding function in Agda PS
 
----
 
 ## Key Insights
-
-### 💬 Notable Quotes
-
-> "[Quote 1 - context]"
-
-> "[Quote 2 - context]"
-
-> "[Quote 3 - context]"
-
-### 🎯 Main Themes
-
-- [ ] **[Theme 1]:** [Brief description]
-- [ ] **[Theme 2]:** [Brief description]
-- [ ] **[Theme 3]:** [Brief description]
-- [ ] **[Theme 4]:** [Brief description]
 
 ### ✅ What's Working Well
 
@@ -215,45 +232,20 @@ Even employees are the minimal users but they still need to log their time atten
 
 ---
 
-## Follow-up Actions
-
-**🔍 Item 1:** [Description]  
-→ Owner: [Name] | Due: [Date] | Status: [Not Started / In Progress / Complete]
-
-**🔍 Item 2:** [Description]  
-→ Owner: [Name] | Due: [Date] | Status: [Not Started / In Progress / Complete]
-
-**🔍 Item 3:** [Description]  
-→ Owner: [Name] | Due: [Date] | Status: [Not Started / In Progress / Complete]
-
----
-
 ## Interviewer Observations
 
 *Non-verbal cues, engagement level, tone, notable impressions*
 
-**Engagement Level:** [High / Medium / Low]
+**Engagement Level:** High
 
-**Overall Tone:** [Enthusiastic / Frustrated / Neutral / etc.]
+**Overall Tone:** Neutral
 
 **Key Observations:**
-- 
-- 
-- 
-
----
+- Helena used sometimes to think about the issue she had with the system, it was not mean there were a lot, but it was rarely happened.
 
 ## Additional Notes
 
-*Any other relevant information, context, or connections to other interviews*
-
-- 
-- 
-
----
+- Agda PS is in quite big market for payroll system in Sweden and after take over by Visma, they have more feature which could integrate to make the work is easier for HR in the future.
 
 ## Document Control
-
-**Notes completed by:** [Name] on [YYYY-MM-DD]  
-**Reviewed by:** [Name] on [YYYY-MM-DD]  
-**Status:** [Draft / Final / Archived]
+**Status:** Draft
