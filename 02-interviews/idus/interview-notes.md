@@ -60,33 +60,26 @@ Idus Maintenance System helps you plan, follow up and improve maintenance togeth
 
 ### Q: Does Idus help reduce equipment downtime or prevent failures?
 
-**A:** 
-- Yes, significantly. Downtime reduction is achieved through preventive maintenance plans set up in Idus
+**A:** Yes, significantly. Downtime reduction is achieved through preventive maintenance plans set up in Idus
 
 ### Q: What types of maintenance does Idus handle?
 
-**A:** 
-- Idus primarily handles reactive and preventive maintenance
+**A:** Idus primarily handles reactive and preventive maintenance
 - Predictive maintenance features are not currently utilized in Idus
 - UH performs manual condition monitoring through PM plans
 
 ### Q: How well is preventive maintenance being tracked and executed?
 
-**A:** 
-- PM planning is quite effective, with most PM schedules being followed
-- Some PM tasks are occasionally skipped depending on Production department priorities
+**A:** PM planning is quite effective, with most PM schedules being followed.  
+Some PM tasks are occasionally skipped depending on Production department priorities
 
 ### Q: On a scale of 1-10, how critical is this system to maintenance operations? Why?
 
-**A:** 
-- Rating: 9/10
-- UH relies on Idus to control their work and manage planning activities
+**A:** Rating: 9/10. UH relies on Idus to control their work and manage planning activities
 
 ### Q: What would happen if Idus was unavailable for a week?
 
-**A:** 
-- UH would face significant challenges managing work orders and PM plans
-- Tracking and maintaining critical production line assets would become difficult
+**A:** UH would face significant challenges managing work orders and PM plans. Tracking and maintaining critical production line assets would become difficult
 
 **Notes:**
 - Integration issues exist with the inventory system in SAP, resulting in inaccurate stock data
@@ -100,8 +93,7 @@ Idus Maintenance System helps you plan, follow up and improve maintenance togeth
 
 ### Q: How frequently do you use Idus?
 
-**A:** 
-- Daily
+**A:** Daily
 
 ### Q: What is the typical maintenance workflow in Idus?
 
@@ -114,23 +106,20 @@ Idus Maintenance System helps you plan, follow up and improve maintenance togeth
 
 ### Q: Do people actually use Idus to submit maintenance requests, or do they call/email?
 
-**A:** 
-- It's a mixed approach
+**A:** It's a mixed approach.
 - Some users can use the system effectively
 - Blue-collar workers sometimes cannot locate assets in Idus, making it easier for them to call or email instead
 - Production team occasionally bypasses Idus and uses phone or email for requests
 
 ### Q: Is all maintenance work logged in Idus vs. handled informally?
 
-**A:** 
-- Not all maintenance work is logged in Idus
+**A:** Not all maintenance work is logged in Idus.
 - Quick fixes (approximately 5 minutes) typically don't generate a WO in the system
 - Technicians monitor their maintenance plans and adjust accordingly
 
 ### Q: What about recurring requests that are 5-minute jobs?
 
-**A:** 
-- These are monitored through reports rather than individual WO entries
+**A:** These are monitored through reports rather than individual WO entries.
 
 ### Q: What do maintenance technicians appreciate most about Idus?
 
@@ -140,8 +129,7 @@ Idus Maintenance System helps you plan, follow up and improve maintenance togeth
 
 ### Q: How complete is the asset/equipment database in Idus?
 
-**A:** 
-- All valuable assets are registered in Idus with comprehensive information including:
+**A:** All valuable assets are registered in Idus with comprehensive information including:
   - Specifications
   - Location
   - Maintenance history
@@ -150,9 +138,11 @@ Idus Maintenance System helps you plan, follow up and improve maintenance togeth
 
 ### Q: Can technicians easily access equipment history and documentation?
 
-**A:** 
-- Technicians can access failure history for assets/objects
-- Equipment manuals and specifications are available in the system
+**A:** Technicians can access failure history for assets/objects. Equipment manuals and specifications are available in the system.
+
+### Q: How often do you engate IT support for Idus issues?
+
+**A:** Rarely.
 
 **Notes:**
 - Checking spare parts in SAP can be complex due to the layout
@@ -162,29 +152,61 @@ Idus Maintenance System helps you plan, follow up and improve maintenance togeth
 
 ## 4. Pain Points & Challenges
 
-### Q: How is the performance of system?
+### Q: How is the performance of the system?
 
-**A:** It quite slow but it could be because we are working with the local, it might be faster if it upgrade to cloud.
+**A:** System performance is quite slow. This may be due to the local/on-premises installation; performance might improve with a cloud-based upgrade.
+
+### Q: Does Idus integrate with other systems?
+
+**A:** 
+- **SAP Inventory Integration:**
+  - Previously integrated with inventory in SAP for checking and validating stock levels
+  - Integration has been broken since Kubal did not upgrade to the latest version
+  - Idus support cannot fix the integration issues until the version is upgraded
+  - Current inventory data cannot be fully trusted, making it difficult for technicians to plan their work orders
+  - UH has requested IT to customize a warehouse search program to easily check inventory stock in SAP
+
+- **Procurement Module:**
+  - No integration with procurement module
+  - When spare parts are needed, technicians must go to the warehouse, and warehouse staff place orders on their behalf
+
+### Q: Can you generate reports on equipment performance and maintenance costs?
+
+**A:** No, Kubal has not purchased the reporting or analytics module.
+- Tom must export data and generate custom reports in Excel
+- Also maintains additional planning data and recurring records in Excel
+- Report generation takes approximately 2 business days
+- Investigative reports take approximately 1 hour each
+
+**Notes:**
+- No manual data transfers to other systems are required
+- IT has utilized Idus data for the warehouse barcode scanner system, making it easier for technicians to request spare parts using WO numbers
 
 **Key Pain Points Identified:**
 
-1. **[Pain point title]**
-   - Severity: [High / Medium / Low]
-   - Frequency: [Always / Often / Sometimes / Rarely]
-   - Impact: [Description of impact]
-   - Current workaround: [If any]
+1. **Slow System Performance**
+   - Severity: Medium
+   - Frequency: Always
+   - Impact: Reduced productivity and slower user experience during daily operations; affects efficiency of maintenance workflows
+   - Current workaround: Users tolerate the slow performance; cloud-based upgrade has been identified as potential solution
 
-2. **[Pain point title]**
-   - Severity: [High / Medium / Low]
-   - Frequency: [Always / Often / Sometimes / Rarely]
-   - Impact: [Description of impact]
-   - Current workaround: [If any]
+2. **Broken SAP Inventory Integration**
+   - Severity: High
+   - Frequency: Always
+   - Impact: Inventory data cannot be fully trusted, making it difficult for technicians to plan work orders effectively; unable to rely on accurate stock levels for maintenance planning
+   - Current workaround: IT has customized a warehouse search program to allow direct checking of inventory stock in SAP; integration cannot be fixed until Idus version is upgraded
 
-3. **[Pain point title]**
-   - Severity: [High / Medium / Low]
-   - Frequency: [Always / Often / Sometimes / Rarely]
-   - Impact: [Description of impact]
-   - Current workaround: [If any]
+3. **No Procurement Module Integration**
+   - Severity: Medium
+   - Frequency: Always (whenever spare parts are needed)
+   - Impact: Inefficient process requiring technicians to physically visit warehouse for spare part requests; warehouse staff must manually place orders on their behalf
+   - Current workaround: Manual coordination between technicians and warehouse staff; IT has implemented barcode scanner system using Idus data to streamline spare part requests by WO number
+
+4. **Limited Reporting and Analytics Capabilities**
+   - Severity: High
+   - Frequency: Often
+   - Impact: Report generation is time-intensive (approximately 2 business days per report, 1 hour for investigative reports); inability to generate equipment performance and maintenance cost reports directly from system; requires manual data export and analysis
+   - Current workaround: Tom manually exports data and creates custom reports in Excel; maintains additional planning data and recurring records separately in Excel
 
 ---
 
