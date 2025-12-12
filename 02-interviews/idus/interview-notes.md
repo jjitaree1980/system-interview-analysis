@@ -140,7 +140,7 @@ Some PM tasks are occasionally skipped depending on Production department priori
 
 **A:** Technicians can access failure history for assets/objects. Equipment manuals and specifications are available in the system.
 
-### Q: How often do you engate IT support for Idus issues?
+### Q: How often do you engage IT support for Idus issues?
 
 **A:** Rarely.
 
@@ -178,6 +178,10 @@ Some PM tasks are occasionally skipped depending on Production department priori
 - Report generation takes approximately 2 business days
 - Investigative reports take approximately 1 hour each
 
+### Q: How confident are you in the accuracy of data in Idus?
+
+**A:** Somewhat confident, Idus do not manipulate the data but it was because of some of data was not cleansing before Kubal migrated from Maximo to Idus. So it seems user error.
+
 **Notes:**
 - No manual data transfers to other systems are required
 - IT has utilized Idus data for the warehouse barcode scanner system, making it easier for technicians to request spare parts using WO numbers
@@ -200,7 +204,7 @@ Some PM tasks are occasionally skipped depending on Production department priori
    - Severity: Medium
    - Frequency: Always (whenever spare parts are needed)
    - Impact: Inefficient process requiring technicians to physically visit warehouse for spare part requests; warehouse staff must manually place orders on their behalf
-   - Current workaround: Manual coordination between technicians and warehouse staff; IT has implemented barcode scanner system using Idus data to streamline spare part requests by WO number
+   - Current workaround: Manual coordination between technicians and warehouse staff; IT has implemented barcode scanner system using Idus data to streamline spare part requests by WO number. 
 
 4. **Limited Reporting and Analytics Capabilities**
    - Severity: High
@@ -208,102 +212,142 @@ Some PM tasks are occasionally skipped depending on Production department priori
    - Impact: Report generation is time-intensive (approximately 2 business days per report, 1 hour for investigative reports); inability to generate equipment performance and maintenance cost reports directly from system; requires manual data export and analysis
    - Current workaround: Tom manually exports data and creates custom reports in Excel; maintains additional planning data and recurring records separately in Excel
 
----
+5. **Data Accuracy and Quality Issues**
+   - Severity: Medium
+   - Frequency: Often
+   - Impact: Reduced confidence in data accuracy (user is only "somewhat confident"); data quality issues stem from incomplete data cleansing during migration from Maximo to Idus; leads to potential user errors and unreliable information for decision-making
+   - Current workaround: None specified; users work with existing data quality issues; Idus system itself does not manipulate data, so issues are traced back to migration process
 
-## 5. Data Management & Reporting
 
-### Q: How confident are you in the accuracy of data in Idus?
+## 6. Future State & Wishlist
 
-**A:** Somewhat confident, Idus do not manipulate the data but it was because of some of data was not cleansing before Kubal migrated from Maximo to Idus. So it seems user error.
+### Q: Is Idus meeting current maintenance management needs?
 
-**Notes:**
-- 
-- 
+**A:** 
+- No, the system is not fully meeting current needs
 
----
+### Q: Would you recommend to invest more, maintain, or explore alternatives?
 
-### 6. Future State & Wishlist
+**A:** 
+- **Recommendation:** Invest more in the existing Idus system
+- Upgrading Idus would be relatively straightforward for Kubal to manage, as upgrades can be performed internally
+- Key prerequisites before upgrading:
+  - Data cleansing and quality improvement
+  - Process reorganization and optimization
+  - Coordination with HQ to review and validate maintenance asset organizational structure
+- **Benefits of investing in Idus:**
+  - Graphical layout feature is user-friendly and intuitive
+  - Minimal additional training time required for users
+  - Existing familiarity with the system reduces change management effort
 
-**Q:** [Question asked]
+### Requested Features:
 
-**A:** [Response]
+**Cost Tracking and Budget Management**
+- Need a feature to track costs against budget in real-time
+- Current challenge: No visibility into whether maintenance spending is within budget limits
+- Current workaround: Manually creating Excel reports to track budget data, which is time-consuming
 
-**Requested Features:**
-- 
-- 
+**Automated Reminders for Outsourced Services**
+- Need a feature to set up regular checkup schedules for outsourced maintenance services
+- Current workaround: Using Idus reminder function to generate manual notes for follow-up
 
----
+**Enhanced BOM Customization**
+- Need ability to customize BOM (Bill of Materials) information with additional columns
+- Requirement: More fields to capture specific information relevant to maintenance operations
+  
 
 ## Key Insights
 
-### 💬 Notable Quotes
-
-> "[Quote 1 - context]"
-
-> "[Quote 2 - context]"
-
-> "[Quote 3 - context]"
-
-### 🎯 Main Themes
-
-- [ ] **[Theme 1]:** [Brief description]
-- [ ] **[Theme 2]:** [Brief description]
-- [ ] **[Theme 3]:** [Brief description]
-- [ ] **[Theme 4]:** [Brief description]
-
 ### ✅ What's Working Well
 
-- 
-- 
-- 
+**System Criticality and Core Functionality**
+- Idus is essential to maintenance operations (9/10 criticality rating)
+- Successfully handles high volume: ~1,800 tickets per month across 30 users
+- Significantly reduces equipment downtime through preventive maintenance planning
+- Most PM schedules are followed and executed effectively
+
+**Asset Management and Documentation**
+- Comprehensive asset database covering all valuable assets in Kubal
+- Complete asset information including specifications, location, maintenance history, spare parts list, and manuals
+- Technicians can easily access equipment history and documentation when needed
+
+**User-Friendly Features**
+- Graphical interface makes it easy to navigate and locate objects/equipment
+- Spare parts list connected to asset structure (BOM hierarchy) is highly valued by technicians
+- Intuitive design requires minimal additional training time
+- Clear workflow from fault reports (FA) to work orders (WO) to completion
+
+**Process Support**
+- Effective tracking of work orders and preventive maintenance planning
+- Supports both reactive and preventive maintenance workflows
+- Integration with warehouse barcode scanner system (customized by IT) helps technicians request spare parts by WO number
+
 
 ### ❌ What Needs Improvement
 
-- 
-- 
-- 
+**Critical System Issues (High Priority)**
 
----
+**Broken SAP Inventory Integration**
+- Inventory data cannot be fully trusted, severely impacting work order planning
+- Integration has been broken since version upgrade was not performed
+- Cannot be fixed until Idus is upgraded to current version
+- Forces reliance on workarounds (custom warehouse search program)
+
+**Limited Reporting and Analytics Capabilities**
+- No reporting or analytics module purchased
+- Generating reports takes 2 business days; investigative reports take 1 hour each
+- Tom must manually export data and create custom Excel reports
+- No ability to track costs against budget within the system
+- Cannot generate equipment performance and maintenance cost reports directly
+
+**Data Quality Issues**
+- Incomplete data cleansing during migration from Maximo to Idus
+- Results in reduced confidence in data accuracy
+- Traced to user error and migration process, not system manipulation
+
+**System Performance and Infrastructure**
+
+**Slow System Performance**
+- System runs slowly due to local/on-premises installation
+- Affects daily productivity and user experience
+- Cloud-based upgrade identified as potential solution
+
+**Missing Integrations and Modules**
+- No procurement module integration (requires manual warehouse coordination)
+- Mobile platform not purchased (limits field access)
+- Module for summarized maintenance history reports by asset not purchased
+
+**User Adoption Challenges**
+- Mixed usage patterns: some users bypass system and use phone/email instead
+- Blue-collar workers sometimes cannot locate assets in Idus
+- Production team occasionally doesn't submit tickets in the system
+- Not all maintenance work is logged (quick 5-minute fixes are informal)
+- Some maintenance planning and recurring records managed outside system in Excel
+
+**Process and Workflow Gaps**
+- No automated cost tracking or budget management feature
+- No dedicated feature for setting up regular checkups for outsourced services (currently using manual reminder workaround)
+- Limited BOM customization options (need more columns for specific information)
+- Parallel system usage: "Stopptider" application used for downtime tracking (unclear if due to missing Idus feature or preference for custom solution)
+
+**Organizational Readiness**
+- Need to coordinate with HQ to review maintenance asset organizational structure
+- Data cleansing and process reorganization required before system upgrade
+- System not fully meeting current maintenance management needs
 
 ## Follow-up Actions
 
-**🔍 Item 1:** [Description]  
-→ Owner: [Name] | Due: [Date] | Status: [Not Started / In Progress / Complete]
-
-**🔍 Item 2:** [Description]  
-→ Owner: [Name] | Due: [Date] | Status: [Not Started / In Progress / Complete]
-
-**🔍 Item 3:** [Description]  
-→ Owner: [Name] | Due: [Date] | Status: [Not Started / In Progress / Complete]
-
----
+**🔍 Warehouse-search:** Recheck if the inventory-xls data is upload properly
+→ Owner: IT | Due: 2025-12-18 | Status: Not started.
 
 ## Interviewer Observations
 
-*Non-verbal cues, engagement level, tone, notable impressions*
 
-**Engagement Level:** [High / Medium / Low]
+**Engagement Level:** Medium
 
-**Overall Tone:** [Enthusiastic / Frustrated / Neutral / etc.]
-
-**Key Observations:**
-- 
-- 
-- 
-
----
+**Overall Tone:** Ingenjör-neatral
 
 ## Additional Notes
-
-*Any other relevant information, context, or connections to other interviews*
-
-- 
-- 
-
----
-
+- Tom will send the quotation about Idus upgrading, it could help for the decission later.
 ## Document Control
-
-**Notes completed by:** [Name] on [YYYY-MM-DD]  
-**Reviewed by:** [Name] on [YYYY-MM-DD]  
-**Status:** [Draft / Final / Archived]
+**Status:** Draft
