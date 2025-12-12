@@ -60,39 +60,111 @@ Idus Maintenance System helps you plan, follow up and improve maintenance togeth
 
 ### Q: Does Idus help reduce equipment downtime or prevent failures?
 
-**A:** Yes, significantly. It reduce by preventive plan which setup in Idus. 
+**A:** 
+- Yes, significantly. Downtime reduction is achieved through preventive maintenance plans set up in Idus
 
-### Q: What types of maintenance does Idus handle? 
+### Q: What types of maintenance does Idus handle?
 
-**A:** Mostly Idus handle by reactive and preventiv. We do not use any predictive feature by Idus. Currently UH do manually control by PM plan.
+**A:** 
+- Idus primarily handles reactive and preventive maintenance
+- Predictive maintenance features are not currently utilized in Idus
+- UH performs manual condition monitoring through PM plans
 
 ### Q: How well is preventive maintenance being tracked and executed?
 
-**A:** It quite well for the PM planning, most of PM schedules followed but some was skipped depend on the Production department.
+**A:** 
+- PM planning is quite effective, with most PM schedules being followed
+- Some PM tasks are occasionally skipped depending on Production department priorities
+
+### Q: On a scale of 1-10, how critical is this system to maintenance operations? Why?
+
+**A:** 
+- Rating: 9/10
+- UH relies on Idus to control their work and manage planning activities
+
+### Q: What would happen if Idus was unavailable for a week?
+
+**A:** 
+- UH would face significant challenges managing work orders and PM plans
+- Tracking and maintaining critical production line assets would become difficult
 
 **Notes:**
-- There is issue about integration with Inventory system in SAP that now the inventory in stock is unaccurate. So it's hard to run automatic planning or another eccetera report.
-- Currently several report regarding planning/inventory is manage by excel and warehouse-search application (in-house customized by IT)
-- No idea if Idus have a feature for predictive, but as Tom's mention -- the asset in Kubal cannot do it yet. Some case like the snif, UH have a tool to predict for the failure or downtime.
+- Integration issues exist with the inventory system in SAP, resulting in inaccurate stock data
+- This inaccuracy makes it difficult to run automatic planning or generate comprehensive reports
+- Several reports regarding planning and inventory are currently managed through Excel and an in-house warehouse search application (customized by IT)
+- Uncertain if Idus has predictive maintenance features; current Kubal assets are not equipped for predictive maintenance
+- Some specialized equipment (e.g., snif) has dedicated tools for failure prediction and downtime forecasting
 
 
-### 3. User Experience & Workflows
+## 3. User Experience & Workflows
 
-**Q:** [Question asked]
+### Q: How frequently do you use Idus?
 
-**A:** [Response]
+**A:** 
+- Daily
+
+### Q: What is the typical maintenance workflow in Idus?
+
+**A:** 
+- Process begins with a fault report (FA)
+- Tom reviews the FA together with the shift leader to determine if it should become a work order (WO) in Idus
+- If approved, a WO is generated and assigned to a technician
+- Technician checks spare part availability with the warehouse, completes the work, and submits a report
+- PM workflow follows a similar process
+
+### Q: Do people actually use Idus to submit maintenance requests, or do they call/email?
+
+**A:** 
+- It's a mixed approach
+- Some users can use the system effectively
+- Blue-collar workers sometimes cannot locate assets in Idus, making it easier for them to call or email instead
+- Production team occasionally bypasses Idus and uses phone or email for requests
+
+### Q: Is all maintenance work logged in Idus vs. handled informally?
+
+**A:** 
+- Not all maintenance work is logged in Idus
+- Quick fixes (approximately 5 minutes) typically don't generate a WO in the system
+- Technicians monitor their maintenance plans and adjust accordingly
+
+### Q: What about recurring requests that are 5-minute jobs?
+
+**A:** 
+- These are monitored through reports rather than individual WO entries
+
+### Q: What do maintenance technicians appreciate most about Idus?
+
+**A:** 
+- Graphical interface that makes it easy to navigate object locations
+- Spare parts list connected to asset structure (BOM hierarchy)
+
+### Q: How complete is the asset/equipment database in Idus?
+
+**A:** 
+- All valuable assets are registered in Idus with comprehensive information including:
+  - Specifications
+  - Location
+  - Maintenance history
+  - Spare parts list
+  - Asset manuals
+
+### Q: Can technicians easily access equipment history and documentation?
+
+**A:** 
+- Technicians can access failure history for assets/objects
+- Equipment manuals and specifications are available in the system
 
 **Notes:**
-- 
-- 
+- Checking spare parts in SAP can be complex due to the layout
+- UH also uses an in-house application called "Stopptider" to enter downtime data (unclear if this is due to Idus lacking this feature or if the custom solution better fits legacy requirements)
+- Kubal's current Idus implementation does not include the mobile platform module
+- Unable to generate summarized maintenance history reports by asset, as Kubal has not purchased that module
 
----
+## 4. Pain Points & Challenges
 
-### 4. Pain Points & Challenges
+### Q: How is the performance of system?
 
-**Q:** [Question asked]
-
-**A:** [Response]
+**A:** It quite slow but it could be because we are working with the local, it might be faster if it upgrade to cloud.
 
 **Key Pain Points Identified:**
 
@@ -116,11 +188,11 @@ Idus Maintenance System helps you plan, follow up and improve maintenance togeth
 
 ---
 
-### 5. Data Management & Reporting
+## 5. Data Management & Reporting
 
-**Q:** [Question asked]
+### Q: How confident are you in the accuracy of data in Idus?
 
-**A:** [Response]
+**A:** Somewhat confident, Idus do not manipulate the data but it was because of some of data was not cleansing before Kubal migrated from Maximo to Idus. So it seems user error.
 
 **Notes:**
 - 
