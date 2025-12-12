@@ -33,7 +33,8 @@ Consumes 2+ business days per regular report and 1 hour per investigative report
 > "Feature for cost following up by the budget. No we do not know if we reach to the budget."
 
 #### Recommended Solution
-Purchase Idus reporting/analytics module with real-time budget tracking, equipment performance dashboards, and automated report generation. Alternative: integrate with external BI tool (Power BI, Tableau).
+Purchase Idus reporting/analytics module with real-time budget tracking, equipment performance dashboards, and automated report generation.  
+Alternative: integrate with external BI tool (Excel, Power BI, Tableau).
 
 ---
 
