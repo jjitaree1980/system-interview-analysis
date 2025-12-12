@@ -323,8 +323,6 @@ Even though employees are minimal users, they still need to log their time atten
 
 ## Interviewer Observations
 
-*Non-verbal cues, engagement level, tone, notable impressions*
-
 **Engagement Level:** High
 
 **Overall Tone:** Neutral
