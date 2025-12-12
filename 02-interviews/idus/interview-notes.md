@@ -9,26 +9,24 @@
 **Interviewer(s):** JJA  
 **Note-taker:** JJA
 
----
 
 ## Interviewee Profile
 
 **Name:** Tom Löfgren  
-**Role:** [Job title]  
-**Department:** [Department name]  
-**Experience:** [X years with company] | [X years using system]  
+**Role:** Teknik Ingenjör  
+**Department:** UH  
+**Experience:** ca 4 years with company  
 **Usage Frequency:** Daily
 
----
 
 ## Pre-Interview Context
 
-*Background information gathered before the interview*
+Idus Maintenance System helps you plan, follow up and improve maintenance together idus, providing a complete enterprise-wide solution for managing all aspects of maintenance operations.
 
-- 
-- 
+- Kubal still user old version of v.8.9.1
+- Current version of Idus is v.10
+- Currenly we did not purchase report & analytic tool
 
----
 
 ## Interview Discussion
 
