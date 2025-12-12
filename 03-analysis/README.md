@@ -29,9 +29,9 @@ This consolidates recurring patterns and topics that emerged across multiple int
 - Note frequency and importance
 
 ### 2. SWOT Analysis
-- Strengths  
+- **Strengths**    
 Captures what's working well in the current system or approach. Important for understanding what not to break and what to build upon. Might include things like "users love the visual dashboard" or "the search function is highly accurate."  
-- Weaknesses
+- **Weaknesses**   
 Documents specific frustrations, obstacles, and problems users face. These are the "jobs that aren't getting done well" - things like "the approval process takes 3 weeks" or "I have to manually copy data between systems." This drives your problem space understanding.  
 - Opportunities
 - Threats
