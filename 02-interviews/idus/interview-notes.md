@@ -28,31 +28,53 @@ Idus Maintenance System helps you plan, follow up and improve maintenance togeth
 - Currenly we did not purchase report & analytic tool
 
 
-## Interview Discussion
+# Interview Discussion
 
-### 1. General Overview & Current Usage
+## 1. General Overview & Current Usage
 
-**Q:** [Question asked]
+### Q: What is your role, and how long have you been the super user for Idus?
 
-**A:** [Response]
+**A:** 
+- Tom serves as the functional technician and is also responsible for integration with Idus
+- Primary routine involves analyzing fault reports (FA) from users and making initial decisions on whether they should be converted into work orders (WO) in Idus
+- Generates maintenance reports, including all management and analysis reports
+- Maintains user accounts in Idus together with Elena
+
+### Q: What is Idus used for in our maintenance operation? Who uses it?
+
+**A:** 
+- Used for tracking work orders (WO), preventive maintenance (PM) planning, and asset management
+- Primary users include operators and UH technicians
+
+### Q: How many maintenance requests does the system handle per month? How many assets are tracked?
+
+**A:**
+- Approximately 1,800 tickets per month, including both fault reports (FA) and preventive maintenance (PM) tasks
+- All capital assets in Kubal are tracked in Idus
 
 **Notes:**
-- 
-- 
+- System currently has approximately 30 active users
 
----
 
-### 2. Technical & Functional Aspects
+## 2. Technical & Functional Aspects
 
-**Q:** [Question asked]
+### Q: Does Idus help reduce equipment downtime or prevent failures?
 
-**A:** [Response]
+**A:** Yes, significantly. It reduce by preventive plan which setup in Idus. 
+
+### Q: What types of maintenance does Idus handle? 
+
+**A:** Mostly Idus handle by reactive and preventiv. We do not use any predictive feature by Idus. Currently UH do manually control by PM plan.
+
+### Q: How well is preventive maintenance being tracked and executed?
+
+**A:** It quite well for the PM planning, most of PM schedules followed but some was skipped depend on the Production department.
 
 **Notes:**
-- 
-- 
+- There is issue about integration with Inventory system in SAP that now the inventory in stock is unaccurate. So it's hard to run automatic planning or another eccetera report.
+- Currently several report regarding planning/inventory is manage by excel and warehouse-search application (in-house customized by IT)
+- No idea if Idus have a feature for predictive, but as Tom's mention -- the asset in Kubal cannot do it yet. Some case like the snif, UH have a tool to predict for the failure or downtime.
 
----
 
 ### 3. User Experience & Workflows
 
