@@ -3,7 +3,7 @@
 ## Analysis Overview
 
 **System:** Idus (Maintenance Management System)  
-**Analysis Date:** 2024-12-12  
+**Analysis Date:** 2025-12-12  
 **Analyst:** JJA  
 **Total Interviewees:** 1 (Super User)
 
@@ -39,7 +39,7 @@ System rated 9/10 for criticality handling ~1,800 tickets/month. User explicitly
 - Develop business continuity plan with manual backup procedures
 - Implement redundant super user training
 - Regular system backups
-- Cloud migration for better availability and disaster recovery
+- ~~Cloud migration for better availability and disaster recovery~~
 - Document critical workflows for manual execution
 
 #### Likelihood of Occurrence
@@ -581,5 +581,5 @@ Review threat landscape quarterly to:
 ---
 
 **Document Status:** Draft  
-**Last Updated:** 2024-12-12 by JJA  
+**Last Updated:** 2025-12-12 by JJA  
 **Next Steps:** Develop detailed mitigation plans for critical threats; establish threat monitoring dashboard; secure management buy-in for mitigation investments
