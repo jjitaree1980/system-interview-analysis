@@ -3,7 +3,7 @@
 ## Analysis Overview
 
 **System:** Idus (Maintenance Management System)  
-**Analysis Date:** 2024-12-12  
+**Analysis Date:** 2025-12-12  
 **Analyst:** JJA  
 **Total Interviewees:** 1 (Super User)
 
@@ -106,6 +106,7 @@ Cannot capture all relevant information in BOM structure, requiring additional d
 
 #### Recommended Solution
 Add BOM customization capability allowing users to add custom fields relevant to their specific maintenance needs.
+If unavailable in standard modules, vendor customization may be required.  
 
 ---
 
@@ -329,7 +330,7 @@ Medium - Continuous issue affecting all daily interactions
 Small delays accumulate throughout day; estimated 10-15% productivity loss from slow response times
 
 #### Suggested Improvement
-Cloud migration to improve performance; technical assessment to identify optimization opportunities; infrastructure upgrade.
+Cloud/Web-based migration to improve performance; technical assessment to identify optimization opportunities; infrastructure upgrade.
 
 ---
 
@@ -426,5 +427,5 @@ Cloud migration to improve performance; technical assessment to identify optimiz
 ---
 
 **Document Status:** Draft  
-**Last Updated:** 2024-12-12 by JJA  
+**Last Updated:** 2025-12-12 by JJA  
 **Next Steps:** Validate gaps with additional user interviews; prioritize based on ROI analysis *If necessary*
