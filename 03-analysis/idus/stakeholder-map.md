@@ -3,7 +3,7 @@
 ## Analysis Overview
 
 **System:** Idus (Maintenance Management System)  
-**Analysis Date:** 2024-12-12  
+**Analysis Date:** 2025-12-12  
 **Analyst:** JJA  
 **Total Stakeholder Groups:** 6
 
@@ -60,7 +60,7 @@ Continue regular interviews; involve in data cleansing planning; engage in versi
 
 ### Group 2: Maintenance Technicians
 
-**Number of Users:** ~20 people (UH technicians)  
+**Number of Users:** ~30 people (UH technicians)  
 **Usage Frequency:** Daily  
 **System Dependency:** High  
 **Influence Level:** Medium  
@@ -449,7 +449,7 @@ Management holds budget authority but relies on Super User's technical expertise
 ### Decision Makers
 - **Management:** Final budget approval for module purchases and upgrades
 - **Super User:** Technical approach, upgrade planning, data cleansing methodology
-- **IT Leadership:** Infrastructure decisions (cloud migration), integration approaches
+- **IT Leadership:** Infrastructure decisions (cloud/web-based migration), integration approaches
 
 ### Key Influencers
 - **Super User (Tom):** Shapes technical requirements and strategic recommendation
@@ -485,14 +485,14 @@ Management holds budget authority but relies on Super User's technical expertise
 ### Phase 3: Solution Planning
 **Who to involve:**
 - Super User: Module selection; upgrade approach
-- IT: Cloud migration assessment; integration planning
+- IT: Cloud/web-based migration assessment; integration planning
 - Management: ROI analysis review; budget approval
 - Technicians: Mobile platform evaluation
 
 ### Phase 4: Implementation
 **Who to involve:**
 - Super User: Data cleansing execution; upgrade coordination
-- IT: Technical implementation; cloud migration
+- IT: Technical implementation; Cloud/web-based migration
 - Technicians: UAT for mobile platform; workflow validation
 - All Groups: Training and communication
 
@@ -517,7 +517,7 @@ Management holds budget authority but relies on Super User's technical expertise
 **To Maintenance Technicians:**
 - Mobile platform coming to improve field efficiency
 - SAP integration will be restored for reliable parts data
-- Performance improvements through cloud migration
+- Performance improvements through Cloud/web-based migration
 - Your feedback shaping solution
 
 **To Management:**
@@ -556,7 +556,7 @@ Management holds budget authority but relies on Super User's technical expertise
 - Blue-collar workers and production team
 
 **Milestone Communications:**
-- All groups informed of major milestones (version upgrade, module launch, cloud migration)
+- All groups informed of major milestones (version upgrade, module launch, Cloud/web-based migration)
 - Success stories and benefits realization
 
 ---
@@ -616,7 +616,7 @@ Management holds budget authority but relies on Super User's technical expertise
 ### Immediate Actions
 1. Schedule follow-up interviews with technicians to validate pain points and mobile requirements
 2. Present ROI analysis to management for reporting module and version upgrade
-3. Engage IT on cloud migration feasibility assessment
+3. Engage IT on Cloud/web-based migration feasibility assessment
 4. Schedule interviews with blue-collar workers and production team to understand system bypass reasons
 
 ### Ongoing Actions
@@ -633,5 +633,5 @@ Management holds budget authority but relies on Super User's technical expertise
 ---
 
 **Document Status:** Draft  
-**Last Updated:** 2024-12-12 by JJA  
+**Last Updated:** 2025-12-12 by JJA  
 **Next Review:** After additional stakeholder interviews completed
