@@ -3,7 +3,7 @@
 ## Analysis Overview
 
 **System:** Idus (Maintenance Management System)  
-**Analysis Date:** 2024-12-12  
+**Analysis Date:** 2025-12-12  
 **Analyst:** JJA  
 **Total Interviewees:** 1 (Super User)
 
@@ -98,7 +98,7 @@ Continued inefficiency from field-to-control room trips; competitive disadvantag
 
 ---
 
-### Opportunity 4: Cloud Migration Performance Enhancement
+### Opportunity 4: Cloud/Web-based Migration Performance Enhancement
 
 **Impact Potential:** Medium to High  
 **Timeline:** Medium-term (6-12 months)  
@@ -106,7 +106,7 @@ Continued inefficiency from field-to-control room trips; competitive disadvantag
 **Feasibility:** Medium (requires assessment)
 
 #### The Opportunity
-User explicitly states slow performance "could be because we are working with the local, it might be faster if it upgrade to cloud." Cloud migration could resolve performance issues while modernizing infrastructure and enabling future scalability.
+User explicitly states slow performance "could be because we are working with the local, it might be faster if it upgrade to cloud." I assumed it would be web-based version migration could resolve performance issues while modernizing infrastructure and enabling future scalability.
 
 #### Business Value
 - Improved system performance and user experience
@@ -124,7 +124,7 @@ User explicitly states slow performance "could be because we are working with th
 - Downtime minimization strategy
 
 #### Risk of Missing Opportunity
-Continued user frustration with slow performance; increasing gap with industry standard cloud-based solutions; higher on-premises infrastructure maintenance costs; limited scalability.
+Continued user frustration with slow performance; increasing gap with industry standard web-based solutions; higher on-premises infrastructure maintenance costs; limited scalability.
 
 ---
 
@@ -466,5 +466,5 @@ Super user already recommends investment over replacement, providing political s
 ---
 
 **Document Status:** Draft  
-**Last Updated:** 2024-12-12 by JJA  
+**Last Updated:** 2025-12-12 by JJA  
 **Next Steps:** Prioritize opportunities based on ROI analysis; develop business cases for top opportunities; secure management buy-in
