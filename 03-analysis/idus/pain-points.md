@@ -260,7 +260,7 @@ Mobile platform module not purchased, limiting accessibility for field technicia
 
 4. **Purchase Mobile Platform Module (HIGH PRIORITY):** Enable field technician efficiency and real-time access to equipment information.
 
-5. **Evaluate Cloud Migration:** Assess performance improvement potential, cost-benefit, and implementation timeline.
+5. **Evaluate Cloud or Web-based Migration:** Assess performance improvement potential, cost-benefit, and implementation timeline.
 
 6. **Develop User Training Program:** Target blue-collar workers and production teams to improve adoption and reduce system bypass.
 
