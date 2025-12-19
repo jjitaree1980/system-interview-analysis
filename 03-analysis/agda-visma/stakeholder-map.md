@@ -2,9 +2,9 @@
 
 ## Overview
 
-**System:** Agda PS (Payroll System)
-**Mapping Date:** December 2025
-**Primary Source:** Interview with Helena (Super User)
+**System:** Agda PS (Payroll System)  
+**Mapping Date:** December 2025  
+**Primary Source:** Interview with Helena (Super User)  
 
 ---
 
@@ -479,6 +479,6 @@
 
 ---
 
-**Document Status:** Final
-**Last Updated:** December 2025
-**Next Review:** After additional stakeholder interviews (Ekonomi team, new HR member, employee survey)
+**Document Status:** Final  
+**Last Updated:** December 2025  
+**Next Review:** After additional stakeholder interviews (Ekonomi team, new HR member, employee survey)  
