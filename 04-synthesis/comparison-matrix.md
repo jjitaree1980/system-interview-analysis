@@ -11,8 +11,8 @@
 
 | System | Primary Purpose | Interview Status | Criticality | User Satisfaction | Annual Waste/Cost | Investment Decision |
 |--------|----------------|------------------|-------------|-------------------|-------------------|---------------------|
-| **Idus** | CMMS maintenance management | ✅ Completed (Tom) | 9/10 | High (power users), Moderate (occasional) | ??? SEK | Invest in existing platform |
-| **Agda/Visma** | HR and payroll | ✅ Completed (Helena) | 10/10 | High with strong advocacy | ??? SEK | Invest in existing platform |
+| **Idus** | CMMS maintenance management | ✅ Completed (Tom) | 9/10 | High (power users), Moderate (occasional) | 4,730,590 SEK | Invest in existing platform |
+| **Agda/Visma** | HR and payroll | ✅ Completed (Helena) | 10/10 | High with strong advocacy | 61,000-117,000 SEK (~90,000 SEK) | Invest in existing platform |
 | **Flexite** | Incident management | 🔄 In progress (Sofia) | - | - | - | - |
 | **Ascendo** | Invoice processing | 🔄 In progress (Rhodora/Ksenia) | - | - | - | - |
 
@@ -27,7 +27,7 @@
 | **Vendor Support Quality** | Adequate but concerning | Excellent and responsive |
 | **Integration Health** | Broken (SAP) - Critical fix needed | Functional but limited - Expansion opportunity |
 | **Main Cost Driver** | Manual workarounds due to broken systems | Unutilized capabilities due to poor adoption |
-| **Quantified Annual Impact** | 70,000-100,000 SEK inefficiency | 250,000+ SEK waste |
+| **Quantified Annual Impact** | 4,730,590 SEK inefficiency | 61,000-117,000 SEK waste (~90,000 SEK) |
 | **Investment Type Needed** | Technical restoration and enhancement | Change management and training |
 | **ROI Potential** | High - Fix specific technical gaps | Very high - Unlock existing capabilities |
 | **Replacement Recommended** | No - Core functionality strong | No - 10/10 criticality, strong core |
@@ -70,8 +70,8 @@
 |----------|------|------------|
 | **Core Strength** | Reliable work order management (1,800 monthly tickets) | Robust payroll processing with strong accuracy |
 | **Best Feature** | Preventive maintenance scheduling framework | Comprehensive HR lifecycle management |
-| **Biggest Pain Point** | Broken SAP integration (36,000-72,000 SEK/year) | Unused self-service portal (250,000 SEK/year waste) |
-| **Critical Gap** | No reporting module (2+ days manual work/month) | Missing production system integration |
+| **Biggest Pain Point** | Broken SAP integration (1,552,000 SEK/year) | Paper leave requests/unused self-service (41,600-83,200 SEK/year) |
+| **Critical Gap** | No reporting module (176,000 SEK/year manual work) | Missing production system integration |
 | **User Adoption** | Strong with power users, weak with occasional users | Strong with HR staff, weak employee self-service |
 | **Vendor Support** | Adequate but SAP issue unresolved | Excellent responsiveness and partnership |
 
@@ -112,19 +112,26 @@
 
 ### Critical Pain Points
 
-**Idus: Broken Integration and Missing Reporting**
-- Complete SAP inventory integration failure requiring manual data transfers (36,000-72,000 SEK annually)
-- No built-in reporting module requiring 2+ days monthly manual Excel work
-- Limited workflow automation beyond basic scheduling
-- Total estimated inefficiency cost: 70,000-100,000+ SEK annually
+**Idus: Technical Failures Across Multiple Areas**
+- Broken SAP inventory integration: 1,552,000 SEK annually (manual verification, workarounds)
+- Missing reporting module: 176,000 SEK annually (2+ days monthly manual Excel work)
+- No mobile platform: 981,000 SEK annually (field travel time, productivity loss)
+- System performance issues: 627,000 SEK annually (slow response times)
+- Incomplete work logging: 490,150 SEK annually (untracked quick fixes)
+- No procurement integration: 387,000 SEK annually
+- Additional waste categories: 517,440 SEK annually
+- **Total estimated annual inefficiency cost: 4,730,590 SEK (~4.7M SEK)**
 
-**Agda/Visma: Underutilized Features and Manual Workarounds**
-- Unused self-service portal representing 250,000 SEK annual waste
-- Missing production/logistics system integration requiring manual data entry
-- Limited reporting customization requiring vendor involvement
-- Total quantified waste: 250,000+ SEK annually (additional costs not yet quantified)
+**Agda/Visma: Organizational Gaps and Manual Workarounds**
+- Paper leave requests and manual entry: 41,600-83,200 SEK annually (largest waste)
+- Manual banking data transfers: 4,800-9,600 SEK annually
+- Manual accounting data transfers: 4,800-9,600 SEK annually
+- Shift calculation manual review: 4,800-9,600 SEK annually
+- Manual pension data generation: 2,400 SEK annually
+- Incomplete time data follow-up: 2,400 SEK annually
+- **Total quantified waste: 61,000-117,000 SEK annually (mid-range ~90,000 SEK)**
 
-**Comparison:** Idus suffers from technical failures (broken integrations, missing modules) costing 70,000-100,000 SEK annually. Agda/Visma's primary issue is organizational (unused features, lack of training) representing 250,000+ SEK waste. Idus needs technical fixes; Agda/Visma needs change management and training investment.
+**Comparison:** Idus suffers from technical failures (broken integrations, missing modules) costing 4,730,590 SEK annually - significantly higher than Agda/Visma's 61,000-117,000 SEK waste. Idus's top waste driver is the broken SAP integration alone (1,552,000 SEK/year). Agda/Visma's primary issue is organizational (unused features, lack of training). Idus needs urgent technical fixes; Agda/Visma needs change management and training investment.
 
 ---
 
@@ -142,7 +149,7 @@
 - Manual processes bridging HR data with operational systems
 - Priority level: High - Production integration would eliminate significant manual work
 
-**Comparison:** Idus faces a critical broken integration requiring immediate attention, while Agda/Visma has functional integrations that could be expanded. Idus needs restoration and repair; Agda/Visma needs strategic expansion. Both systems rely heavily on manual workarounds for cross-system data needs.
+**Comparison:** Idus faces a critical broken integration requiring immediate attention with 1.55M SEK annual impact, while Agda/Visma has functional integrations that could be expanded to save 5-10K SEK annually per integration. Idus needs urgent restoration and repair; Agda/Visma needs strategic expansion. Both systems rely heavily on manual workarounds for cross-system data needs, but Idus's workarounds carry dramatically higher financial cost.
 
 ---
 
@@ -189,18 +196,25 @@
 ### Financial Impact Analysis
 
 **Idus: Technical Inefficiency Costs**
-- Manual reporting work: 16-32 hours monthly
-- Broken SAP integration: 36,000-72,000 SEK annually
-- Total estimated annual cost: 70,000-100,000+ SEK
-- ROI potential: High - targeted fixes address specific technical gaps
+- Manual reporting work: 176,000 SEK/year
+- Broken SAP integration: 1,552,000 SEK/year (largest cost driver)
+- No mobile platform: 981,000 SEK/year
+- System performance issues: 627,000 SEK/year
+- Incomplete work logging: 490,150 SEK/year
+- Other waste categories: 904,440 SEK/year
+- **Total estimated annual cost: 4,730,590 SEK (~4.7M SEK/year)**
+- ROI potential: Very high - targeted fixes address specific technical gaps
 
 **Agda/Visma: Organizational Inefficiency Costs**
-- Unused self-service features: 250,000 SEK annually
-- Manual production data transfers: cost not yet quantified
-- Total quantified waste: 250,000+ SEK annually
-- ROI potential: Very high - training investment unlocks existing capabilities
+- Paper leave requests (unused self-service): 41,600-83,200 SEK/year (largest waste)
+- Banking integration manual work: 4,800-9,600 SEK/year
+- Accounting integration manual work: 4,800-9,600 SEK/year
+- Shift calculation manual review: 4,800-9,600 SEK/year
+- Other manual processes: 4,800 SEK/year
+- **Total quantified waste: 61,000-117,000 SEK/year (~90,000 SEK mid-range)**
+- ROI potential: High - training investment unlocks existing capabilities
 
-**Comparison:** Agda/Visma's quantified waste (250,000 SEK) significantly exceeds Idus (70,000-100,000 SEK), but represents different problem types. Idus requires technical investment to fix broken systems; Agda/Visma requires organizational investment to utilize existing systems. Both offer strong ROI potential from targeted improvements rather than replacement.
+**Comparison:** Idus's annual waste (4.7M SEK) is approximately **50 times higher** than Agda/Visma's (90K SEK), representing fundamentally different problem scales. Idus faces critical technical failures requiring immediate investment, while Agda/Visma has organizational adoption challenges. Both offer strong ROI potential, but Idus presents more urgent financial impact requiring prioritized attention.
 
 ---
 
@@ -220,7 +234,7 @@
 4. Decision: Invest in existing platform - replacement not recommended
 5. Rationale: 10/10 criticality with strong core capabilities; significant gains available from better utilization before considering expansion
 
-**Comparison:** Both systems warrant continued investment over replacement despite significant limitations. Idus needs technical restoration and enhancement investments. Agda/Visma needs organizational change management and training investments. Investment strategies differ fundamentally - Idus requires fixing broken capabilities, Agda/Visma requires activating unused capabilities.
+**Comparison:** Both systems warrant continued investment over replacement despite significant limitations. However, the scale and urgency differ dramatically. Idus requires urgent technical restoration investments to address 4.7M SEK annual waste, with SAP integration alone representing 1.55M SEK/year loss. Agda/Visma needs organizational change management investments to address 90K SEK annual waste. Investment strategies differ fundamentally - Idus requires fixing broken critical capabilities (urgent financial impact), Agda/Visma requires activating unused capabilities (optimization opportunity). Idus should receive immediate prioritized funding while Agda/Visma improvements can follow a normal project timeline.
 
 ---
 
@@ -233,32 +247,36 @@
 - Super user advocacy for continued investment over replacement
 
 **Common Weaknesses**
-- Integration gaps requiring manual workarounds and data transfers
-- Significant unutilized or underutilized features representing waste
-- Reporting limitations impacting data-driven decision making
+- Integration gaps requiring manual workarounds (though vastly different scales)
+- Unutilized or underutilized features representing waste
+- Super user dependencies creating single-point-of-failure risks
 - Training and change management gaps affecting adoption
 
 **Critical Insight**
-Systems rated highly by users may still harbor significant efficiency drains requiring investment. The pattern of "strong core, poor integration and underutilization" appears consistent, suggesting organizational capability in change management and training may deliver higher ROI than technology replacement across the platform portfolio.
+Systems rated highly by users may harbor efficiency drains at dramatically different scales. Idus's 4.7M SEK annual waste versus Agda/Visma's 90K SEK demonstrates that technical failures create 50x greater financial impact than organizational adoption issues. This suggests that while both system investment and organizational capability development matter, unresolved technical problems pose exponentially higher financial risk and require urgent prioritization.
 
 ---
 
 ## Management Implications
 
 **Strategic Pattern Recognition**
-Both completed assessments reveal highly-rated systems with substantial efficiency losses from integration failures and underutilization. This pattern suggests systemic organizational challenges beyond individual platform limitations.
+Both completed assessments reveal systems with substantial efficiency losses, though at dramatically different scales. Idus's 4.7M SEK annual waste is approximately 50 times higher than Agda/Visma's 90K SEK, representing fundamentally different problem urgency levels. Idus requires immediate technical intervention while Agda/Visma needs organizational improvement.
 
 **Investment Philosophy**
-Super users consistently recommend investing in existing systems rather than replacement, citing strong core capabilities despite acknowledged limitations. This bottom-up recommendation aligns with cost-benefit analysis showing targeted improvements offer better ROI than platform replacement.
+Despite the 4.7M SEK annual waste, Tom (Idus super user) strongly recommends investing in the existing system rather than replacement, citing strong core CMMS capabilities. This bottom-up recommendation aligns with cost-benefit analysis showing targeted improvements (SAP integration restoration, reporting module, mobile platform) offer better ROI than platform replacement. Helena's recommendation for Agda/Visma follows similar logic - invest in training and adoption rather than technology replacement.
 
 **Organizational Capability Gaps**
-Technical system capabilities exist but remain underutilized due to organizational factors: insufficient training programs, lack of change management, poor integration planning, and inadequate knowledge transfer processes. Addressing these organizational capabilities may deliver higher returns than additional technology investment.
+The dramatic cost difference (4.7M vs 90K SEK) reveals that technical system failures create exponentially higher waste than organizational adoption issues. Idus's broken SAP integration alone (1.55M SEK/year) exceeds Agda/Visma's total waste by 17x. This suggests that while both organizational and technical capabilities matter, unresolved technical failures pose far greater financial risk.
 
 **Resource Allocation Priorities**
-1. Technical fixes for broken capabilities (Idus SAP integration)
-2. Change management for unutilized features (Agda self-service)
-3. Integration planning across systems
-4. Knowledge transfer and backup capacity building
+1. **Urgent (Idus):** Restore SAP integration (1.55M SEK/year savings)
+2. **High (Idus):** Deploy mobile platform (981K SEK/year savings)  
+3. **High (Idus):** Implement reporting module (176K SEK/year savings)
+4. **Medium (Agda):** Self-service adoption campaign (42-83K SEK/year savings)
+5. **Medium (Agda):** Banking integration (5-10K SEK/year savings)
+
+**Financial Risk Assessment**
+Idus represents 98% of the combined system waste (4.7M of 4.8M SEK total), creating concentrated financial risk requiring immediate management attention. Agda/Visma's waste, while important, represents manageable operational inefficiency rather than critical financial drain.
 
 ---
 
