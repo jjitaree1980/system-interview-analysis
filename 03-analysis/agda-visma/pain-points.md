@@ -66,7 +66,8 @@ Helena generates data report, sends to Ekonomi team who uploads to bank system
 - Automate data transfer to eliminate manual steps
 - Reduce coordination dependency
 
-**Priority:** High (time-sensitive, affects critical payroll function)
+**Priority:** Medium (time-sensitive, affects critical payroll function)  
+**Note:** The Economy team's preference for manual transfers reflects a risk-mitigation approach, ensuring full validation control over sensitive payroll and HR data before system entry.
 
 ---
 
@@ -96,7 +97,8 @@ Manual data generation and transfer, same process as banking
 - Implement accounting system integration after banking integration
 - Automate data flow to accounting system
 
-**Priority:** Medium (lower urgency than banking, but similar impact)
+**Priority:** Medium (lower urgency than banking, but similar impact)  
+**Note:** The Economy team's preference for manual transfers reflects a risk-mitigation approach, ensuring full validation control over sensitive payroll and HR data before system entry.
 
 ---
 
