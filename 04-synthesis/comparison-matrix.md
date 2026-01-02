@@ -13,7 +13,7 @@
 |--------|----------------|------------------|-------------|-------------------|-------------------|---------------------|
 | **Idus** | CMMS maintenance management | ✅ Completed (Tom) | 9/10 | High (power users), Moderate (occasional) | 4,730,590 SEK | Invest in existing platform |
 | **Agda/Visma** | HR and payroll | ✅ Completed (Helena) | 10/10 | High with strong advocacy | 51,200-97,600 SEK (~75,000 SEK) | Invest in existing platform |
-| **Flexite** | Incident management | 🔄 In progress (Sofia) | - | - | - | - |
+| **Flexite** | Incident management | 🔄 In progress (Jan-Eric) | - | - | - | - |
 | **Ascendo** | Invoice processing | 🔄 In progress (Rhodora/Ksenia) | - | - | - | - |
 
 ---
