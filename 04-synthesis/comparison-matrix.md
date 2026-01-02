@@ -11,7 +11,7 @@
 
 | System | Primary Purpose | Interview Status | Criticality | User Satisfaction | Annual Waste/Cost | Investment Decision |
 |--------|----------------|------------------|-------------|-------------------|-------------------|---------------------|
-| **Idus** | CMMS maintenance management | ✅ Completed (Tom) | 9/10 | High (power users), Moderate (occasional) | 4,730,590 SEK | Invest in existing platform |
+| **Idus** | CMMS maintenance management | ✅ Completed (Tom) | 9/10 | High (power users), Moderate (occasional) | 4,730,590 SEK | Invest in existing platform* |
 | **Agda/Visma** | HR and payroll | ✅ Completed (Helena) | 10/10 | High with strong advocacy | 51,200-97,600 SEK (~75,000 SEK) | Invest in existing platform |
 | **Flexite** | Incident management | 🔄 In progress (Jan-Eric) | - | - | - | - |
 | **Ascendo** | Invoice processing | 🔄 In progress (Rhodora/Ksenia) | - | - | - | - |
@@ -30,7 +30,7 @@
 | **Quantified Annual Impact** | 4,730,590 SEK inefficiency | 51,200-97,600 SEK waste (~75,000 SEK) |
 | **Investment Type Needed** | Technical restoration and enhancement | Change management and training |
 | **ROI Potential** | High - Fix specific technical gaps | Very high - Unlock existing capabilities |
-| **Replacement Recommended** | No - Core functionality strong | No - 10/10 criticality, strong core |
+| **Replacement Recommended** | No - Core functionality strong (on review the biases) | No - 10/10 criticality, strong core |
 
 ---
 
