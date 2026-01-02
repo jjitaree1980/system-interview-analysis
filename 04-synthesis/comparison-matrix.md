@@ -1,6 +1,6 @@
 # System Comparison Matrix
 
-**Assessment Date:** December 2024  
+**Assessment Date:** December 2025  
 **Systems Assessed:** Idus, Agda/Visma  
 **Systems Pending:** Flexite, Ascendo  
 **Version:** v1.0
