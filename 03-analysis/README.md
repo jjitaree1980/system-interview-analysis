@@ -10,6 +10,8 @@ This folder contains analysis of interview data for each system.
 │   ├── themes.md             # Recurring themes from interviews
 │   ├── pain-points.md        # Identified problems and challenges
 │   ├── strengths.md          # System strengths and benefits
+│   ├── opportunities.md          # System opportunities
+│   ├── threat.md          # System threat and benefits
 │   ├── gaps.md               # Capability gaps and limitations
 │   └── stakeholder-map.md    # Key stakeholders and their perspectives
 ├── agda-visma/
