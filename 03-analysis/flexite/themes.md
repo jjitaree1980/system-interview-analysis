@@ -15,7 +15,7 @@ Flexite successfully serves as Kubal's incident management platform with 100% re
 **Evidence:**
 - 100% incident reporting rate through system
 - 1,572 reports processed in 2025
-- Employees prefer using Flexite over calling/emailing
+- Employees have to using Flexite even calling/emailing
 - Easy to use interface for all employee levels
 - Excellent system performance and reliability
 - Minimal IT support required
