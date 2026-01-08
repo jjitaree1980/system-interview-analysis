@@ -34,38 +34,62 @@
 
 ## 1. General Overview & Current Usage
 
-### Q: What is your current role, and how long have you been the super user/administrator for Flexite?  
+### Q: How long have you been the super user for Flexite?  
 **A:**  
-- Current role is manager of Säkerhet & skydd team and reponse on manage all the security, incident, preventive also contact with goverment about this.
-- With Kubal from 2023 around 3 years
+- With kubal around 3 years from 2023
 - Start working with Flexite from 2017
-  
 
-### Q: What are the primary purposes Kubal uses Flexite for? (incidents, near-misses, quality deviations, improvement suggestions, etc.)  
+
+### Q: What's your role in relation to health and safety management?  
 **A:**  
- - Everythings, incidents, near-misses, deviations, improvement suggestion, accidents, etc.
+- Multiple responsibles but mainly is to manage to align the company's safety'
+- Contact the goverment to report in incidents.
+ 
+
+### Q: What types of incidents does Flexite handle?  
+**A:**  
+- Accidents, near-misses, property damage, unsafe conditions
+- Observation for the safty risk
+
+
+### Q: How many incident reports does the company typically receive per month through Flexite?  
+**A:**  
+- Monthly reports: 120-140
+- Total by 2025 are 1572 reports
+
+
+
+**Q:** What would happen if Flexite was unavailable for a week? How would incidents be reported?  
+**A:**  
+**Notes:**
+- Listen for: Business continuity, backup processes, regulatory compliance
+- 
+- 
 
 ---
 
-**Q:** How many active users does Flexite have at Kubal? Which departments/roles use it most?  
+**Q:** On a scale of 1-10, how critical is this system for health and safety compliance?  
 **A:**  
 **Notes:**
-- 
+- Rating: _____ / 10
+- Reasoning:
 - 
 
 ---
 
-**Q:** What is the most valuable aspect of Flexite for Kubal's operations?  
+**Q:** Does Flexite help us meet legal reporting requirements for workplace incidents?  
 **A:**  
 **Notes:**
-- 
+- ☐ Yes, fully  ☐ Mostly  ☐ Partially  ☐ No  ☐ Not sure
+- Probe for: Arbetsmiljöverket requirements, 24-hour reporting, documentation
 - 
 
 ---
 
-**Q:** Are there any barriers that prevent people from reporting incidents in Flexite?  
+**Q:** Who benefits most from Flexite?  
 **A:**  
 **Notes:**
+- Check all that apply: ☐ Safety team  ☐ Management  ☐ Employees  ☐ Insurance  ☐ Compliance
 - 
 - 
 
@@ -73,81 +97,48 @@
 
 ### 2. Technical & Functional Aspects
 
-**Q:** What types of incidents/deviations are registered in Flexite? (safety, quality, environmental, security, etc.)  
+**Q:** Does Flexite integrate with any other systems?  
 **A:**  
 **Notes:**
+- HR: ☐ Yes  ☐ No
+- Facilities: ☐ Yes  ☐ No
+- Email notifications: ☐ Yes  ☐ No
+- Other: _________________________________________________________________
+- 
+
+---
+
+**Q:** Does Flexite send automatic notifications to responsible persons when assigned actions?  
+**A:**  
+**Notes:**
+- ☐ Yes  ☐ No  ☐ Sometimes
 - 
 - 
 
 ---
 
-**Q:** Does Flexite have mobile functionality? How often is it used for field reporting?  
+**Q:** How well does the system track preventive actions versus just reactive responses?  
 **A:**  
 **Notes:**
+- ☐ Excellent  ☐ Good  ☐ Adequate  ☐ Poor  ☐ Only reactive
 - 
 - 
 
 ---
 
-**Q:** How does Flexite support incident investigation processes? (root cause analysis, evidence collection, etc.)  
+**Q:** Does Flexite maintain adequate audit trails for investigations?  
 **A:**  
 **Notes:**
+- ☐ Yes  ☐ Mostly  ☐ Partially  ☐ No
 - 
 - 
 
 ---
 
-**Q:** How are corrective and preventive actions (CAPA) tracked and followed up in the system?  
+**Q:** Are you able to demonstrate compliance to auditors or inspectors using Flexite data?  
 **A:**  
 **Notes:**
-- 
-- 
-
----
-
-**Q:** Does Flexite include risk assessment functionality? How is it used?  
-**A:**  
-**Notes:**
-- 
-- 
-
----
-
-**Q:** What automated workflows or notifications does Flexite provide? Are they effective?  
-**A:**  
-**Notes:**
-- 
-- 
-
----
-
-**Q:** How does Flexite integrate with SAP? What data is exchanged?  
-**A:**  
-**Notes:**
-- 
-- 
-
----
-
-**Q:** Is there any integration between Flexite and Idus for maintenance-related incidents?  
-**A:**  
-**Notes:**
-- 
-- 
-
----
-
-**Q:** Does Flexite connect to Agda/Visma or other HR systems for personnel data?  
-**A:**  
-**Notes:**
-- 
-- 
-
----
-
-**Q:** Does Flexite support both Swedish and English interfaces? How well?  
-**A:**  
-**Notes:**
+- ☐ Yes, easily  ☐ Yes, with effort  ☐ Difficult  ☐ No
 - 
 - 
 
@@ -155,25 +146,82 @@
 
 ### 3. User Experience & Workflows
 
-**Q:** Describe the typical incident registration workflow from initial report to closure.  
+**Q:** How frequently do you use Flexite?  
 **A:**  
 **Notes:**
+- ☐ Daily  ☐ Weekly  ☐ Monthly  ☐ Occasionally
 - 
 - 
 
 ---
 
-**Q:** How user-friendly is Flexite? What feedback do you get from regular users?  
+**Q:** Who can report incidents in Flexite?  
 **A:**  
 **Notes:**
+- ☐ All employees  ☐ Managers only  ☐ Safety team only  ☐ Other: _______________
 - 
 - 
 
 ---
 
-**Q:** How much training is needed for new users? Is it easy to maintain competency?  
+**Q:** Do people actually use Flexite to report incidents, or do they still call/email you?  
 **A:**  
 **Notes:**
+- ☐ Mostly use Flexite  ☐ Mix of both  ☐ Mostly call/email
+- 
+- 
+
+---
+
+**Q:** What percentage of incidents would you estimate are properly reported through the system?  
+**A:**  
+**Notes:**
+- Estimated reporting rate: _______%
+- 
+- 
+
+---
+
+**Q:** Are there incidents that should be reported in Flexite but aren't?  
+**A:**  
+**Notes:**
+- ☐ Yes  ☐ No  ☐ Unsure
+- If yes, what types:
+- 
+
+---
+
+**Q:** What do people like most about Flexite for incident reporting?  
+**A:**  
+**Notes:**
+- 
+- 
+- 
+
+---
+
+**Q:** How easy is it for an employee to report an incident?  
+**A:**  
+**Notes:**
+- Ease rating: ☐ Very Easy  ☐ Easy  ☐ Moderate  ☐ Difficult  ☐ Very Difficult
+- Access method: ☐ Mobile app  ☐ Web form  ☐ Both  ☐ Other: _______________
+- 
+
+---
+
+**Q:** Do responsible persons/teams respond promptly to incidents assigned to them?  
+**A:**  
+**Notes:**
+- ☐ Yes, always  ☐ Usually  ☐ Sometimes  ☐ Rarely
+- 
+- 
+
+---
+
+**Q:** Can you easily track whether corrective actions have been completed?  
+**A:**  
+**Notes:**
+- ☐ Yes, easily  ☐ Somewhat  ☐ Difficult  ☐ No
 - 
 - 
 
@@ -181,25 +229,37 @@
 
 ### 4. Pain Points & Challenges
 
-**Q:** What are the most significant limitations or frustrations with Flexite?  
+**Q:** What are the top 3 frustrations users have with Flexite?  
 **A:**  
 **Notes:**
+- Frustration #1: _________________________________________________________
+- Frustration #2: _________________________________________________________
+- Frustration #3: _________________________________________________________
+
+---
+
+**Q:** How often do you engage IT support for Flexite issues?  
+**A:**  
+**Notes:**
+- ☐ Daily  ☐ Weekly  ☐ Monthly  ☐ Rarely
+- Most common issues:
+- 
+
+---
+
+**Q:** Are there issues with mobile access for incident reporting?  
+**A:**  
+**Notes:**
+- ☐ No issues  ☐ Some issues  ☐ Major issues  ☐ No mobile access
 - 
 - 
 
 ---
 
-**Q:** Are there features you wish Flexite had but doesn't currently offer?  
+**Q:** Is the system performance acceptable? (Speed, responsiveness)  
 **A:**  
 **Notes:**
-- 
-- 
-
----
-
-**Q:** Are there any performance, speed, or reliability issues with Flexite?  
-**A:**  
-**Notes:**
+- ☐ Excellent  ☐ Good  ☐ Acceptable  ☐ Poor
 - 
 - 
 
@@ -227,57 +287,10 @@
 
 ### 5. Data Management & Reporting
 
-**Q:** How easy is it to export data from Flexite for analysis or reporting?  
+**Q:** Can you analyze incident trends and patterns effectively?  
 **A:**  
 **Notes:**
-- 
-- 
-
----
-
-**Q:** What standard reports does Flexite provide? Which ones are used regularly?  
-**A:**  
-**Notes:**
-- 
-- 
-
----
-
-**Q:** Can you create custom reports? How flexible is the reporting functionality?  
-**A:**  
-**Notes:**
-- 
-- 
-
----
-
-**Q:** Does Flexite provide dashboards for trend analysis and KPI tracking?  
-**A:**  
-**Notes:**
-- 
-- 
-
----
-
-**Q:** How well does Flexite support statistical analysis of incident trends and patterns?  
-**A:**  
-**Notes:**
-- 
-- 
-
----
-
-**Q:** How does Flexite support Arbetsmiljöverket reporting requirements?  
-**A:**  
-**Notes:**
-- 
-- 
-
----
-
-**Q:** Does Flexite facilitate systematic work environment management (SAM) processes?  
-**A:**  
-**Notes:**
+- ☐ Yes, easily  ☐ Yes, with effort  ☐ Difficult  ☐ No
 - 
 - 
 
@@ -285,29 +298,42 @@
 
 ### 6. Future State & Wishlist
 
-**Q:** Are there Flexite features that Kubal pays for but rarely or never uses?  
+**Q:** Is Flexite meeting current health and safety reporting needs?  
 **A:**  
 **Notes:**
+- ☐ Yes, fully  ☐ Mostly  ☐ Partially  ☐ No
 - 
 - 
 
 ---
 
-**Q:** Are you aware of alternative incident management systems that might better meet Kubal's needs?  
+**Q:** What features are missing that would improve incident management?  
 **A:**  
 **Notes:**
-- 
-- 
-
----
-
-**Q:** What improvements or investments in Flexite would provide the most value for Kubal?  
-**A:**  
-**Notes:**
-- 
-- 
+- Top missing features:
+- 1. ____________________________________________________________________
+- 2. ____________________________________________________________________
+- 3. ____________________________________________________________________
 
 **Requested Features:**
+- 
+- 
+- 
+
+---
+
+**Q:** Would you recommend: invest more, maintain current investment, or explore alternatives?  
+**A:**  
+**Notes:**
+- ☐ Invest more  ☐ Maintain  ☐ Explore alternatives
+- Reasoning:
+- 
+
+---
+
+**Q:** Any other thoughts about Flexite you'd like to share?  
+**A:**  
+**Notes:**
 - 
 - 
 - 
