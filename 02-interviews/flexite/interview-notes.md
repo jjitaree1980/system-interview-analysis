@@ -30,23 +30,20 @@
 
 ---
 
-## Interview Discussion
+# Interview Discussion
 
-### 1. General Overview & Current Usage
+## 1. General Overview & Current Usage
 
-**Q:** What is your current role, and how long have you been the super user/administrator for Flexite?  
+### Q: What is your current role, and how long have you been the super user/administrator for Flexite?  
 **A:**  
-**Notes:**
-- 
-- 
+- Current role is manager of Säkerhet & skydd team and reponse on manage all the security, incident, preventive also contact with goverment about this.
+- With Kubal from 2023 around 3 years
+- Start working with Flexite from 2017
+  
 
----
-
-**Q:** What are the primary purposes Kubal uses Flexite for? (incidents, near-misses, quality deviations, improvement suggestions, etc.)  
+### Q: What are the primary purposes Kubal uses Flexite for? (incidents, near-misses, quality deviations, improvement suggestions, etc.)  
 **A:**  
-**Notes:**
-- 
-- 
+ - Everythings, incidents, near-misses, deviations, improvement suggestion, accidents, etc.
 
 ---
 
