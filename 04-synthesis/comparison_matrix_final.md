@@ -19,9 +19,6 @@
 
 **Detailed Sections**
 - [Idus Assessment Considerations](#idus-assessment-considerations)
-- [Idus Deep Dive](#idus-deep-dive)
-- [Agda/Visma Deep Dive](#agdavisma-deep-dive)
-- [Flexite Deep Dive](#flexite-deep-dive)
 - [Management Implications](#management-implications)
 - [Next Steps](#next-steps)
 
