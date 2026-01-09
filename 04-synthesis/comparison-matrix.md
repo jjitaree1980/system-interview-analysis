@@ -81,7 +81,7 @@ The 4.7M SEK annual waste calculation is based on Tom's estimates and assumption
 - Handles approximately 1,800 monthly work orders across 30 active users
 - Manages maintenance operations, preventive maintenance scheduling, and facilities management
 - Criticality rating: 9/10 - Essential for daily operations
-- User satisfaction: High among power users, moderate among occasional users
+- User satisfaction: High among power users, moderate among occasional users. The satisfaction gap may be partially explained by the system running on an outdated version.  
 
 **Agda/Visma: HR and Payroll**
 - Manages complete employee lifecycle from recruitment through offboarding
@@ -96,13 +96,18 @@ The 4.7M SEK annual waste calculation is based on Tom's estimates and assumption
 - Criticality rating: 9/10 - Critical for safety compliance and regulatory reporting
 - User satisfaction: High with 100% reporting compliance rate
 
-**Comparison:** Agda/Visma rated most critical (10/10) reflecting its irreplaceable nature in payroll and compliance. Idus and Flexite both rated 9/10 but for different reasons - Idus for maintenance operations, Flexite for safety compliance. All three systems receive high user satisfaction ratings from their primary users despite acknowledged limitations.   **Note:** Idus's 9/10 criticality rating may be influenced by super user bias - Tom stated the system is NOT meeting current needs yet rates it 9/10, suggesting potential inflation due to professional identity factors.
+**Comparison:** 
+- Agda/Visma rated most critical (10/10) reflecting its irreplaceable nature in payroll and compliance.
+- Idus and Flexite both rated 9/10 but for different reasons - Idus for maintenance operations, Flexite for safety compliance.
+- All three systems receive high user satisfaction ratings from their primary users despite acknowledged limitations.  
+
+**Note:** Idus's 9/10 criticality rating may be influenced by super user bias - stated the system is NOT meeting current needs yet rates it 9/10, suggesting potential inflation due to professional identity factors.  
 
 ---
 
 ## At-a-Glance: Strengths & Weaknesses (Three-System Comparison)
 
-**Data Reliability Note:** Idus data from single source (Tom) with identified bias; Agda/Visma and Flexite data corroborated by stakeholders.
+**Data Reliability Note:** Idus data from single source; Agda/Visma and Flexite data corroborated by stakeholders.
 
 | Category | Idus | Agda/Visma | Flexite |
 |----------|------|------------|---------|
@@ -114,7 +119,7 @@ The 4.7M SEK annual waste calculation is based on Tom's estimates and assumption
 | **Vendor Support** | Adequate but SAP issue unresolved | Excellent responsiveness and partnership | Good responsiveness |
 | **Integration Health** | Broken (SAP) - Critical failure | Functional with intentional manual controls | Isolated - No system integrations, just Email |
 
-**Note:** Features Tom claims as Idus competitive advantages (graphical interface, BOM hierarchy, asset database) are standard in modern CMMS systems per market analysis.
+**Note:** Features claims as Idus competitive advantages (graphical interface, BOM hierarchy, asset database) are standard in modern CMMS systems per market analysis.
 
 ---
 
@@ -139,8 +144,8 @@ The 4.7M SEK annual waste calculation is based on Tom's estimates and assumption
 **Idus Strengths**
 - Reliable work order management and tracking for 1,800 monthly tickets
 - Well-established preventive maintenance scheduling framework
-- Mobile access enabling field-based maintenance work
 - Proven stability with consistent performance across 30 users
+- Strong underlying data structure; available Idus upgrades offer modern features not present in current version
 
 **Agda/Visma Strengths**
 - Robust and reliable payroll processing with strong accuracy record
@@ -158,7 +163,7 @@ The 4.7M SEK annual waste calculation is based on Tom's estimates and assumption
 - Automated notification workflows for preventive action tracking
 
 **Comparison:** All three systems excel at their core functions. Flexite demonstrates the highest user adoption (100% compliance) compared to Idus (occasional user issues) and Agda/Visma (weak employee self-service). Agda/Visma demonstrates superior vendor support quality. All systems have proven stability and reliability, earning user trust in mission-critical operations.    
-**Important Note:** Idus "strengths" identified by Tom (graphical interface, BOM hierarchy, comprehensive asset database) are standard features in modern CMMS systems (Planon, Ultimo, Fiix, eMaint) and should not be considered competitive differentiators. Tom's comparison baseline is 2016 Maximo technology, not current market alternatives.
+**Important Note:** Tom's claimed Idus strengths (graphical interface, BOM hierarchy, asset database) are standard CMMS features, not competitive differentiators. His comparison uses 2016 Maximo as baseline, not current market alternatives. Available Idus upgrades offer modern features not in Kubal's current version.
 
 ---
 
@@ -199,7 +204,10 @@ The 4.7M SEK annual waste calculation is based on Tom's estimates and assumption
 - Flexite's pain points are all integration-related - the core system performs excellently but lacks connections to other systems.  
 
 Cost hierarchy: Idus (4.7M) >> Agda (75K) ≈ Flexite (75K).   
-Solution approaches differ: Idus needs urgent technical fixes OR evaluation of alternatives; Agda/Visma needs change management; Flexite needs integration and automation investment.
+Solution approaches differ: 
+- Idus needs urgent technical fixes OR evaluation of alternatives
+- Agda/Visma needs change management
+- Flexite needs integration and automation investment
 
 ---
 
@@ -228,7 +236,13 @@ Solution approaches differ: Idus needs urgent technical fixes OR evaluation of a
 - Priority level: High - Government integration critical for compliance efficiency; others medium priority
 
 
-**Comparison:** Idus faces a critical broken integration requiring immediate attention with 1.55M SEK annual impact. Agda/Visma's manual processes are partly intentional (banking/accounting per Ekonomi team requirements) and partly gaps (production systems). Flexite is completely isolated with zero system integrations, creating manual workarounds across all cross-system workflows. Integration health ranking: Agda/Visma (functional with intentional controls) > Flexite (isolated but core system strong) > Idus (broken critical integration). Solution urgency: Idus needs urgent restoration; Flexite needs strategic integration planning; Agda/Visma needs selective expansion evaluation.
+**Comparison:** 
+- Idus faces a critical broken integration requiring immediate attention with 1.55M SEK annual impact.
+- Agda/Visma's manual processes are partly intentional (banking/accounting per Ekonomi team requirements) and partly gaps (production systems).
+- Flexite is completely isolated with zero system integrations, creating manual workarounds across all cross-system workflows.  
+
+Integration health ranking: Agda/Visma (functional with intentional controls) > Flexite (isolated but core system strong) > Idus (broken critical integration).   
+Solution urgency: Idus needs urgent restoration; Flexite needs strategic integration planning; Agda/Visma needs selective expansion evaluation.  
 
 ---
 
