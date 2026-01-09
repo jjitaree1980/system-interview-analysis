@@ -18,10 +18,15 @@
 - [Critical Findings by System](#critical-findings-by-system)
 
 **Detailed Sections**
+- [Detailed System Analysis](#detailed-system-analysis)
+  - [What Works Well - Strengths Comparison](#what-works-well---strengths-comparison)
+  - [Critical Pain Points - Problem Deep Dive](#critical-pain-points---problem-deep-dive)
+  - [Integration Status - System Connectivity Analysis](#integration-status---system-connectivity-analysis)
+  - [User Adoption Patterns - Usage Analysis](#user-adoption-patterns---usage-analysis)
+  - [Vendor Support and Internal Capacity](#vendor-support-and-internal-capacity)
+  - [Financial Impact Analysis - Cost Breakdown](#financial-impact-analysis---cost-breakdown)
+  - [Investment Priorities and Recommendations - Strategic Guidance](#investment-priorities-and-recommendations---strategic-guidance)
 - [Idus Assessment Considerations](#idus-assessment-considerations)
-- [Idus Deep Dive](#idus-deep-dive)
-- [Agda/Visma Deep Dive](#agdavisma-deep-dive)
-- [Flexite Deep Dive](#flexite-deep-dive)
 - [Management Implications](#management-implications)
 - [Next Steps](#next-steps)
 
@@ -286,6 +291,300 @@ Decision:      PENDING
 **💰 ESTIMATED WASTE:** 60-90K SEK/year
 
 **🎯 RECOMMENDATION:** Invest in government integration and dashboard automation
+
+---
+
+## Detailed System Analysis
+
+### What Works Well - Strengths Comparison
+
+**Idus Strengths**
+- Reliable work order management and tracking for 1,800 monthly tickets
+- Well-established preventive maintenance scheduling framework
+- Proven stability with consistent performance across 30 users
+- Strong underlying data structure; available Idus upgrades offer modern features not present in current version
+
+**Agda/Visma Strengths**
+- Robust and reliable payroll processing with strong accuracy record
+- Comprehensive HR functionality covering full employee lifecycle
+- Strong regulatory compliance meeting Swedish requirements
+- High data integrity and system stability
+- Excellent vendor support responsiveness
+
+**Flexite Strengths**
+- Exceptional user adoption with 100% incident reporting compliance rate
+- Handles high volume (120-140 incidents/month, 1,572 in 2025) with excellent performance
+- User-friendly interface praised by employees as "easy to use and not complex"
+- Strong mobile and web accessibility removing reporting barriers
+- Comprehensive audit trail and regulatory compliance capabilities for Arbetsmiljöverket
+- Automated notification workflows for preventive action tracking
+
+**Comparison Analysis:**
+All three systems excel at their core functions. Flexite demonstrates the highest user adoption (100% compliance) compared to Idus (occasional user issues) and Agda/Visma (weak employee self-service). Agda/Visma demonstrates superior vendor support quality. All systems have proven stability and reliability, earning user trust in mission-critical operations.
+
+**Important Note:** Claimed Idus strengths (graphical interface, BOM hierarchy, asset database) are standard CMMS features, not competitive differentiators. Comparison uses legacy Maximo (2016) as baseline, not current market alternatives. Available Idus upgrades offer modern features not in current version.
+
+---
+
+### Critical Pain Points - Problem Deep Dive
+
+**Idus: Technical Failures Across Multiple Areas**
+- Broken SAP inventory integration: 1,552,000 SEK annually (manual verification, workarounds)
+- Missing reporting module: 176,000 SEK annually (2+ days monthly manual Excel work)
+- No mobile platform: 981,000 SEK annually (field travel time, productivity loss)
+- System performance issues: 627,000 SEK annually (slow response times)
+- Incomplete work logging: 490,150 SEK annually (untracked quick fixes)
+- No procurement integration: 387,000 SEK annually
+- Additional waste categories: 517,440 SEK annually
+- **Total estimated annual inefficiency cost: 4,730,590 SEK (~4.7M SEK)**
+
+**Agda/Visma: Organizational Gaps and Manual Workarounds**
+- Paper leave requests and manual entry: 41,600-83,200 SEK annually (largest waste - unused self-service)
+- Shift calculation manual review: 4,800-9,600 SEK annually (temporary issue)
+- Manual pension data generation: 2,400 SEK annually
+- Incomplete time data follow-up: 2,400 SEK annually
+- **Total quantified waste: 51,200-97,600 SEK annually (mid-range ~75,000 SEK)**
+
+**Note:** Manual banking and accounting data transfers are intentional per Ekonomi team requirements for full verification control, not system limitations.
+
+**Flexite: Integration Gaps and Manual Reporting**
+- Manual government reporting to e-tjänster: 144 reports/year requiring double-entry (estimated 20-30 hours/year)
+- Manual dashboard creation: 30-45 minutes per reporting cycle for management reports
+- No automated analysis reports: Manual Excel manipulation for LTA and trend analysis
+- No Idus integration: Manual coordination for maintenance-related incidents
+- No HR system integration: Manual personnel data updates and accident-to-payroll notification
+- **Total estimated annual inefficiency: 60,000-90,000 SEK (primarily manual reporting/analytics)**
+
+**Comparison Analysis:**
+- Idus suffers from technical failures (broken integrations, missing modules) costing 4,730,590 SEK annually - significantly higher than Agda/Visma's 51,200-97,600 SEK and Flexite's 60,000-90,000 SEK
+- Idus's top waste driver is the broken SAP integration alone (1,552,000 SEK/year)
+- Agda/Visma's primary issue is organizational (unused self-service features) with paper leave requests representing 80-85% of waste
+- Flexite's pain points are all integration-related - the core system performs excellently but lacks connections to other systems
+
+**Cost Hierarchy:** Idus (4.7M) >> Agda (75K) ≈ Flexite (75K)
+
+**Solution Approaches:**
+- Idus needs urgent technical fixes OR evaluation of alternatives
+- Agda/Visma needs change management
+- Flexite needs integration and automation investment
+
+---
+
+### Integration Status - System Connectivity Analysis
+
+**Idus: Critical Integration Failure**
+- Broken SAP connection creating critical operational gap
+- Limited API utilization for automated data exchange
+- Manual Excel-based workarounds dominating inter-system communication
+- Priority level: Critical - SAP restoration essential for operational efficiency
+
+**Agda/Visma: Functional with Intentional Manual Controls**
+- Banking and accounting data transfers are intentionally manual per Ekonomi team requirements for full verification control
+- No direct production/logistics system connection requiring manual transfers
+- Time tracking integration functional but limited in scope
+- Manual processes exist by design (Ekonomi) and by gap (production systems)
+- Integration Priority: Medium - Production integration would add value; banking/accounting automation not desired by stakeholders
+
+**Flexite: System Isolation - No Integrations**
+- No e-tjänster (government) integration requiring manual double-entry
+- No Idus integration for maintenance-related incidents
+- No Agda/Visma integration for personnel data
+- No insurance system integration for claims automation
+- All cross-system workflows are manual
+- Priority level: High - Government integration critical for compliance efficiency; others medium priority
+
+**Comparison Analysis:**
+- Idus faces a critical broken integration requiring immediate attention with 1.55M SEK annual impact
+- Agda/Visma's manual processes are partly intentional (banking/accounting per Ekonomi team requirements) and partly gaps (production systems)
+- Flexite is completely isolated with zero system integrations, creating manual workarounds across all cross-system workflows
+
+**Integration Health Ranking:** Agda/Visma (functional with intentional controls) > Flexite (isolated but core system strong) > Idus (broken critical integration)
+
+**Solution Urgency:** Idus needs urgent restoration; Flexite needs strategic integration planning; Agda/Visma needs selective expansion evaluation
+
+---
+
+### User Adoption Patterns - Usage Analysis
+
+**Idus: Strong Among Power Users**
+- High adoption among maintenance technicians requiring daily work order access
+- Lower engagement from occasional users lacking regular exposure
+- Training gaps evident in optional feature utilization
+- Interface adequate but lacking modern UX expectations
+- Learning curve manageable for frequent users, steep for occasional users
+
+**Agda/Visma: Core Strong, Self-Service Weak**
+- High adoption among HR staff and managers requiring regular access
+- Minimal adoption of self-service features by general employee population
+- Strong super user community providing peer support
+- Core interfaces well-regarded; self-service portal underutilized
+- Training investment needed to maximize platform capabilities
+
+**Flexite: Exceptional Across All Users**
+- 100% incident reporting compliance rate across all employees
+- High adoption for both safety officers (daily use) and general employees (as-needed reporting)
+- No training barriers - employees describe system as "easy to use and not complex"
+- Strong mobile and web accessibility removes reporting friction
+- Minimal support requests indicating intuitive interface
+- No occasional user adoption issues unlike Idus
+
+**Comparison Analysis:**
+Flexite demonstrates the highest user adoption (100% compliance) compared to Idus (occasional user issues) and Agda/Visma (weak employee self-service). All three systems show strong adoption among primary/power users, but Flexite uniquely achieves full organizational adoption across all user types. This suggests superior usability design and successful change management. Idus and Agda/Visma both indicate training and change management gaps; Flexite shows effective user experience design can overcome adoption barriers.
+
+---
+
+### Vendor Support and Internal Capacity
+
+**Idus: Adequate but Concerning**
+- Adequate but not exceptional vendor support responsiveness
+- Broken SAP integration remains unresolved despite ongoing discussions
+- Update frequency and feature development pace unclear
+- Single super user creating single-point-of-failure risk
+- Limited backup expertise and knowledge transfer needs
+
+**Agda/Visma: Strong Partnership**
+- Excellent vendor support with quick turnaround on issues
+- Regular updates and feature enhancements delivered
+- Good communication and problem-solving partnership
+- Super user provides excellent support with 7 years experience
+- Strong internal knowledge base and effective training processes
+
+**Flexite: Strong Internal Capacity**
+- Super user provides primary support with 8 years system experience (longest tenure)
+- Deep system knowledge from both current role (3 years at Kubal) and previous experience (5 years prior)
+- No reported vendor support issues mentioned
+- Single super user dependency exists but mitigated by system's ease of use
+- Strong user confidence in system reliability and performance
+
+**Comparison Analysis:**
+Flexite shows strongest super user expertise (8 years vs. 7 years Agda/Visma). All three systems have single super user dependencies creating knowledge concentration risk. Key differentiators:
+- Agda/Visma has superior vendor relationship
+- Idus vendor unable to resolve critical SAP integration, raising questions about vendor capability or prioritization
+- Flexite super user's 8 years experience (longest among all super users) provides strong continuity, though succession planning needed across all systems
+
+---
+
+### Financial Impact Analysis - Cost Breakdown
+
+**Idus: Estimated Technical Inefficiency Costs (Requires Validation)**
+- Manual reporting work: 176,000 SEK/year (based on 2+ days/month estimate)
+- Broken SAP integration: 1,552,000 SEK/year (based on 10 min/ticket assumption - **33% of total waste**)
+- No mobile platform: 981,000 SEK/year (based on 5 trips/week/technician estimate - **21% of total**)
+- System performance issues: 627,000 SEK/year (based on 10% productivity loss assumption)
+- Incomplete work logging: 490,150 SEK/year (based on volume estimates)
+- Other waste categories: 904,440 SEK/year
+- **Total estimated annual cost: 4,730,590 SEK (~4.7M SEK/year)**
+- ROI potential: Very high IF estimates accurate - requires validation
+
+**Key Assumptions Requiring Validation:**
+1. SAP integration: 10 minutes manual verification per work order (1,800 hours/year assumed)
+2. Mobile platform: 5 control room trips per technician per week (5,200 trips/year assumed)
+3. Productivity losses: 5-10% estimates without time-tracking data
+4. System interaction time: 2 hours/user/day assumption
+5. Single source data: All estimates from one super user without corroboration
+
+**Validation Approach:**
+- Time-tracking study over 2-4 weeks to measure actual manual work
+- Interview technicians, occasional users, production team for broader perspective
+- Challenge key assumptions with observable data rather than estimates
+
+**Agda/Visma: Organizational Inefficiency Costs (Stakeholder Validated)**
+- Paper leave requests (unused self-service): 41,600-83,200 SEK/year (80-85% of total waste)
+- Shift calculation manual review: 4,800-9,600 SEK/year
+- Pension data generation: 2,400 SEK/year
+- Incomplete time data follow-up: 2,400 SEK/year
+- **Total quantified waste: 51,200-97,600 SEK/year (~75,000 SEK mid-range)**
+- ROI potential: High - training and change management investment unlocks existing self-service capabilities
+
+**Note:** Banking and accounting manual processes are intentional per Ekonomi team requirements for verification control, therefore not included as waste. Ekonomi team corroborated these as business requirements, increasing reliability of cost analysis.
+
+**Flexite: Integration and Reporting Inefficiency Costs (High Confidence)**
+- Manual government reporting (e-tjänster): 144 reports/year × 15-20 min/report = 36-48 hours/year × 550 SEK = 19,800-26,400 SEK/year
+- Manual dashboard creation: 30-45 min/cycle × ~12 cycles/year = 6-9 hours/year × 550 SEK = 3,300-4,950 SEK/year
+- Manual LTA report generation: ~2 hours/month × 12 months × 550 SEK = 13,200 SEK/year
+- Cross-system coordination (Idus, Agda/Visma): Estimated 3-5 hours/month × 12 × 550 SEK = 19,800-33,000 SEK/year
+- Manual personnel data updates: Estimated 2 hours/month × 12 × 550 SEK = 13,200 SEK/year
+- **Total estimated annual cost: 69,300-90,750 SEK (~80,000 SEK mid-range)**
+- ROI potential: High - Eliminate manual processes, improve compliance efficiency, enhance real-time visibility
+
+**Note:** Flexite costs based on observable, measurable activities (144 documented government reports, timed dashboard cycles) from compliance-focused super user. High confidence due to documented requirements rather than productivity assumptions. Users may adjust exported data for company workflows (especially new year period), but estimates remain reliable.
+
+**Three-System Comparison:**
+- Cost hierarchy: Idus (4.7M SEK estimated) >> Flexite (80K SEK estimated) > Agda/Visma (75K SEK validated)
+- Idus dominates at 97-98% of combined waste IF estimates prove accurate
+- Agda/Visma and Flexite show similar waste levels (~75-80K SEK) but different problem types: Agda/Visma suffers from organizational underutilization (validated), Flexite from system isolation (estimated with high confidence)
+
+**Data Confidence Ranking:** Agda/Visma (high - stakeholder validated) = Flexite (high - observable activities, documented) > Idus (low - unvalidated assumptions, single source)
+
+**Combined Total:** 4.88M SEK IF Idus accurate, or ~155K SEK if Idus overestimated 50%
+
+**Investment Recommendation:** Proceed immediately with Agda/Visma (high confidence, low risk); initiate Flexite government integration planning (high confidence, compliance-critical); validate Idus before committing (low confidence, requires ~100K SEK study)
+
+---
+
+### Investment Priorities and Recommendations - Strategic Guidance
+
+**Idus: Validate Before Committing Investment**
+
+**Priority 0 (Critical):** Conduct objective CMMS market evaluation (~100K SEK investment)
+- Validate cost assumptions through time-tracking studies
+- Interview additional users (technicians, production team, occasional users)
+- Evaluate 3-5 modern CMMS alternatives (Planon, Ultimo, Fiix, eMaint)
+- Complete 5-year TCO analysis: Idus investment path vs. modern replacement
+- Assess Idus vendor roadmap and product investment trajectory
+
+**Priority 1 (After Evaluation):** Based on findings - Restore SAP integration OR implement modern CMMS
+
+**Priority 2 (After Evaluation):** Implement reporting module OR leverage modern CMMS standard features
+
+**Priority 3 (After Evaluation):** Mobile platform and automation enhancements
+
+**Decision:** **Evaluation required before commitment** - single source and cost estimate uncertainty necessitate validation
+
+**Rationale:** 4.7M SEK estimated waste is substantial, but based on single super user with limited perspective. Investment of 800K SEK+ in Idus should only proceed after: (a) validating cost assumptions, (b) confirming features claimed as strengths are actual differentiators, (c) comparing to modern alternatives, (d) obtaining multi-user perspectives. Estimated ~100K SEK evaluation protects against wrong 800K SEK+ decision.
+
+**Note:** Assessment compared Idus to legacy Maximo (~2016 technology), not modern CMMS. Features claimed as strengths (graphical interface, BOM, asset database) are standard in current market.
+
+---
+
+**Agda/Visma: Maximize Existing Capabilities**
+
+**Priority 1 (Critical):** Launch self-service adoption campaign with training (41,600-83,200 SEK/year potential savings)
+
+**Priority 2 (High):** Evaluate production system integration feasibility
+
+**Priority 3 (Medium):** Enhance reporting through training or custom development
+
+**Decision:** Invest in existing platform - replacement not recommended
+
+**Rationale:** 10/10 criticality with strong core capabilities; significant gains available from better self-service utilization before considering expansion
+
+**Note:** Banking and accounting integrations are intentionally manual per Ekonomi team requirements for verification control and are not recommended for automation.
+
+---
+
+**Flexite: Integration and Automation Investment**
+
+**Priority 1 (Critical):** Implement government system integration (e-tjänster) (19,800-26,400 SEK/year savings)
+- Research e-tjänster API capabilities and data exchange standards
+- Engage Flexite vendor on integration roadmap and development timeline
+- Validate technical feasibility and implementation costs
+- Target: Eliminate 144 annual manual government reports
+
+**Priority 2 (High):** Implement automated dashboard and analysis reporting (16,500-17,150 SEK/year savings)
+- Document current management reporting requirements
+- Evaluate existing Flexite reporting capabilities vs. third-party BI tools
+- Automate LTA reports and management dashboards
+- Target: Eliminate 30-45 min manual cycle time
+
+**Priority 3 (Medium):** Evaluate Idus integration for maintenance-related incidents
+- Contingent on Idus investment decision outcome
+- Enable automated incident-to-work-order workflow
+- Reduce manual coordination between safety and maintenance teams
+
+**Decision:** Invest in existing platform with integration and automation enhancements
+
+**Rationale:** 9/10 criticality with excellent core system and 100% user adoption; waste stems entirely from isolation gaps, not system performance issues
 
 ---
 
