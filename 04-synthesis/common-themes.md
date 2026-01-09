@@ -1,17 +1,14 @@
 # IT Systems Assessment - Common Themes Matrix
 
 **Assessment Date:** January 2026  
-**Prepared by:** JJA
+**Prepared by:** IT Systems Assessment Team  
 **Status:** Idus ✓ | Agda/Visma ✓ | Flexite ✓ | Ascendo 🔄 (In Process)
 
 ---
 
 ## Executive Summary
 
-- Cross-system analysis of four business-critical systems at Kubal reveals integration failures as the dominant cost driver (61% of identified waste), with combined annual inefficiency of 4.87M SEK across three assessed systems.
-- All three super users independently recommend enhancing existing platforms rather than replacement, suggesting core functionality is solid but missing modern capabilities (integrations, analytics, mobile).
-- Critical finding: Idus assessment (representing 97% of total waste estimate) requires independent validation due to single-source data and identified bias patterns before committing to major investments.
-- Agda/Visma and Flexite assessments show high confidence with validated stakeholder input and clear improvement pathways.
+Cross-system analysis of four business-critical systems at Kubal reveals integration failures as the dominant cost driver (61% of identified waste), with combined annual inefficiency of 4.87M SEK across three assessed systems. All three super users independently recommend enhancing existing platforms rather than replacement, suggesting core functionality is solid but missing modern capabilities (integrations, analytics, mobile). Critical finding: Idus assessment (representing 97% of total waste estimate) requires independent validation due to single-source data and identified bias patterns before committing to major investments. Agda/Visma and Flexite assessments show high confidence with validated stakeholder input and clear improvement pathways.
 
 ---
 
@@ -44,18 +41,16 @@
 
 ---
 
-### Theme: Single Point of Failure Risk (Key Person Dependency)
-**Found in:** Idus ✓ | Agda/Visma ✗ | Flexite ✓ | Ascendo ?
+### Theme: Key Person Dependencies and Backup Capacity
+**Found in:** Idus ✓ | Agda/Visma ⚠️ | Flexite ✓ | Ascendo ?
 
 **Manifestation by System:**
-- **Idus:** Single functional technician manages all system administration with 30 users dependent on one expert.
-- **Agda/Visma:** HR department has added staff, but system expertise remains concentrated in one super user with 7 years experience - backup capability unclear
-- **Flexite:** Single Health & Safety Manager (8 years system experience) manages compliance-critical safety system - no confirmed backup or cross-training for this role
+- **Idus:** Single functional technician manages all system administration with 30 users dependent on one expert
+- **Agda/Visma:** HR department has two people working with the system; primary super user has 7 years deep expertise - backup capacity exists but depth of secondary user's expertise unclear
+- **Flexite:** Single Health & Safety Manager (8 years system experience) manages compliance-critical safety system - backup capacity unclear
 - **Ascendo:** [Pending - assess if Rhodora/Ksenia provide redundancy or if knowledge is concentrated]
 
-**Strategic Impact:** All three systems have critical knowledge concentration in single super users. While some departments have adequate staffing levels (Agda/Visma HR), system-specific expertise remains undocumented and backup capabilities are unclear or unconfirmed. If any super user departs, company loses both system expertise AND operational continuity. Compliance risk especially severe for Flexite (Arbetsmiljöverket legal requirements) and Agda/Visma (payroll regulatory obligations).   
-The core issue is not headcount but absence of: documented procedures, identified backup users, and cross-training programs.   
-Immediate action required: assess current backup capability, document procedures, identify and train backup users, establish succession planning.  
+**Strategic Impact:** Knowledge concentration varies by system. Idus and Flexite have single-person dependencies which create operational continuity risk if those individuals depart. Agda/Visma has staffing redundancy with two people, though the depth of backup capability requires assessment. For compliance-critical systems (Flexite - Arbetsmiljöverket, Agda/Visma - payroll regulations), succession planning and knowledge transfer are especially important regardless of staffing levels. Recommended action: evaluate actual backup capability and knowledge transfer readiness for business continuity planning.
 
 ---
 
@@ -68,8 +63,7 @@ Immediate action required: assess current backup capability, document procedures
 - **Flexite:** Incident management core excellent (100% user compliance, 9/10 critical), but zero system integrations
 - **Ascendo:** [Pending]
 
-**Strategic Impact:** Pattern suggests "build on strength" investment strategy rather than replacement. All three super users recommend investing in existing platforms - enhancement ROI likely exceeds replacement costs.  
-Risk: Idus assessment may be biased (single source validation required).
+**Strategic Impact:** Pattern suggests "build on strength" investment strategy rather than replacement. All three super users recommend investing in existing platforms - enhancement ROI likely exceeds replacement costs. Risk: Idus assessment may be biased (single source validation required).
 
 ---
 
@@ -91,11 +85,11 @@ Risk: Idus assessment may be biased (single source validation required).
 
 **Manifestation by System:**
 - **Idus:** Mobile functionality exists but underutilized, efficiency losses from desktop-bound workflows
-- **Agda/Visma:** Mobile and web accessibility fully functional - NOT a gap
+- **Agda/Visma:** Web-form based system accessible via mobile browser - no mobile accessibility gap identified
 - **Flexite:** Mobile and web accessibility fully functional - NOT a gap
 - **Ascendo:** [Pending]
 
-**Strategic Impact:** Modern workforce needs mobile access. One of three systems have mobile gaps limiting field/remote productivity. Investment priority for Idus to match Flexite's and Agda's mobile success.
+**Strategic Impact:** Idus is the only system with identified mobile limitations. Flexite demonstrates successful mobile implementation. Agda/Visma's web-based architecture provides mobile access without requiring native apps.
 
 ---
 
@@ -105,16 +99,16 @@ Risk: Idus assessment may be biased (single source validation required).
 |------------|:----:|:----------:|:-------:|:-------:|:------------:|
 | **Broken/Missing System Integrations** | ✓ | ✓ | ✓ | ? | 🔴 High - 3M+ SEK/year |
 | **Manual Reporting Burden (No Analytics)** | ✓ | ✗ | ✓ | ? | 🔴 High - 1.5M+ SEK/year |
-| **Single Super User Dependency** | ✓ | ✓ | ✓ | ? | 🔴 High - Business continuity risk |
-| **Limited Mobile Functionality** | ✓ | ✓ | ✗ | ? | 🟡 Medium - Productivity impact |
+| **Key Person Dependencies** | ✓ | ⚠️ | ✓ | ? | 🔴 High - Business continuity risk |
+| **Limited Mobile Functionality** | ✓ | ✗ | ✗ | ? | 🟡 Medium - Productivity impact |
 | **Training and Adoption Gaps** | ✓ | ✓ | ✗ | ? | 🟡 Medium - 100K+ SEK/year |
 | **Data Quality / Structure Issues** | ✓ | ✗ | ✗ | ? | 🟡 Medium - Idus-specific |
 | **Delayed System Upgrades** | ✓ | ✗ | ✗ | ? | 🟡 Medium - Version currency risk |
 | **No Real-time Dashboards** | ✓ | ✓ | ✓ | ? | 🟢 Low - Management visibility |
 
-**Legend:** ✓ Present | ✗ Absent | ? Pending | 🔴 High | 🟡 Medium | 🟢 Low
+**Legend:** ✓ Present | ⚠️ Partial concern | ✗ Absent | ? Pending | 🔴 High | 🟡 Medium | 🟢 Low
 
-**Key Insight:** Integration failures dominate the pain point landscape, representing 60%+ of total identified waste. Manual reporting follows as secondary issue, primarily affecting Idus and Flexite.
+**Key Insight:** Integration failures dominate the pain point landscape, representing 60%+ of total identified waste. Manual reporting follows as secondary issue, primarily affecting Idus and Flexite. Key person dependencies vary - Idus and Flexite have single-person risk, while Agda/Visma has staffing redundancy but needs backup capability assessment.
 
 ---
 
@@ -228,10 +222,10 @@ Risk: Idus assessment may be biased (single source validation required).
 **Root Cause:** Finance/accounting teams may correctly prioritize accuracy and control over speed/automation. What appears as "waste" in efficiency analysis may be prudent risk management in financial operations.  
 **Recommendation:** Validate all manual process optimization opportunities with actual process owners before assuming automation is desired. Distinguish technical gaps from business policy.
 
-### Pattern 6: Knowledge Concentration Creates Continuity Risk
-**Observation:** All three systems have single super user owning system expertise with no documented backup  
-**Root Cause:** Organizational under-investment in knowledge management, succession planning, and cross-training. Systems seen as "tools" rather than "capabilities" requiring team ownership.  
-**Recommendation:** Immediate action required - document procedures, identify and train backup users, create knowledge transfer plans before critical departures create operational crisis
+### Pattern 6: Varying Levels of Key Person Dependency
+**Observation:** Knowledge concentration varies by system - Idus and Flexite have single-person dependencies, while Agda/Visma has two-person team but primary expert has 7 years deep expertise. Backup capability unclear across all three systems.  
+**Root Cause:** Succession planning and knowledge transfer may not receive sufficient attention during normal operations. Systems seen as "tools" rather than "capabilities" requiring team ownership and redundancy planning.  
+**Recommendation:** Assess actual backup capability for each system to determine appropriate action. For single-person dependencies (Idus, Flexite), urgency is higher. For Agda/Visma, evaluate depth of secondary user's expertise and readiness to assume primary role if needed.
 
 ---
 
@@ -250,10 +244,11 @@ Risk: Idus assessment may be biased (single source validation required).
    - Gate Decision: Validate 4.73M SEK waste claim before committing 800K+ SEK investment
    - Alternatives to evaluate: Planon, Ultimo, Fiix, eMaint
 
-3. **Document Backup Procedures for All Systems** (All Systems)
-   - Create procedure documentation for Idus, Agda/Visma, Flexite operations
-   - Identify and begin training backup super users
-   - Address single point of failure risk across portfolio
+3. **Assess and Strengthen Backup Capacity for Critical Systems** (All Systems)
+   - Evaluate current backup capability for Idus and Flexite (single-person dependencies)
+   - Assess depth of secondary user expertise for Agda/Visma (two-person team)
+   - Identify gaps in knowledge transfer and succession planning
+   - Develop action plan based on assessment findings
 
 ### Short-term Initiatives (3-6 months)
 
@@ -278,10 +273,10 @@ Risk: Idus assessment may be biased (single source validation required).
    - ROI: 1.43M SEK/year from automated reporting
    - Decision path depends on validation study outcome
 
-8. **Mobile Enhancement for Agda/Visma and Idus** (Agda/Visma, Idus)
-   - Improve mobile self-service for Agda/Visma employees
+8. **Mobile Enhancement for Idus** (Idus)
    - Enhance Idus mobile functionality for field technicians
    - Learn from Flexite's successful mobile implementation
+   - Focus on improving underutilized mobile features
 
 9. **Complete Ascendo Assessment** (Ascendo)
    - Interview Rhodora/Ksenia to complete portfolio view
@@ -303,7 +298,9 @@ Risk: Idus assessment may be biased (single source validation required).
 
 - **Idus Market Comparison:** Super user compared to 2016 Maximo system, not modern alternatives. Evaluate current Swedish CMMS market (Planon, Ultimo, Fiix, eMaint) to determine if claimed strengths are truly differentiators or commodity features available in all systems.
 
-- **Single Point of Failure - All Systems:** If any super user departs (Idus functional technician, Agda/Visma HR manager with 7 yrs experience, Flexite H&S manager with 8 yrs system experience), operational continuity severely compromised. No documented procedures or trained backups exist.
+- **Key Person Dependencies - Idus and Flexite:** Idus functional technician and Flexite H&S manager (8 yrs system experience) each represent single-person dependencies for their respective systems. If either departs, operational continuity compromised. Backup capability assessment required to determine succession planning needs.
+
+- **Backup Capability Assessment - Agda/Visma:** While HR department has two people working with the system, depth of secondary user's expertise unclear. Given 10/10 criticality and payroll regulatory obligations, backup capability requires validation.
 
 ### 🟡 Medium Priority Review Recommended
 
