@@ -42,15 +42,15 @@ Cross-system analysis of four business-critical systems at Kubal reveals integra
 ---
 
 ### Theme: Key Person Dependencies and Backup Capacity
-**Found in:** Idus ✓ | Agda/Visma ⚠️ | Flexite ✓ | Ascendo ?
+**Found in:** Idus ✓ | Agda/Visma ✓ | Flexite ✓ | Ascendo ?
 
 **Manifestation by System:**
 - **Idus:** Single functional technician manages all system administration with 30 users dependent on one expert
-- **Agda/Visma:** HR department has two people working with the system; primary super user has 7 years deep expertise - backup capacity exists but depth of secondary user's expertise unclear
+- **Agda/Visma:** HR department has two people working with the system; primary super user has 7 years deep expertise - backup capacity exists and the expertise is clear
 - **Flexite:** Single Health & Safety Manager (8 years system experience) manages compliance-critical safety system - backup capacity unclear
 - **Ascendo:** [Pending - assess if Rhodora/Ksenia provide redundancy or if knowledge is concentrated]
 
-**Strategic Impact:** Knowledge concentration varies by system. Idus and Flexite have single-person dependencies which create operational continuity risk if those individuals depart. Agda/Visma has staffing redundancy with two people, though the depth of backup capability requires assessment. For compliance-critical systems (Flexite - Arbetsmiljöverket, Agda/Visma - payroll regulations), succession planning and knowledge transfer are especially important regardless of staffing levels. Recommended action: evaluate actual backup capability and knowledge transfer readiness for business continuity planning.
+**Strategic Impact:** Knowledge concentration varies by system. Idus and Flexite have single-person dependencies which create operational continuity risk if those individuals depart. Agda/Visma has staffing redundancy with two people, though the depth of backup capability requires assessment. For compliance-critical systems (Flexite - Arbetsmiljöverket, Agda/Visma - payroll regulations), succession planning and knowledge transfer are especially important regardless of staffing levels. Recommended action: evaluate actual backup capability and knowledge transfer readiness for business continuity planning (Idus and Flexite).
 
 ---
 
@@ -67,16 +67,16 @@ Cross-system analysis of four business-critical systems at Kubal reveals integra
 
 ---
 
-### Theme: User Adoption Varies Dramatically by System
-**Found in:** Idus ✗ | Agda/Visma ✗ | Flexite ✓ | Ascendo ?
+### Theme: User Adoption Challenges and Manual Workarounds
+**Found in:** Idus ✓ | Agda/Visma ✓ | Flexite ✓ | Ascendo ?
 
 **Manifestation by System:**
-- **Idus:** Bypass behavior exists - blue-collar workers struggle to find assets, production team avoids system
-- **Agda/Visma:** Only ~20% employee adoption of self-service portal (42-83K SEK/year opportunity cost)
-- **Flexite:** 100% compliance rate, no bypass behavior, universally used for all incidents
+- **Idus:** Users submit Excel "Fel anmälan" instead of direct system entry → Super user manually triages → Decides work order or quick fix (bypass behavior due to system complexity/unclear entry process)
+- **Agda/Visma:** Users submit paper leave requests instead of self-service portal - only ~20% adoption (bypass behavior due to digital literacy gaps/computer discomfort, costing 42-83K SEK/year)
+- **Flexite:** 100% compliance rate achieved BUT super user must continuously educate users on Idus vs Flexite boundaries for incident reporting (process boundary confusion exists but doesn't prevent adoption)
 - **Ascendo:** [Pending]
 
-**Strategic Impact:** Flexite demonstrates that high adoption IS achievable when system is user-friendly and properly supported. Idus and Agda/Visma have organizational capability gaps causing waste through under-utilization. Training and change management investments could deliver significant ROI without system changes.
+**Strategic Impact:** ALL THREE systems experience manual workarounds and adoption challenges, revealing organizational capability gaps in digital adoption, process clarity, and training effectiveness that span the entire system portfolio. Critical insight: Flexite achieves 100% compliance DESPITE boundary confusion, demonstrating that clear system design and effective change management can overcome adoption barriers. The difference is not whether challenges exist, but whether systems and support structures are designed to succeed despite them. Hidden costs include super user triage time (Idus), manual data entry (Agda/Visma - quantified at 42-83K SEK/year), and ongoing user education (Flexite).
 
 ---
 
@@ -212,10 +212,10 @@ Cross-system analysis of four business-critical systems at Kubal reveals integra
 **Root Cause:** Core functionality is solid and reliable. Problems are enhancements (integrations, mobile, analytics) not fundamental capabilities. User familiarity and embedded workflows have value. Change management risk and cost favor enhancement.  
 **Recommendation:** Accept "invest not replace" strategy BUT apply critical validation especially for Idus given single-source bias risk. Question: Is this genuine strength or sunk cost fallacy?
 
-### Pattern 4: High Adoption Requires User-Friendly Design + Support
-**Observation:** Dramatic adoption variance: Flexite 100% vs Agda/Visma 20% self-service vs Idus bypass behavior  
-**Root Cause:** Flexite demonstrates that strong adoption IS achievable with user-friendly interface and proper support. Agda/Visma and Idus have training/change management gaps causing underutilization despite availability of features.  
-**Recommendation:** Study Flexite's success factors (ease of use, mobile access, support quality) and apply learnings to Agda/Visma self-service campaign and Idus user training initiatives
+### Pattern 4: Adoption Success Despite Organizational Challenges
+**Observation:** All three systems experience manual workarounds and adoption barriers (Idus: Excel bypasses, Agda/Visma: 20% self-service, Flexite: boundary confusion requiring education), yet Flexite achieves 100% compliance while others struggle  
+**Root Cause:** Difference is not absence of challenges but system design and support structures that succeed despite them. Flexite combines user-friendly interface, strong support, and effective change management to overcome organizational capability gaps (digital literacy, process clarity, training effectiveness) that affect all systems.  
+**Recommendation:** Study Flexite's success factors - not elimination of confusion but management of it through clear design and continuous education. Apply learnings: improve Idus entry process clarity, enhance Agda/Visma self-service campaign with digital literacy support, recognize that perfect process understanding isn't prerequisite for adoption success.
 
 ### Pattern 5: Intentional Manual Processes vs System Limitations
 **Observation:** Not all manual processes represent inefficiency - Agda/Visma case reveals Ekonomi team deliberately maintains manual verification controls  
