@@ -14,6 +14,7 @@
 ### System Integration Map
 
 ```
+Example
          ┌─────────┐
          │  Idus   │
          └────┬────┘
