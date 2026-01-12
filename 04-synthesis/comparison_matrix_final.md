@@ -15,6 +15,11 @@
 **Key Analysis**
 - [Executive Summary Table](#executive-summary-table)
 - [Side-by-Side Comparison](#side-by-side-comparison)
+  - [Problem Type Classification](#problem-type-classification)
+  - [Top Priority by System](#top-priority-by-system)
+  - [Integration Health Status](#integration-health-status)
+  - [Vendor Support Quality](#vendor-support-quality)
+  - [User Adoption Challenges](#user-adoption-challenges---manual-workarounds)
 - [Critical Findings by System](#critical-findings-by-system)
 
 **Detailed Sections**
@@ -209,6 +214,18 @@ Decision:      PENDING
 | **Agda/Visma** | Excellent | Strong partnership | None identified |
 | **Flexite** | Good | Collaborative | None identified |
 
+### User Adoption Challenges - Manual Workarounds
+
+| System | Manual Workaround Pattern | Root Cause | Hidden Cost Impact |
+|--------|--------------------------|------------|-------------------|
+| **Idus** | Users submit Excel "Fel anmälan" → Super user manually reviews → Decides work order or quick fix | System complexity / unclear entry process | Super user triage time + delayed work orders |
+| **Agda/Visma** | Users submit paper leave requests instead of self-service portal | Digital literacy gaps / computer discomfort | Manual data entry (41-83K SEK/year already calculated) |
+| **Flexite** | Super user must educate users on Idus vs Flexite boundaries for incident reporting | Unclear system boundaries / process confusion | Education time + potential misclassification |
+
+**Cross-System Pattern:** All three systems experience manual bypasses, suggesting organizational challenges with digital adoption, process clarity, and training effectiveness. Notably, Flexite achieves 100% compliance despite process boundary confusion, demonstrating that clear system design and effective change management can overcome these barriers.
+
+**Strategic Implication:** Hidden costs include super user triage time (Idus), manual data entry (Agda/Visma - already quantified), and ongoing user education (Flexite). These adoption barriers represent organizational capability gaps that span all systems, not just technical limitations within individual platforms.
+
 ---
 
 ## Critical Findings by System
@@ -236,6 +253,8 @@ Decision:      PENDING
 
 **🎯 RECOMMENDATION:** Do NOT commit investment before validation study
 
+**📝 USER ADOPTION NOTE:** Users bypass direct system entry by submitting Excel "Fel anmälan" reports, requiring super user manual triage and work order creation decisions. This adds hidden costs in super user time and delays work order processing.
+
 ---
 
 ### Agda/Visma - Key Takeaways
@@ -260,6 +279,8 @@ Decision:      PENDING
 
 **🎯 RECOMMENDATION:** Proceed with self-service adoption campaign immediately
 
+**📝 USER ADOPTION NOTE:** Paper leave requests continue due to digital literacy gaps and computer discomfort among some users. This waste is already quantified in the 41-83K SEK/year calculation above.
+
 ---
 
 ### Flexite - Key Takeaways
@@ -283,6 +304,8 @@ Decision:      PENDING
 **💰 ESTIMATED WASTE:** 60-90K SEK/year
 
 **🎯 RECOMMENDATION:** Invest in government integration and dashboard automation
+
+**📝 USER ADOPTION NOTE:** Super user team educates users on Idus/Flexite boundaries - which incidents should be logged where. Despite this process boundary confusion, Flexite achieves 100% compliance, demonstrating that clear system design and effective change management can overcome adoption barriers.
 
 ---
 
