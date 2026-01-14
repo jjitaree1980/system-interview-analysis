@@ -131,6 +131,35 @@ Automated personnel data synchronization and accident-to-payroll notification wo
 
 ---
 
+### Gap 5 : Analytical Capabilities Gap
+
+**Gap description:**
+Flexite missing feature to automated risk assesment based on incident characteristics, suggested preventive actions from incident pattern library, trend analysis across similar incidents, desicion support for preventive planing and cannot automate linking to related pask incidents.  
+
+**Current Impact**
+- 51.3 hours/year spent on manual analysis
+- Inconsistent preventive action quality
+- Missed opportunities to learn from incident patterns
+- Reliance on individual expertise rather than organizational knowledge
+- No system guidance or suggestions
+
+**Business Need:**
+Automated analytic tool.
+
+**Gap Type:** Integration  
+**Severity:** High  
+**Workaround:** Manual data entry and coordination  
+**Workaround Sustainability:** Delay decission and could lead to missing risk assessment.
+
+**Opportunity**
+Adding analytical capabilities could:
+- Reduce analysis time by 50-70%
+- Improve preventive action consistency
+- Capture organizational learning
+- Identify emerging risk patterns automatically
+
+---
+
 ## Medium-Priority Gaps
 
 ### Gap 5: No Insurance System Integration
