@@ -7,10 +7,11 @@
 
 | Metric | Value |
 |--------|-------|
-| **Total Integration Waste** | **~1.61-1.64M SEK/year** |
+| **Total Integration Waste** | **~1.65-1.70M SEK/year** |
 | **Biggest Problem** | Idus-SAP broken (1.55M SEK) |
+| **Second Critical Issue** | Shift leader Excel workflow (40-60K SEK) |
 | **Systems Assessed** | 3 of 4 complete |
-| **Critical Actions** | 1 emergency, 2 strategic |
+| **Critical Actions** | 2 emergency, 2 strategic |
 
 ---
 
@@ -104,8 +105,41 @@
 | Flexite → E-tjänster | ✅ Automated | ❌ Manual | Login & re-entry |
 | Flexite → Reporting | ✅ Automated | ❌ Manual | Export & paste |
 | Flexite → Idus | ✅ Automated | ❌ None | Manual notification |
+| **Shift Leaders → Idus** | ✅ **Direct entry** | ❌ **Excel → Review → Entry** | **Felanmälan in Excel → Tom reviews → Work order** |
+| **Shift Leaders → Flexite** | ✅ **Direct entry** | ❌ **Excel → Manual entry** | **Excel tracking → Manual Flexite entry → Manual analysis** |
 
 **Pattern:** Almost all inter-system data movement is manual
+
+### 🚨 Critical Workflow Gap: Excel as Primary Data Hub
+
+**The Problem:**  
+Shift leaders maintain operational data in Excel spreadsheets as their primary information system. They manually analyze and decide what information should be entered into Idus or Flexite, creating significant delays and data quality issues.
+
+**Current Shift Leader Process:**
+
+| Step | System | Process | Issue |
+|------|--------|---------|-------|
+| 1. **Data Collection** | Excel | All shift information tracked in Excel | Data trapped in spreadsheets |
+| 2. **Manual Analysis** | Excel | Shift leader reviews and decides system routing | Human decision bottleneck |
+| 3a. **For Maintenance** | Excel → Idus | Create "Felanmälan" (fault report) in Excel → Send to Tom (Idus super user) → Tom reviews → Tom decides if it becomes work order in Idus | **Multiple handoffs before data enters system** |
+| 3b. **For Safety** | Excel → Flexite | Shift leader enters observation/accident/near-miss into Flexite → Manual analysis for preventive plan | **Delayed incident reporting, manual analysis** |
+
+**Impact:**
+- **Data Entry Delays:** Information sits in Excel before entering proper systems
+- **Decision Bottlenecks:** Tom must review all Felanmälan before Idus entry
+- **Lost Data:** Not all Excel information makes it into systems
+- **No Real-Time Visibility:** Management can't see operational issues until manual entry complete
+- **Manual Analysis Burden:** Preventive planning done manually instead of system-driven
+- **Duplicate Data Entry:** Same information maintained in Excel + Idus/Flexite
+
+**Annual Waste Estimate:** 40,000-60,000 SEK (based on handoff delays, duplicate entry, decision bottlenecks)
+
+**What Should Happen:**
+- Shift leaders enter data directly into Idus or Flexite from shop floor (mobile access)
+- Systems automatically route based on type (maintenance vs safety)
+- Automated workflows replace manual review steps
+- Real-time visibility for management
+- System-driven analysis and preventive recommendations
 
 ---
 
@@ -113,11 +147,12 @@
 
 | Opportunity | Systems | Current Process | Future State | Annual Value | Complexity | Priority |
 |-------------|---------|-----------------|--------------|--------------|------------|----------|
+| **Shift Leader Direct Access** | Shift Leaders → Idus/Flexite | Excel → Manual routing → Delayed system entry | Direct mobile/web entry into systems | 40-60K SEK | Medium | 🚨 Critical |
 | **Incident→Maintenance** | Flexite → Idus | Manual notification & work order creation | Auto work order from incident | 15-25K SEK | Medium | 📈 High |
 | **Personnel Sync** | Flexite → Agda/Visma  | Manual notification & data updates | Auto synchronization | 10-15K SEK | Medium | 📋 Medium |
 | **Gov Reporting** | Flexite → E-tjänster | 144 manual reports/year | Auto submission | 30-50K SEK | Med-High | 📈 High |
 
-**Total Opportunity Value:** 55-90K SEK annually
+**Total Opportunity Value:** 95-150K SEK annually
 
 ---
 
@@ -128,6 +163,7 @@
 | **Employee Data** | Agda/Visma (master)<br>Flexite (manual copy)<br>Idus (possibly) | No synchronization | Duplicate maintenance<br>Data inconsistency risk |
 | **Facility Data** | Idus (master) <br>Flexite (manual copy) | No synchronization | Duplicate maintenance<br>Data inconsistency risk |
 | **Asset Data** | Idus (maintenance)<br>SAP (procurement) | Broken integration | Conflicting information<br>Manual reconciliation |
+| **Operational Shift Data** | **Excel (primary!)**<br>Idus (partial copy)<br>Flexite (partial copy) | Excel as primary data hub<br>Manual routing decisions<br>Delayed system entry | **Lost visibility**<br>**Decision bottlenecks**<br>**Duplicate tracking**<br>**Data silos** |
 | **Org Structure** | Multiple systems | No clear hierarchy | Reporting inconsistencies<br>Update overhead |
 
 **Recommendation:** Define authoritative systems + implement unidirectional data flows
@@ -146,10 +182,11 @@
 
 ---
 
-### Priority 2: 📈 HIGH VALUE (3-9 months)
+### Priority 2: 📈 HIGH VALUE (1-9 months)
 
 | Action | Impact | Investment | Timeline | Complexity |
 |--------|--------|------------|----------|------------|
+| **Shift Leader Direct Access** | 40-60K SEK/year | 50-70K SEK | 1-6 months | Low-Med |
 | **Flexite Gov Integration** | 30-50K SEK/year | TBD | 3-6 months | Med-High |
 | **Flexite Dashboards** | Time savings + visibility | TBD | 2-4 months | Low-Med |
 
@@ -192,7 +229,48 @@
 
 ---
 
-### Action 2: Invest in Flexite Integration (STRATEGIC)
+### Action 2: Enable Shift Leader Direct System Access (HIGH PRIORITY)
+
+**The Problem:** 40-60K SEK annual waste + data visibility loss + decision bottlenecks
+
+Shift leaders maintain operational data in Excel, manually deciding what enters Idus or Flexite. This creates multiple handoffs, delays, and prevents real-time visibility.
+
+**Current Workflow:**
+```
+Excel tracking → Manual analysis → Felanmälan creation → Tom reviews → Idus work order
+Excel tracking → Manual analysis → Flexite entry → Manual preventive planning
+```
+
+**Solution: Direct System Access**
+
+| Component | Action | Benefit |
+|-----------|--------|---------|
+| **Mobile Access** | Enable Idus & Flexite mobile apps for shift leaders | Real-time data entry from shop floor |
+| **Training** | Train shift leaders on direct system entry | Eliminate Excel as data hub |
+| **Workflow Rules** | Configure automatic routing (maintenance vs safety) | Remove manual decision-making |
+| **Permissions** | Grant shift leaders appropriate system access | Enable self-service data entry |
+
+**Implementation:**
+
+| Phase | Timeline | Action | Cost |
+|-------|----------|--------|------|
+| Phase 1 | Month 1-2 | Configure mobile access + train 5 shift leaders | 20-30K SEK |
+| Phase 2 | Month 3 | Pilot with 1-2 shifts, refine workflows | 10-15K SEK |
+| Phase 3 | Month 4-6 | Roll out to all shifts, phase out Excel tracking | 20-25K SEK |
+
+**Total Investment:** 50-70K SEK  
+**Annual Return:** 40-60K SEK  
+**Payback Period:** ~12-18 months  
+
+**Additional Benefits:**
+- Real-time operational visibility for management
+- Reduced Tom's review bottleneck (frees time for higher-value work)
+- Better data quality (single entry point)
+- Faster incident response (no data entry delays)
+
+---
+
+### Action 3: Invest in Flexite Integration (STRATEGIC)
 
 **Why:** Core platform excellent, isolation is the problem
 
@@ -210,7 +288,7 @@
 
 ---
 
-### Action 3: Respect Agda/Visma Manual Controls
+### Action 4: Respect Agda/Visma Manual Controls
 
 **Key Insight:** Not all manual processes are inefficiencies
 
@@ -223,7 +301,7 @@
 
 ---
 
-### Action 4: Wait for Ascendo Assessment
+### Action 5: Wait for Ascendo Assessment
 
 **Why Wait:** Ascendo results will reveal if SAP integration problems are systemic
 
@@ -237,7 +315,7 @@
 
 ---
 
-### Action 5: Consider Integration Middleware (FUTURE)
+### Action 6: Consider Integration Middleware (FUTURE)
 
 **When to Consider:**
 - ✅ If 3+ systems need SAP integration
@@ -266,7 +344,8 @@
 
 | Insight | Implication |
 |---------|-------------|
-| **96% of waste = 1 broken integration** | Fix Idus-SAP before anything else |
+| **91% of waste = 1 broken integration** | Fix Idus-SAP before anything else |
+| **Excel as data hub = hidden inefficiency** | Shift leaders need direct system access - 40-60K SEK opportunity |
 | **Flexite core is excellent** | Don't replace - integrate! Saves 500K+ SEK wrong decision |
 | **Not all manual = bad** | Ekonomi team controls are intentional risk management |
 | **Pattern emerging** | If Ascendo also has SAP issues → systemic problem |
@@ -278,12 +357,15 @@
 
 1. **Week 1-2:** Complete Ascendo assessment - focus on SAP integration quality
 2. **Week 3-4:** Decision on Idus-SAP (repair vs evaluate alternatives)
-3. **Month 2-3:** Begin Idus-SAP restoration OR start CMMS evaluation
-4. **Month 4-6:** Initiate Flexite government integration if Idus path clear
-5. **Month 6+:** Roll out remaining integrations based on priority matrix
+3. **Month 1-2:** **Initiate shift leader direct system access pilot** (parallel to Idus-SAP decision)
+4. **Month 2-3:** Begin Idus-SAP restoration OR start CMMS evaluation
+5. **Month 4-6:** Initiate Flexite government integration if Idus path clear
+6. **Month 4-6:** Complete shift leader system access rollout
+7. **Month 6+:** Roll out remaining integrations based on priority matrix
 
 ---
 
-**Total Integration Opportunity:** ~1.61-1.64M SEK annually  
+**Total Integration Opportunity:** ~1.65-1.70M SEK annually  
 **Critical Path:** Fix Idus-SAP integration first - it blocks everything else  
+**Quick Win:** Enable shift leader direct system access (12-18 month payback)  
 **Assessment Status:** 3 of 4 complete | Ascendo pending
