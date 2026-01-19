@@ -157,6 +157,13 @@ Decision:      PENDING
 
 **🚨 54% of Idus waste (2.5M SEK) comes from SAP + Mobile categories based on unvalidated assumptions**
 
+**⚠️ ADDITIONAL UNQUANTIFIED WASTE:** Both Idus and Flexite have **shift leader Excel maintenance time** that is NOT included in above figures:
+- Shift leaders maintain parallel Excel tracking systems before data enters formal systems
+- Time spent on Excel sheets (tracking, analysis, decision-making, "Felanmälan" creation) not measured
+- Double/triple data entry waste (Excel → "Felanmälan" → Idus OR Excel → Flexite) not fully captured
+- **Estimated impact if quantified:** Could add 50-100K+ SEK annually across both systems
+- **Investigation required** to determine actual cost
+
 ---
 
 ## Executive Summary Table
@@ -218,11 +225,17 @@ Decision:      PENDING
 
 | System | Manual Workaround Pattern | Root Cause | Hidden Cost Impact |
 |--------|--------------------------|------------|-------------------|
-| **Idus** | Users submit Excel "Fel anmälan" → Super user manually reviews → Decides work order or quick fix | System complexity / unclear entry process | Super user triage time + delayed work orders |
+| **Idus** | **Shift leaders** maintain Excel tracking sheets → Analyze to determine Idus need → Create Excel "Felanmälan" → **Super user** manually reviews → Decides work order or quick fix | System complexity / Multi-layer manual process / Unclear entry criteria | Shift leader Excel maintenance time + Super user triage time + Delayed work orders + **Double/triple data entry** |
 | **Agda/Visma** | Users submit paper leave requests instead of self-service portal | Digital literacy gaps / computer discomfort | Manual data entry (41-83K SEK/year already calculated) |
-| **Flexite** | Super user must educate users on Idus vs Flexite boundaries for incident reporting | Unclear system boundaries / process confusion | Education time + potential misclassification |
+| **Flexite** | **Shift leaders** maintain Excel tracking sheets → Analyze to determine Flexite need → Enter in Flexite → **Manual analysis** for preventive plans | Unclear system boundaries / Manual analysis requirement | Shift leader Excel maintenance time + Manual preventive analysis time + **Double data entry** |
 
-**Cross-System Pattern:** All three systems experience manual bypasses, suggesting organizational challenges with digital adoption, process clarity, and training effectiveness. Notably, Flexite achieves 100% compliance despite process boundary confusion, demonstrating that clear system design and effective change management can overcome these barriers.
+**🚨 CRITICAL DISCOVERY:** Both Idus and Flexite have an **unquantified Excel pre-processing layer** where shift leaders maintain parallel tracking systems before deciding what enters the formal systems. This represents significant hidden waste:
+- **Shift leader time maintaining Excel sheets** (not previously quantified)
+- **Double/triple data entry** (Excel → "Felanmälan" → Idus OR Excel → Flexite)
+- **Manual analysis and triage time** at multiple steps
+- **Delayed incident response** due to multi-step manual processes
+
+**Cross-System Pattern:** All three systems experience manual bypasses. The Idus and Flexite workflows are particularly concerning because shift leaders maintain **shadow Excel systems** as primary data collection tools, with formal systems used only after manual analysis and filtering. This suggests fundamental usability and process clarity issues requiring urgent attention.
 
 **Strategic Implication:** Hidden costs include super user triage time (Idus), manual data entry (Agda/Visma - already quantified), and ongoing user education (Flexite). These adoption barriers represent organizational capability gaps that span all systems, not just technical limitations within individual platforms.
 
@@ -253,7 +266,14 @@ Decision:      PENDING
 
 **🎯 RECOMMENDATION:** Do NOT commit investment before validation study
 
-**📝 USER ADOPTION NOTE:** Users bypass direct system entry by submitting Excel "Fel anmälan" reports, requiring super user manual triage and work order creation decisions. This adds hidden costs in super user time and delays work order processing.
+**📝 USER ADOPTION NOTE:** Multi-layer manual process creates significant hidden waste:
+1. **Shift leaders maintain Excel tracking sheets** for all operational issues (time not quantified)
+2. **Shift leaders analyze Excel data** to determine what needs Idus entry (decision time not quantified)
+3. **Shift leaders create Excel "Felanmälan"** reports for selected items (formatting time not quantified)
+4. **Super user manually reviews** each "Felanmälan" (triage time not quantified)
+5. **Super user decides** work order vs. quick fix (decision time not quantified)
+
+This **5-step manual process with triple data entry** (Excel tracking → Excel Felanmälan → Idus work order) adds substantial unquantified costs in shift leader time, super user time, and delayed work order processing. The 176,000 SEK manual reporting cost may significantly underestimate actual waste.
 
 ---
 
@@ -304,6 +324,14 @@ Decision:      PENDING
 **💰 ESTIMATED WASTE:** 60-90K SEK/year
 
 **🎯 RECOMMENDATION:** Invest in government integration and dashboard automation
+
+**📝 USER ADOPTION NOTE:** Multi-step manual process identified:
+1. **Shift leaders maintain Excel tracking sheets** for observations, accidents, near-misses (time not quantified)
+2. **Shift leaders analyze Excel data** to determine what needs Flexite entry (decision time not quantified)  
+3. **Shift leaders enter selected incidents in Flexite** (achieves 100% compliance for formal incidents)
+4. **Super user manually analyzes** incident data for preventive planning (time partially captured in dashboard creation cost)
+
+This **4-step process with double data entry** (Excel tracking → Flexite) adds unquantified shift leader Excel maintenance time. The 60-90K SEK waste estimate captures government reporting and dashboard work but may not fully account for shift leader Excel time investment.
 
 **📝 USER ADOPTION NOTE:** Super user team educates users on Idus/Flexite boundaries - which incidents should be logged where. Despite this process boundary confusion, Flexite achieves 100% compliance, demonstrating that clear system design and effective change management can overcome adoption barriers.
 
@@ -401,10 +429,18 @@ Decision:      PENDING
 
 **Note on Flexite:** Users may export and adjust data slightly to align with company working modes (especially during new year period), but overall data quality and assessment confidence remain high.
 
+**⚠️ UNQUANTIFIED COST ALERT:** Both Idus and Flexite assessments discovered significant **shift leader Excel maintenance time** that was NOT quantified in original waste calculations:
+- **Shift leaders maintain parallel Excel tracking systems** before data enters formal systems
+- **Time spent on Excel sheets** (tracking, analysis, decision-making) is not measured
+- **Double/triple data entry waste** (Excel → Felanmälan → Idus OR Excel → Flexite) not fully captured
+- **Estimated impact:** Could add 50-100K+ SEK annually across both systems if measured
+
+This suggests actual waste for both systems may be **higher than reported figures**.
+
 **Asymmetric Confidence Impact:**
 - Agda/Visma 75K SEK → High confidence, can act immediately
-- Flexite 60-90K SEK → High confidence, reasonable to proceed
-- Idus 4.7M SEK → Low confidence, **MUST validate before committing**
+- Flexite 60-90K SEK → High confidence, reasonable to proceed, **but may underestimate shift leader time**
+- Idus 4.7M SEK → Low confidence, **MUST validate before committing**, **plus unquantified shift leader time**
 
 ### Investment Decision Framework
 
@@ -489,8 +525,11 @@ Decision:      PENDING
 
 **🔍 Idus Validation Study**
 - [ ] Time-tracking study (actual vs. estimated manual process times)
-- [ ] Additional user interviews (3-5 technicians, occasional users, production team)
+- [ ] **Quantify shift leader Excel maintenance time:** Track time spent maintaining Excel sheets, analyzing data, and creating "Felanmälan" reports
+- [ ] **Map complete workflow:** Excel tracking → Analysis → "Felanmälan" creation → Super user review → Work order decision
+- [ ] Additional user interviews (3-5 technicians, occasional users, production team, **shift leaders**)
 - [ ] Document real workflow patterns and pain points
+- [ ] **Calculate triple data entry waste:** Excel → "Felanmälan" → Idus work order
 
 **🔍 Idus Market Evaluation**
 - [ ] Research 3-5 modern CMMS alternatives (Planon, Ultimo, Fiix, eMaint)
@@ -502,10 +541,20 @@ Decision:      PENDING
 - [ ] Engage Flexite vendor on government integration roadmap
 - [ ] Calculate ROI for 144 annual report automation
 - [ ] Begin automated dashboard requirement documentation
+- [ ] **Quantify shift leader Excel maintenance time:** Track time spent maintaining Excel sheets and analyzing data before Flexite entry
+- [ ] **Interview shift leaders:** Understand workflow and decision criteria for Flexite vs. Idus incident classification
+- [ ] **Calculate double data entry waste:** Excel tracking → Flexite entry
+- [ ] **Assess manual preventive analysis time:** Super user time analyzing incidents for preventive plans
 
 **✅ Complete Portfolio**
 - [ ] Complete Ascendo assessment
 - [ ] Update comparison matrix with four-system perspective
+- [ ] **🚨 CROSS-SYSTEM INVESTIGATION: Shift Leader Excel Workflows**
+  - [ ] Identify all shift leader Excel tracking sheets (Idus-related, Flexite-related, others)
+  - [ ] Quantify total shift leader time maintaining parallel Excel systems
+  - [ ] Assess why Excel is preferred over direct system entry
+  - [ ] Calculate combined waste from double/triple data entry across systems
+  - [ ] Evaluate if this pattern exists in other areas (Agda/Visma, Ascendo, etc.)
 
 ### Month 4-5 - CRITICAL DECISION GATE
 
