@@ -70,17 +70,19 @@ Decision:      VALIDATION STUDY REQUIRED
 
 ### 👥 Agda/Visma - HR & Payroll
 ```
-Status:        ✅ Assessment Complete (VALIDATED)
+Status:        ✅ Assessment Complete
 Criticality:   10/10
-Interview:     Super user (7 yrs experience) + Ekonomi team validation
-Annual Waste:  75,000 SEK (validated)
-Data Quality:  🟢 HIGH CONFIDENCE
+Interview:     Super user (7 yrs experience) - SINGLE SOURCE
+Annual Waste:  75,000 SEK (Helena's assessment)
+Data Quality:  🟢 HIGH - Experienced super user, well-documented processes
 Decision:      INVEST IN EXISTING PLATFORM
 ```
 
 **🎯 Priority Actions:**
 1. Launch self-service adoption campaign (42-83K SEK/year savings)
 2. Training initiative for unused features
+
+**📝 Note on Manual Controls:** Helena reports that manual banking/accounting transfers are intentional per Ekonomi team requirements for payment validation. This has not been independently verified with Ekonomi team but aligns with typical finance control practices.
 
 ---
 
@@ -152,9 +154,9 @@ Two systems performing excellently (Agda/Visma, Ascendo), one needs integration 
 | System | Annual Waste | % of Total | Data Quality | Validation Status |
 |--------|--------------|------------|--------------|-------------------|
 | Idus | 4,730,590 SEK | 97% | 🔴 Low | **REQUIRES VALIDATION** |
-| Agda/Visma | 75,000 SEK | 1.5% | 🟢 High | ✅ Stakeholder validated |
-| Flexite | 75,000 SEK | 1.5% | 🟢 High | ✅ Validated |
-| Ascendo | MINIMAL | <0.1% | 🟢 High | ✅ Best-in-class performance |
+| Agda/Visma | 75,000 SEK | 1.5% | 🟢 High | Single source (Helena - experienced, credible) |
+| Flexite | 75,000 SEK | 1.5% | 🟢 High | Single source (well-documented compliance focus) |
+| Ascendo | MINIMAL | <0.1% | 🟢 High | ✅ Two sources corroborating |
 
 **Portfolio Insight:** Three systems (Agda/Visma, Flexite, Ascendo) combined waste is ~150K SEK (3% of total). One system (Idus) represents 97% of waste IF estimates accurate. This extreme concentration suggests Idus validation study should be top priority for investment decisions.
 
@@ -192,18 +194,19 @@ Two systems performing excellently (Agda/Visma, Ascendo), one needs integration 
 | **Ascendo** | Invoice processing | 10/10 | Excellent (both users) | MINIMAL ✓ | Maintain (best-in-class) |
 
 **Legend:**
-- ⚠️ = Requires validation (poor data structure/single source)
-- ✓ = Reliable data
-- 🔴 = Low confidence (data quality issues)
-- 🟢 = High confidence (validated)
+- ⚠️ = Requires validation (poor data structure/single source with concerns)
+- ✓ = Credible single-source or multiple sources
+- 🔴 = Low confidence (data quality issues, unvalidated assumptions)
+- 🟢 = High confidence (experienced source, credible assessment)
 
 **Data Quality Notes:**
 - Idus: Poor data hygiene and structure in system; single source interview
+- Agda/Visma: Single source (Helena) with 7 years experience; Helena reports manual controls are per Ekonomi team requirements (not independently verified)
 - Flexite: High confidence; users may adjust exported data for company workflows
 - Ascendo: High confidence; two sources corroborating, best-in-class performance
 
 **Four-System Portfolio Assessment:**
-- **Two excellence cases** (Agda/Visma, Ascendo): 10/10 criticality, validated data, minimal waste
+- **Two excellence cases** (Agda/Visma, Ascendo): 10/10 criticality, credible assessments, minimal waste
 - **One integration opportunity** (Flexite): 9/10 criticality, strong core, needs connections
 - **One validation required** (Idus): 9/10 criticality, unvalidated 4.7M SEK waste claim
 
@@ -227,7 +230,7 @@ Two systems performing excellently (Agda/Visma, Ascendo), one needs integration 
 | System | #1 Priority | Impact | Difficulty | Timeline |
 |--------|------------|--------|------------|----------|
 | **Idus** | Evaluate alternatives vs. investment | High IF accurate | Medium | 3-4 months |
-| **Agda/Visma** | Self-service adoption campaign | Medium (validated) | Low | 1-2 months |
+| **Agda/Visma** | Self-service adoption campaign | Medium (credible estimate) | Low | 1-2 months |
 | **Flexite** | Government integration | Medium | Medium | 3-6 months |
 | **Ascendo** | Monitor minor pain points | Very Low | Very Low | Ongoing |
 
@@ -330,15 +333,18 @@ This **5-step manual process with triple data entry** (Excel tracking → Excel 
 3. Missing production system integration
 
 **✅ VALIDATED DATA**
-- Ekonomi team confirmed intentional manual controls
-- Costs verified through stakeholder discussions
-- High confidence in recommendations
+- Helena (7 years experience) provides credible, well-informed assessment
+- Manual controls reported as intentional per Ekonomi team requirements (Helena's understanding - not independently verified)
+- Cost estimates based on observable processes
+- High confidence in recommendations despite single-source data
 
-**💰 WASTE COST:** 75K SEK/year (validated)
+**💰 WASTE COST:** 75K SEK/year (Helena's assessment)
 
 **🎯 RECOMMENDATION:** Proceed with self-service adoption campaign immediately
 
 **📝 USER ADOPTION NOTE:** Paper leave requests continue due to digital literacy gaps and computer discomfort among some users. This waste is already quantified in the 41-83K SEK/year calculation above.
+
+**📝 DATA QUALITY NOTE:** Assessment based on Helena (super user, 7 years experience) only. Her report that manual banking/accounting transfers are intentional Ekonomi team requirements has not been independently verified but aligns with typical finance control practices. Consider brief confirmation with Ekonomi team to validate this understanding.
 
 ---
 
@@ -503,8 +509,11 @@ This **4-step process with double data entry** (Excel tracking → Flexite) adds
 | System | Assessment Reliability | Reason | Investment Confidence |
 |--------|----------------------|--------|---------------------|
 | **Idus** | 🔴 Low | Single source + poor data structure/hygiene | Requires validation |
-| **Agda/Visma** | 🟢 High | Stakeholder corroboration + validated | Can proceed |
+| **Agda/Visma** | 🟢 High | Experienced super user (7 yrs) + credible assessment | Can proceed with reasonable confidence |
 | **Flexite** | 🟢 High | Compliance-focused + well-documented | Can proceed |
+| **Ascendo** | 🟢 Very High | Two sources corroborating + measurable results | Maintain excellence |
+
+**Note on Agda/Visma:** Assessment from single source (Helena, 7 years experience). Her report that manual banking/accounting transfers are intentional per Ekonomi team requirements has not been independently verified but aligns with typical finance control practices. Brief Ekonomi team confirmation would increase confidence to "very high."
 
 **Note on Flexite:** Users may export and adjust data slightly to align with company working modes (especially during new year period), but overall data quality and assessment confidence remain high.
 
@@ -517,6 +526,10 @@ This **4-step process with double data entry** (Excel tracking → Flexite) adds
 This suggests actual waste for both systems may be **higher than reported figures**.
 
 **Asymmetric Confidence Impact:**
+- Agda/Visma 75K SEK → High confidence in Helena's credible assessment, can act with reasonable confidence
+- Flexite 60-90K SEK → High confidence, compliance-documented, reasonable to proceed
+- Ascendo MINIMAL → Very high confidence, two sources + measurable performance data
+- Idus 4.7M SEK → Low confidence, **MUST validate before committing**
 - Agda/Visma 75K SEK → High confidence, can act immediately
 - Flexite 60-90K SEK → High confidence, reasonable to proceed, **but may underestimate shift leader time**
 - Idus 4.7M SEK → Low confidence, **MUST validate before committing**, **plus unquantified shift leader time**
@@ -678,7 +691,7 @@ Based on validation study and market evaluation, choose path:
 
 **✅ Completed Assessments:**
 - **Idus** - Super user (Functional Technician) - ⚠️ Single source, validation required
-- **Agda/Visma** - Super user (7 years experience) - ✓ Stakeholder validated
+- **Agda/Visma** - Super user (7 years experience) - ✓ Single source, credible assessment
 - **Flexite** - Super user (Health & Safety Manager, 8 years system experience) - ✓ High confidence
 - **Ascendo** - Two super users (AP Accountant, AP Manager, 3+ years experience) - ✓ Corroborating assessments
 
@@ -713,7 +726,7 @@ Based on validation study and market evaluation, choose path:
 
 **Excellence Tier (Maintain):**
 - ✅ **Ascendo** - Best-in-class performance, zero waste, reference implementation
-- ✅ **Agda/Visma** - Training needed (validated, low risk, 75K SEK opportunity)
+- ✅ **Agda/Visma** - Training needed (credible assessment, 75K SEK opportunity)
 
 **Integration Tier (Invest):**
 - 🔧 **Flexite** - Government integration needed (compliance-critical, 60-90K SEK savings)
