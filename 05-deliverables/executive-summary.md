@@ -1,5 +1,5 @@
 # IT Systems Portfolio Assessment
-## Executive Decision Brief - Kubal Manufacturing
+## Executive Decision Brief 
 
 **Assessment Date:** January 2026  
 **Assessment Period:** December 2025 - January 2026  
