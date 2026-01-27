@@ -12,19 +12,19 @@
 ```
 IMPROVEMENT OPPORTUNITY ASSESSMENT
 ┌─────────────────────────────────────────────────────────────┐
-│                                                               │
-│  🟢 ASCENDO (Invoice Processing)                            │
-│     Status: ✓ Excellent - Reference Standard                │
-│     Action: Maintain current approach                        │
-│                                                               │
-│  🟢 AGDA/VISMA (HR & Payroll)                               │
-│     Status: ✓ Strong Core Performance                        │
-│     Opportunity: Training & self-service adoption            │
-│                                                               │
+│                                                             │
+│  🟢 ASCENDO (Invoice Processing)                           │
+│     Status: ✓ Excellent - Reference Standard               │
+│     Action: Maintain current approach                      │
+│                                                            │
+│  🟢 AGDA/VISMA (HR & Payroll)                             │
+│     Status: ✓ Strong Core Performance                      │
+│     Opportunity: Training & self-service adoption           │
+│                                                             │
 │  🟡 FLEXITE (Safety Management)                             │
-│     Status: ⚠️  Adequate for Compliance                      │
+│     Status: ⚠️  Adequate for Compliance                     │
 │     Opportunity: Government reporting automation             │
-│     Note: Limited analytical capabilities                    │
+│     Note: Data recording w/o limited analytical capabilities │
 │                                                               │
 │  🟡 WORKFLOW OPTIMIZATION                                    │
 │     Status: ⚠️  Excel-based processes identified             │
@@ -45,8 +45,6 @@ Focus: Validate Idus improvements before investing.
 
 ## 🎯 CRITICAL DECISION: IDUS IMPROVEMENT OPPORTUNITY
 
-**Management needs to decide on proposed 800K+ SEK Idus improvement program**
-
 ### ⚠️ THE SITUATION
 - Significant improvement opportunities identified in Idus system
 - Based on input from super user Tom (functional technician)
@@ -54,15 +52,15 @@ Focus: Validate Idus improvements before investing.
 - Want to ensure we're solving the right problems
 
 ### 🤔 THE QUESTION
-**Should we invest 800K SEK in:**
+**Should we invest in:**
 - SAP integration improvements
 - Mobile access modules
-- Additional system capabilities
-- User permission expansions
+- Additional system modules and capabilities
+- Expanded user access rights (let more people use system directly)
 
 ### ✅ RECOMMENDED PATH FORWARD
 
-**PHASE 1: VALIDATION STUDY (Month 1-3) - 50-75K SEK**
+**PHASE 1: VALIDATION STUDY**
 ```
 ┌──────────────────────────────────────────────────┐
 │ Validation Study Components:                      │
@@ -78,7 +76,7 @@ Focus: Validate Idus improvements before investing.
 └──────────────────────────────────────────────────┘
 ```
 
-**PHASE 2: IMPLEMENT BASED ON DATA (Month 4)**
+**PHASE 2: IMPLEMENT BASED ON DATA**
 - Path A: Full upgrade program (if validated)
 - Path B: Targeted improvements (if some items not needed)
 - Path C: Alternative solutions (if better options exist)
@@ -105,11 +103,9 @@ Focus: Validate Idus improvements before investing.
 │    System operates at reference standard level.             │
 │    Use as internal benchmark for other systems.             │
 │                                                              │
-│ 📞 IT SUPPORT & CONTACTS:                                   │
-│    Primary Users:  Rhodora Centeno Engelfeldt, Inna        │
-│    For Questions:  [IT Contact Name/Email]                  │
+│ 📞 SYSTEM SUPPORT:                                          │
+│    IT support:     Rarely                                    │
 │    Vendor Support: Ascendo                                   │
-│    Review Schedule: Monthly check-in recommended            │
 │    Status:         No action needed - performing well       │
 └─────────────────────────────────────────────────────────────┘
 
@@ -134,8 +130,8 @@ Focus: Validate Idus improvements before investing.
 │    System capabilities are strong, employees need           │
 │    training to fully utilize available features.            │
 │                                                              │
-│ 📞 IT SUPPORT & CONTACTS:                                   │
-│    Super User:     Helena (7 years experience)              │
+│ 📞 SYSTEM SUPPORT:                                          │
+│    IT support:     Never                                    │
 │    For Questions:  [IT Contact Name/Email]                  │
 │    Vendor Support: Visma (Swedish support available)        │
 │    Training Coord: Contact HR for campaign planning         │
@@ -144,22 +140,22 @@ Focus: Validate Idus improvements before investing.
 
 ┌─────────────────────────────────────────────────────────────┐
 │ 🟡 FLEXITE - Safety Incident Management                     │
-│ Rating: ⭐⭐⭐ (Adequate for Current Needs)                   │
+│ Rating: ⭐⭐⭐ (Adequate for Current Needs)                │
 ├─────────────────────────────────────────────────────────────┤
-│ Performance:      Meets compliance requirements              │
-│ User Satisfaction: High (100% user compliance achieved)      │
+│ Performance:      Meets compliance requirements             │
+│ User Satisfaction: High (100% user compliance achieved)     │
 │ System Type:      Data recording & compliance tracking      │
-│ Analytical Tools: ⚠️ Limited - manual analysis by users      │
-│ Preventive Tools: ⚠️ Basic - users create plans manually     │
-│ Integration:      ❌ Standalone system                       │
-│                                                              │
-│ ℹ️  SYSTEM CHARACTERISTICS:                                  │
+│ Analytical Tools: ⚠️ Limited - manual analysis by users    │
+│ Preventive Tools: ⚠️ Basic - users create plans manually   │
+│ Integration:      ❌ Standalone system                     │
+│                                                             │
+│ ℹ️  SYSTEM CHARACTERISTICS:                                │
 │    Flexite is designed as a compliance recording system.    │
 │    Safety improvements at Kubal are achieved through        │
 │    Jan-Eric's excellent manual analysis and follow-up       │
 │    actions, not through automated system intelligence.      │
 │    High satisfaction indicates it meets basic needs well.   │
-│                                                              │
+│                                                             │
 │ 🎯 IMPROVEMENT OPPORTUNITY:                                 │
 │    Government Reporting Automation (Short-term)             │
 │    • Focus: Eliminate manual export/formatting              │
@@ -167,62 +163,59 @@ Focus: Validate Idus improvements before investing.
 │    • Investment: 60-90K SEK                                 │
 │    • Timeline: Q2 2026                                      │
 │    • Priority: Medium (not urgent)                          │
-│                                                              │
+│                                                             │
 │ 💡 Recommendation:   MAINTAIN FOR NOW                       │
 │    Current system adequate for compliance recording.        │
 │    Consider analytical upgrade in future if needed.         │
-│                                                              │
-│ 📞 IT SUPPORT & CONTACTS:                                   │
-│    Super User:     Jan-Eric (Health & Safety Manager)       │
-│    For Questions:  [IT Contact Name/Email]                  │
-│    Vendor Support: Flexite                                   │
+│                                                             │
+│ 📞 SYSTEM SUPPORT:                                         │
+│    IT support:     Rarely                                   │
+│    Vendor Support: Flexite                                  │
 │    Quick Win:      Explore govt reporting automation        │
 │    Status:         Functioning well, optional upgrade       │
 └─────────────────────────────────────────────────────────────┘
 
-┌─────────────────────────────────────────────────────────────┐
-│ 🔴 IDUS - CMMS Maintenance Management                        │
-│ Rating: ⭐⭐ (Requires Investigation)                        │
-├─────────────────────────────────────────────────────────────┤
-│ Performance:      Unclear (need broader assessment)          │
-│ User Satisfaction: High (from super user Tom)                │
-│ SAP Integration:  ❌ Reported issues                         │
-│ Mobile Access:    ❌ Limited functionality                   │
-│ Data Confidence:  🔴 Need input from more users              │
-│                                                              │
-│ 🚨 KEY CONSIDERATION:                                        │
-│    Major investment proposed (800K+ SEK) based on feedback  │
-│    from one super user. Need broader perspective from       │
-│    regular users, shift leaders, and IT team before         │
-│    committing resources. Want to ensure we're solving       │
-│    the right problems in the right priority order.          │
-│                                                              │
-│ 🎯 RECOMMENDED APPROACH:                                    │
-│    PHASE 1: Validation Study (Month 1-3, 50-75K SEK)       │
+┌────────────────────────────────────────────────────────────┐
+│ 🔴 IDUS - CMMS Maintenance Management                     │
+│ Rating: ⭐⭐ (Requires Investigation)                     │
+├────────────────────────────────────────────────────────────┤
+│ Performance:      Unclear (need broader assessment)        │
+│ User Satisfaction: High (from super user Tom)              │
+│ SAP Integration:  ❌ Reported issues                       │
+│ Mobile Access:    ❌ Limited functionality                 │
+│ Data Confidence:  🔴 Need input from more users            │
+│                                                             │
+│ 🚨 KEY CONSIDERATION:                                       │
+│    Major investment proposed based on feedback from one     │
+│    super user. Need broader perspective from regular users, │
+│    shift leaders, and IT team before committing resources.  │
+│    Want to ensure we're solving the right problems in the   │
+│    right priority order.                                    │
+│                                                             │
+│ 🎯 RECOMMENDED APPROACH:                                   │
+│    PHASE 1: Validation Study                                │
 │    • Interview 8-10 Idus users (various roles)              │
 │    • Understand shift leader Excel workflows                │
-│    • Test SAP integration with IT support                    │
-│    • Compare with modern CMMS alternatives                   │
-│    • Quantify actual improvement opportunities               │
-│    • Prioritize investments by impact                        │
-│                                                              │
-│    PHASE 2: Implement Based on Findings (Month 4+)          │
+│    • Test SAP integration with IT support                   │
+│    • Compare with modern CMMS alternatives                  │
+│    • Quantify actual improvement opportunities              │
+│    • Prioritize investments by impact                       │
+│                                                             │
+│    PHASE 2: Implement Based on Findings                     │
 │    Choose path based on validation results:                 │
 │    A) Full upgrade program (if all items validated)         │
 │    B) Targeted improvements (if some items not needed)      │
 │    C) Alternative solutions (if better options exist)       │
-│                                                              │
-│ 💡 Recommendation:   VALIDATE THEN DECIDE                   │
-│    50-75K validation investment = insurance on 800K         │
-│    decision. Ensures we invest in right solutions.          │
-│                                                              │
-│ 📞 IT SUPPORT & CONTACTS:                                   │
-│    Super User:     Tom (Functional Technician)              │
-│    For Questions:  [IT Contact Name/Email]                  │
-│    Vendor Support: Idus                                      │
+│                                                             │
+│ 💡 Recommendation:   VALIDATE THEN DECIDE                  │
+│    to validation before making the decission.               |
+|    Ensures we invest in right solutions.                    │
+│                                                             │
+│ 📞 SYSTEM SUPPORT:                                         │
+│    IT support:     Rarely                                   │
+│    Vendor Support: Idus                                     │
 │    Priority Action: Schedule validation study kickoff       │
 │    Next Steps:     Identify 8-10 users for interviews       │
-│    Timeline:       Begin Month 1, decide Month 4            │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -236,26 +229,26 @@ Focus: Validate Idus improvements before investing.
 
 ```
 CURRENT WORKFLOW PATTERN:
-┌────────────────────────────────────────────────────────────┐
-│                                                              │
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
 │  Shift Leader observes equipment issue or safety incident   │
-│                        ↓                                     │
+│                        ↓                                    │
 │  Records initial notes in EXCEL spreadsheet                 │
-│                        ↓                                     │
+│                        ↓                                    │
 │  Analyzes: Which system is appropriate?                     │
-│                        ↓                                     │
-│  ├─→ IDUS Path (Equipment):                                │
-│  │   • Creates formatted "Felanmälan" report               │
+│                        ↓                                    │
+│  ├─→ IDUS Path (Equipment):                                 │
+│  │   • Creates formatted "Felanmälan" report                │
 │  │   • Submits to Tom for review                            │
 │  │   • Tom evaluates and enters into Idus                   │
 │  │   • Can take 2-3 days                                    │
-│  │                                                           │
-│  └─→ FLEXITE Path (Safety):                                │
+│  │                                                          │
+│  └─→ FLEXITE Path (Safety):                                 │
 │      • Enters directly into Flexite system                  │
 │      • Performs manual incident analysis                    │
 │      • Creates preventive action plan manually              │
-│                                                              │
-└────────────────────────────────────────────────────────────┘
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 **Why This Matters:**
@@ -267,11 +260,10 @@ CURRENT WORKFLOW PATTERN:
 **Improvement Opportunities:**
 1. **Immediate:** 2-month tracking study to understand Excel usage patterns
 2. **Short-term:** Pilot direct Idus access for 2-3 shift leaders
-3. **Long-term:** Streamline workflows (Flexite proves direct access works)
+3. **Long-term:** Streamline workflows (Since shift leaders successfully use Flexite directly, consider either expanding direct Idus access or implementing workflow integration between the two systems.)
 
-**📞 IT SUPPORT & CONTACTS:**
+**CONTACTS:**
 - Coordinate with: Tom (Idus), Jan-Eric (Flexite), Shift Leader Representatives
-- For Questions: [IT Contact Name/Email]
 - Priority Action: Schedule shift leader workflow interviews
 - Include In: Idus validation study (Phase 1)
 
@@ -355,7 +347,7 @@ CURRENT WORKFLOW PATTERN:
    - Timeline: Q2 2026
 
 **Requires Validation:**
-3. **Idus Improvements** (800K proposed)
+3. **Idus Improvements** (800K proposed -- need validation)
    - Need broader assessment
    - Validate priorities first
    - Timeline: Decide Month 4
@@ -366,16 +358,16 @@ CURRENT WORKFLOW PATTERN:
 
 ## 💰 INVESTMENT PLANNING
 
-### Three Scenarios for Management Consideration
+### Three Scenarios for Consideration
 
 ```
 SCENARIO A: VALIDATE FIRST (Recommended)
-┌────────────────────────────────────────────────────┐
-│ Month 1-3:  Idus Validation Study    50-75K SEK    │
+┌─────────────────────────────────────────────────────┐
+│ Month 1-3:  Idus Validation Study    50-75K SEK     │
 │             + Quick Win: Agda Training 25-40K SEK   │
 │             Total investment:          75-115K SEK  │
 │                                                     │
-│ Month 4:    Idus decision point (based on data)    │
+│ Month 4:    Idus decision point (based on data)     │
 │             → Proceed with validated improvements   │
 │             → Adjust priorities based on findings   │
 │                                                     │
@@ -384,11 +376,11 @@ SCENARIO A: VALIDATE FIRST (Recommended)
 │  • Right-sized investments                          │
 │  • Risk mitigation                                  │
 │  • Some quick wins delivered early                  │
-└────────────────────────────────────────────────────┘
+└─────────────────────────────────────────────────────┘
 
 SCENARIO B: PROCEED WITH PROPOSED PLAN
-┌────────────────────────────────────────────────────┐
-│ Month 1-12: Full Idus upgrade       800K SEK       │
+┌─────────────────────────────────────────────────────┐
+│ Month 1-12: Full Idus upgrade       800K SEK        │
 │             + Agda training         25-40K SEK      │
 │             Total investment:       825-840K SEK    │
 │                                                     │
@@ -400,13 +392,13 @@ SCENARIO B: PROCEED WITH PROPOSED PLAN
 │  • May invest in wrong priorities                   │
 │  • Limited validation of actual needs               │
 │  • Higher financial exposure                        │
-└────────────────────────────────────────────────────┘
+└─────────────────────────────────────────────────────┘
 
 SCENARIO C: QUICK WINS ONLY
-┌────────────────────────────────────────────────────┐
-│ Q1 2026:    Agda training           25-40K SEK     │
-│ Q2 2026:    Flexite reporting       60-90K SEK     │
-│ Defer:      Idus decision pending assessment       │
+┌─────────────────────────────────────────────────────┐
+│ Q1 2026:    Agda training           25-40K SEK      │
+│ Q2 2026:    Flexite reporting       60-90K SEK      │
+│ Defer:      Idus decision pending assessment        │
 │             Total investment:       85-130K SEK     │
 │                                                     │
 │ Benefits:                                           │
@@ -417,20 +409,14 @@ SCENARIO C: QUICK WINS ONLY
 │ Limitations:                                        │
 │  • Doesn't address Idus opportunities               │
 │  • May delay needed improvements                    │
-└────────────────────────────────────────────────────┘
+└─────────────────────────────────────────────────────┘
 ```
-
-**Management Recommendation:** **Scenario A (Validate First)**
-- Execute low-risk improvements immediately (Agda training)
-- Run Idus validation study in parallel
-- Make informed decision at Month 4 based on real data
-- Balance action with prudent validation
 
 ---
 
 ## 🎯 ACTION PLAN & TIMELINE
 
-### IMMEDIATE ACTIONS (Next 30 Days)
+### IMMEDIATE ACTIONS 
 
 **1. Idus Validation Study - Kickoff**
 - [ ] Approve 50-75K budget for validation study
@@ -454,7 +440,7 @@ SCENARIO C: QUICK WINS ONLY
 
 ---
 
-### SHORT-TERM ACTIONS (Next 90 Days)
+### SHORT-TERM ACTIONS 
 
 **4. Complete Idus Validation Study**
 - [ ] Deliver comprehensive validation report by Month 3
@@ -482,7 +468,7 @@ SCENARIO C: QUICK WINS ONLY
 
 ---
 
-### MEDIUM-TERM ACTIONS (Month 4-6) - DECISION POINT
+### MEDIUM-TERM ACTIONS - DECISION POINT
 
 **8. Idus Investment Decision - Month 4**
 
@@ -493,7 +479,7 @@ Based on validation study results, management chooses one path:
 - Add mobile access modules
 - Expand user permissions
 - Implement additional capabilities
-- Investment: Up to 800K SEK
+- Investment: Up to 800K SEK (need validation)
 - Expected benefits: As validated in study
 
 **PATH B: TARGETED IMPROVEMENTS** (if some items not needed)
@@ -505,7 +491,7 @@ Based on validation study results, management chooses one path:
 - Expected benefits: Validated priorities only
 
 **PATH C: ALTERNATIVE SOLUTION** (if better options exist)
-- Modern CMMS alternatives (Planon, Ultimo, Fiix, eMaint)
+- Modern CMMS alternatives 
 - May include standard features eliminating need for expensive modules
 - Investment: TBD based on market analysis
 - Expected benefits: Modern capabilities + better integration
@@ -518,7 +504,7 @@ Based on validation study results, management chooses one path:
 
 ---
 
-### LONG-TERM ACTIONS (Month 6-12)
+### LONG-TERM ACTIONS 
 
 **10. Workflow Optimization - Rollout**
 - [ ] Based on pilot results, expand successful approaches
@@ -541,15 +527,13 @@ Based on validation study results, management chooses one path:
 
 ---
 
-## 📋 MANAGEMENT DECISION MATRIX
-
-### What Decisions Are Needed This Month?
+## 📋 DECISION MATRIX
 
 | Decision | Options | Recommendation | Impact | Timeline |
 |----------|---------|----------------|--------|----------|
 | **Idus Approach** | A) Invest 800K now<br>B) Validate first (50-75K)<br>C) Defer | **B - Validate First** | Critical | Month 4 decision |
-| **Agda Training** | A) Fund 25-40K<br>B) Defer | **A - Fund Now** | Medium | Q1 2026 |
-| **Flexite Integration** | A) Fund 60-90K<br>B) Defer | **B - Defer to Q2** | Low | Q2 2026 |
+| **Agda Training** | A) Fund 25-40K<br>B) Defer | **A - Fund Now** | Medium | Q1 or Q2 2026 |
+| **Flexite Integration** | A) Fund 60-90K<br>B) Defer | **B - Defer to Q2** | Low | Q2 or Q3 2026 |
 | **Excel Workflow Study** | A) Track 2 months<br>B) Skip | **A - Track Now** | Medium | Include in Idus study |
 
 ---
@@ -565,10 +549,8 @@ Based on validation study results, management chooses one path:
 **Why Validation Matters:**
 - Current assessment based on one super user's perspective
 - Need broader input to confirm priorities
-- 50-75K study = insurance on 800K decision
+- A validation study provides confidence and risk mitigation before committing to a big investment.
 - Better to spend 3 months validating than invest in wrong solutions
-
-**Recommendation:** Confidence over speed. Better to invest 800K in the RIGHT things.
 
 ---
 
@@ -598,7 +580,8 @@ Shift leaders currently use Excel before entering data into formal systems.
 - **Idus:** Needs uncertain, requires validation → That's why we study first
 
 **What This Means:**
-Flexite's limited analytical capabilities aren't necessarily a "problem" - it meets its compliance recording purpose adequately. Jan-Eric's manual analysis skills drive safety improvements, and that's working well.
+Flexite's limited analytical capabilities aren't necessarily a "problem" - it meets its compliance recording purpose adequately.  
+The current system adequately supports super user's effective manual analysis process. Built-in analytical capabilities could provide additional efficiency but are not essential for achieving safety goals.
 
 **Recommendation:** Right-size expectations and investments to system purpose. Not every system needs advanced analytics.
 
@@ -619,22 +602,18 @@ This isn't a portfolio crisis - it's normal operations with some optimization op
 
 ---
 
-## 📞 IT SUPPORT & COORDINATION CONTACTS
+## COORDINATION CONTACTS
 
 ### Primary System Contacts
 
-| System | Super User | IT Coordinator | Vendor | Priority Action |
-|--------|------------|----------------|--------|-----------------|
-| **Ascendo** | Rhodora, Inna | [IT Contact] | Ascendo | Monthly check-ins |
-| **Agda/Visma** | Helena | [IT Contact] | Visma | Training coordination |
-| **Flexite** | Jan-Eric | [IT Contact] | Flexite | Integration evaluation |
-| **Idus** | Tom | [IT Contact] | Idus | Validation study |
+| System | Super User | Vendor | Priority Action |
+|--------|------------|--------|-----------------|
+| **Ascendo** | Rhodora, Inna | Ascendo | Monthly check-ins |
+| **Agda/Visma** | Helena | Visma | Training coordination |
+| **Flexite** | Jan-Eric | Flexite | Integration evaluation |
+| **Idus** | Tom | Idus | Validation study |
 
-### Validation Study Coordination
-
-**Lead Coordinator:** [IT Manager/Project Lead Name]  
-**Email:** [Email]  
-**Phone:** [Phone]
+### Validation Study Coordination (Idus)
 
 **Validation Study Team Needs:**
 - [ ] External consultant or internal audit lead (to ensure objectivity)
@@ -654,8 +633,6 @@ This isn't a portfolio crisis - it's normal operations with some optimization op
 ### Training Campaign Coordination
 
 **Lead Coordinator:** [HR Manager/Training Lead]  
-**Email:** [Email]  
-**Phone:** [Phone]
 
 **Training Campaign Needs:**
 - [ ] Helena (Agda super user) - Training content advisor
@@ -670,7 +647,7 @@ This isn't a portfolio crisis - it's normal operations with some optimization op
 - Training delivery: Weeks 5-12 (Q1 2026)
 - Follow-up measurement: Ongoing
 
-### Workflow Study Coordination
+### Workflow Study Coordination (Excel gap between production/Idus/Flexite)
 
 **Lead Coordinator:** [Operations Manager/Process Lead]  
 **Email:** [Email]  
@@ -731,16 +708,14 @@ This isn't a portfolio crisis - it's normal operations with some optimization op
 
 ## 🎬 THE BOTTOM LINE
 
-### What Management Needs to Know in 60 Seconds
-
 **1. Portfolio Health: GOOD (3 of 4 systems performing well)**
 - Ascendo: Excellent (reference standard)
 - Agda/Visma: Strong (training opportunity)
-- Flexite: Adequate (meets compliance needs)
+- Flexite: Adequate (Fulfills compliance requirements effectively. Workflow enhancements could be evaluated as a future optimization opportunity.)
 - Idus: Uncertain (requires validation)
 
 **2. Critical Decision This Month: Idus Investment Approach**
-- Proposed: 800K upgrade program
+- Proposed: 800K upgrade program (need to validate price -- quote is pending)
 - Issue: Based on single perspective, needs validation
 - Recommended: 50-75K validation study first
 
@@ -754,7 +729,7 @@ This isn't a portfolio crisis - it's normal operations with some optimization op
 
 **4. Quick Wins Available Now (Low Risk)**
 - ✅ Agda training campaign: 25-40K investment, clear ROI
-- ✅ Excel workflow study: Included in Idus validation
+- ✅ Excel workflow study: Included in Idus validation & Flexite
 - ⏸️ Flexite integration: Defer to Q2 (not urgent)
 
 **5. Recommended Strategy: Validate + Act**
@@ -805,29 +780,6 @@ Choose Idus improvement path (A/B/C) and approve budget
 
 ---
 
-## ❓ QUESTIONS & SUPPORT
-
-**For Questions About This Assessment:**
-- Contact: [Assessment Lead Name]
-- Email: [Email]
-- Phone: [Phone]
-
-**For System-Specific Questions:**
-- Ascendo: Rhodora/Inna or [IT Contact]
-- Agda/Visma: Helena or [IT Contact]
-- Flexite: Jan-Eric or [IT Contact]
-- Idus: Tom or [IT Contact]
-
-**For Budget/Investment Questions:**
-- Contact: [Finance/Controller Name]
-- Email: [Email]
-
-**For Validation Study Coordination:**
-- Contact: [Project Lead Name]
-- Email: [Email]
-
----
-
 ## 🎯 CLOSING STATEMENT
 
 **The Goal:**
@@ -848,10 +800,11 @@ A healthy IT portfolio supporting Kubal's manufacturing operations with:
 - Confidence in major financial commitments
 
 **The Timeline:**
-- **Now:** Approve validation study + Agda training
-- **Month 3:** Review validation findings
-- **Month 4:** Make informed Idus decision
-- **Year-end:** Optimized workflows, validated improvements delivered
+- [ ] Agda training
+- [ ] Optimized workflows, validated improvements delivered
+- [ ] Idus validation study
+- [ ] Review validation findings
+- [ ] Make informed Idus decision
 
 ---
 
@@ -860,6 +813,3 @@ A healthy IT portfolio supporting Kubal's manufacturing operations with:
 **Next Review:** Month 4 (April 2026)  
 **Status:** Ready for Management Review
 
----
-
-*"Investment confidence over cost magnitude. Right solutions over fast solutions."*
