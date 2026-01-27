@@ -39,9 +39,9 @@
 | **Ascendo** | Minimal | ~386K SEK saved | Strongly positive |
 | **Agda/Visma** | ~75K SEK | Solid (payroll compliance) | Positive |
 | **Flexite** | ~66K SEK | Compliance achieved | Positive |
-| **Idus** | **1.69M - 2.90M SEK** (unvalidated) | Unclear | **Needs investigation** |
+| **Idus** | **Not yet validated** | Unclear | **Needs investigation** |
 
-> **Talking point:** The Idus waste numbers are large but LOW confidence. That range is so wide it tells us we don't know enough yet.
+> **Talking point:** We identified potential waste in Idus, but the figures are not validated yet. We need a broader assessment before we can quote reliable numbers.
 
 ---
 
@@ -59,7 +59,7 @@
 - If Tom is unavailable, maintenance work orders stop
 - Double data entry wastes time
 - Equipment issues can take 2-3 days to reach the system
-- Estimated ~687K SEK/year in Excel shadow workflow waste alone
+- Excel shadow workflows create additional waste (exact figures need validation)
 
 **The catch:**
 - These findings come from Tom only (the super user)
@@ -142,18 +142,18 @@
 ### PRIORITY 2 - INVESTIGATE NOW (High Impact, Needs Data)
 
 **Idus Validation Study**
-- **Investment:** ~50-95K SEK for study
-- **Potential savings:** 1.69M - 2.90M SEK/year (IF waste figures are confirmed)
-- **Risk of NOT doing the study:** Investing blindly in the wrong solutions
+- **Why:** Current findings are based on a single super user's perspective. Before any investment decision, we need validated data from a broader user base.
+- **Risk of NOT doing the study:** Making investment decisions based on incomplete or biased information
 - **What the study covers:**
   - Interview 8-10 actual Idus users (not just Tom)
   - Test SAP integration with IT team
   - Track shift leader Excel usage for 2 months
   - Compare with modern CMMS alternatives
   - Pilot: Give 2-3 shift leaders direct Idus access
+- **Outcome:** Validated figures and a clear, prioritized improvement roadmap
 - **Timeline:** Month 1-3, then decide at Month 4
 
-> **The key argument:** We're being asked to make a significant investment based on one person's perspective. Spending 50-95K to validate before committing makes the final decision much stronger.
+> **The key argument:** We cannot make a sound investment decision without validated data. The study gives us the correct figures and the right priorities to act on.
 
 ---
 
@@ -174,11 +174,11 @@
 ### Decision 1: Approve Agda Training (25K SEK)
 - Straightforward. Recommend approval.
 
-### Decision 2: Approve Idus Validation Study (~50-95K SEK)
+### Decision 2: Approve Idus Validation Study
 - This is the critical decision
-- **Option A:** Validate first (recommended) - spend 50-95K to confirm before larger investment
+- **Option A:** Validate first (recommended) - confirm actual needs before committing budget
 - **Option B:** Skip validation and invest directly - faster but risks investing in wrong priorities
-- **Option C:** Defer everything on Idus - lowest cost now but waste continues
+- **Option C:** Defer everything on Idus - lowest cost now but issues continue
 
 ### Decision 3: Flexite Reporting (60-90K SEK)
 - Can defer. Not urgent. Bring up only if budget discussion allows.
@@ -188,7 +188,7 @@
 ## 7. TALKING POINTS FOR COMMON QUESTIONS
 
 **"Why can't we just fix Idus now?"**
-> We only have one person's perspective. The waste estimates range from 1.69M to 2.90M - that spread tells us we don't really know the scope. A 3-month study ensures we invest in the right things.
+> We only have one person's perspective. The waste figures are not validated yet - we need a broader assessment to get the correct numbers and confirm the real priorities. A 3-month study ensures we invest in the right things.
 
 **"Is this a crisis?"**
 > No. 3 of 4 systems perform well. Ascendo is best-in-class. This is about optimization, not firefighting.
@@ -200,8 +200,7 @@
 > Ascendo is our internal proof. Perfect SAP integration, 95-100% OCR accuracy, zero manual reconciliation. It shows our IT team CAN achieve excellent integration. We use it as the benchmark.
 
 **"What's the total cost?"**
-> Immediate: 25K (Agda training) + 50-95K (Idus study) = 75-120K SEK
-> Compare to: Investing without validation could mean spending significantly more on the wrong priorities
+> Immediate: 25K for Agda training (validated). Idus study budget to be scoped. Any further Idus investment depends on validation results - we'll have correct figures after the study.
 
 **"What's the timeline?"**
 > Month 1-3: Run Idus validation study + launch Agda training
@@ -215,19 +214,19 @@
 ```
 PORTFOLIO HEALTH: GOOD (3/4 systems performing well)
 
-BIGGEST RISK:    Investing in Idus without validation
-                 (estimates based on single user, low confidence)
+BIGGEST RISK:    Making Idus investment decisions without validated data
+                 (current findings from single user only)
 
 BIGGEST WIN:     Agda training - 25K investment, 75K/year return
 
-HIDDEN FINDING:  Excel workarounds ~656K/year waste
+HIDDEN FINDING:  Excel workarounds indicate workflow gaps
                  Possibly fixable with access permissions, not upgrades
 
 ASK:             1. Approve Agda training (25K) - easy win
-                 2. Approve Idus validation study (50-95K) - de-risk
+                 2. Approve Idus validation study - get correct figures
                  3. Defer Flexite reporting - not urgent
 
-NEXT CHECKPOINT: Month 4 - Present Idus validation results
+NEXT CHECKPOINT: Month 4 - Present validated Idus findings
                  and make data-driven investment decision
 ```
 
