@@ -19,9 +19,9 @@ interviews with the super users who manage them daily.
 | # | System | What It Does | Who Uses It |
 |---|--------|-------------|-------------|
 | 1 | **Idus** | Maintenance management (work orders, spare parts) | ~15-30 technicians & shift leaders |
-| 2 | **Agda/Visma** | HR, payroll, scheduling | All employees (~60-80) |
+| 2 | **Agda/Visma** | HR, payroll, scheduling | All employees (~400) |
 | 3 | **Flexite** | Safety incident reporting & compliance | All employees |
-| 4 | **Ascendo** | Invoice scanning, processing & payment | 2-3 economy staff |
+| 4 | **Ascendo** | Invoice scanning, processing & payment | 3-4 economy staff |
 
 ---
 
@@ -53,7 +53,7 @@ interviews with the super users who manage them daily.
 | **Core function** | Excellent | Excellent | Good | Unclear |
 | **SAP integration** | Perfect | Under review | N/A (standalone) | Reported broken |
 | **User adoption** | 100% | Partial (training gap) | 100% | One person + Excel |
-| **IT support needed** | Rarely | Never | Rarely | Rarely |
+| **IT support needed** | Rarely | Never | Rarely | Rarely, but need IT support for external inhouse app (WH search & Downtime) |
 | **Data confidence** | HIGH | HIGH | HIGH | LOW |
 | **Investment needed** | None | Low (training) | Optional | Must validate first |
 
@@ -63,7 +63,7 @@ interviews with the super users who manage them daily.
 |--------|----------|
 | **Ascendo** | Fully automated invoice flow. OCR at 95-100% accuracy. SAP posting is instant and error-free. Saves 900-1,800 hours/year. |
 | **Agda/Visma** | Perfect payroll compliance. Strong vendor (Visma). Zero IT support needed. Feature-rich platform. |
-| **Flexite** | 100% incident reporting compliance. All employees use it. Jan-Eric's manual analysis produces excellent safety outcomes. |
+| **Flexite** | 100% incident reporting compliance. All employees use it. Jan-Eric's manual analysis produces safety outcomes. |
 | **Idus** | Manages work orders and spare parts. Core CMMS functionality appears adequate. But we only have one person's view. |
 
 ---
@@ -78,26 +78,30 @@ HOW MAINTENANCE WORK ORDERS FLOW TODAY:
     Technician/Operator spots a problem
                   |
                   v
-    Shift Leader logs it in EXCEL       <-- Can't access Idus
+    Shift Leader logs it in EXCEL             <-- Can't access Idus
                   |
                   v
-    Verbal/email report to Tom          <-- Bottleneck
+    Verbal/email report to Tom                <-- Bottleneck
                   |
                   v
-    Tom enters into Idus                <-- Single point of failure
+    Tom enters into Idus                       <-- Single point of failure
                   |
                   v
     Work order created
                   |
                   v
-    Manual export to SAP                <-- Integration reported broken
+    Review SAP stock from external app         <-- Integration reported broken
+                  |
+                  v
+    Cannot make a validate working plan by Idus
+                  
 ```
 
 **Why this hurts:**
 - If Tom is sick or on leave, work orders don't get created
 - Equipment faults can sit 2-3 days before reaching the system
 - Everything is typed twice (Excel then Idus)
-- SAP reportedly not receiving data automatically
+- SAP reportedly not receiving data automatically (Need to validate)
 
 **But we need to be careful:**
 This picture comes from Tom alone. We have not spoken to technicians,
