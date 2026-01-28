@@ -72,38 +72,38 @@ Each system was evaluated through structured interviews with the super users who
 
 ## 3. PAIN POINTS - Where It Hurts
 
-### Pain Point 1 (HIGH): Idus - Everything Goes Through One Person
+### Pain Point 1 (HIGH): Idus - Workflow Bottleneck & Single Point of Failure
 
 ```
 HOW MAINTENANCE WORK ORDERS FLOW TODAY:
-
     Technician/Operator spots a problem
                   |
                   v
-    Shift Leader logs it in EXCEL             <-- Can't access Idus
+    Shift Leader logs it in EXCEL             <-- Shadow workflow: no direct Idus access
                   |
                   v
-    Verbal/email report to Tom                <-- Bottleneck
+    Manual approval checkpoint in EXCEL       
+       (UH decides if it warrants Idus WO)    <-- Bottleneck + intentional control?
                   |
                   v
-    Tom enters into Idus                       <-- Single point of failure
+    Only UH can enter into Idus               <-- SINGLE POINT OF FAILURE RISK
                   |
                   v
-    Work order created
+         Work order created                   <-- Delays when UH unavailable
                   |
                   v
-    Review SAP stock from external app         <-- Integration reported broken
+    Review SAP stock from external app        <-- Broken integration forces workaround
                   |
                   v
-    Idus does not support validated work plan creation
+    Cannot create validated work plan         <-- Missing inventory visibility in Idus
                   
 ```
 
-**Why this hurts:**
-- If Tom is sick or on leave, work orders don't get created unless he has a replacement
-- Equipment faults can sit 2-3 days before reaching the system
-- Everything is typed twice (Excel then Idus)
-- Inventory visibility requires external application access, causing delays and preventing validated work plan creation in Idus.
+**Critical Risks:**
+- UH absence halts all work order creation (vacation, illness, overload)
+- Shadow Excel layer creates duplicate effort + information loss
+- Broken SAP integration prevents efficient planning
+- Validation required: Is this intentional control or access barrier?
 
 **Need more validation:**
 This finding is based on a single user report and requires validation through interviews with technicians, shift leaders, and operators before actionable conclusions can be drawn.
