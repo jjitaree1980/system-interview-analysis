@@ -48,7 +48,7 @@ Each system was evaluated through structured interviews with the super users who
 |--|---------|-----------|---------|------|
 | **Core function** | Excellent | Excellent | Good | Unclear |
 | **SAP integration** | Perfect | N/A | N/A (standalone) | Reported broken |
-| **User adoption** | 100% | Partial (training gap) | 100% | One person + Excel |
+| **User adoption** | 100% | Partial (training gap) | 100% | ~30 users + one main person + Excel |
 | **IT support needed** | Rarely | Never | Rarely | Rarely, but need IT support <br>for external inhouse app <br>(WH search & Downtime) |
 | **Data confidence** | HIGH | HIGH | HIGH | LOW |
 | **Investment needed** | Optional | Low (training) <br> Optional| Optional | Must validate first |
@@ -66,13 +66,13 @@ Each system was evaluated through structured interviews with the super users who
 | **Ascendo** | Fully automated invoice flow. OCR at 95-100% accuracy. SAP posting is instant and error-free. Saves 900-1,800 hours/year. |
 | **Agda/Visma** | Perfect payroll compliance. Strong vendor (Visma). Zero IT support needed. Feature-rich platform. |
 | **Flexite** | 100% incident reporting compliance. All employees use it. Manual analysis produces safety outcomes. |
-| **Idus** | Manages work orders and spare parts. Core CMMS functionality appears adequate. But we only have one person's view. |
+| **Idus** | Manages work orders and PM. Core CMMS functionality appears adequate. But we only have one person's view. |
 
 ---
 
 ## 3. PAIN POINTS - Where It Hurts
 
-### Pain Point 1 (HIGH): Idus - Workflow Bottleneck & Single Point of Failure
+### Pain Point 1 (HIGH): Idus - Workflow Bottleneck & Point of Failure
 
 ```
 HOW MAINTENANCE WORK ORDERS FLOW TODAY:
@@ -86,7 +86,7 @@ HOW MAINTENANCE WORK ORDERS FLOW TODAY:
        (UH decides if it warrants Idus WO)    <-- Bottleneck + intentional control?
                   |
                   v
-    Not everyone can enter into Idus          <-- CREATES BOTTLENECK RISK
+    Not everyone can enter into Idus          <-- Creates bottleneck risk
      Tom or shift leader handles
                   |
                   v
@@ -123,25 +123,25 @@ SAME SHIFT LEADERS, TWO DIFFERENT BEHAVIOURS:
     For MAINTENANCE (Idus):           For SAFETY (Flexite):
     ─────────────────────────          ─────────────────────────
     Use Excel workarounds              Enter data directly
-    Need intentional workflow control  Direct system entry
+    Need intentional workflow control  Workflow control by system
     Adoption: Poor                     Adoption: 100%
 
     WHY THE DIFFERENCE?
-    → Idus requires approval checkpoint (intentional 30-license restriction)
+    → Idus requires approval checkpoint (Not sure if it's because of license restriction or want to control unnecessary WO)
     → Flexite permits direct entry (all employees have access)
     → Same people. Same capability. Intentional workflow control.
 ```
-> By this practice, the issue may be about INTENTIONAL WORKFLOW CONTROL, not system limitation even Idus try to maintain license upto 30 licenses.
+> By this practice, the issue may be about INTENTIONAL WORKFLOW CONTROL, not only system limitation even Idus try to maintain license upto 30 licenses.
 > The felanmälan system appears to function as an approval checkpoint where UH reviews fault reports before creating Idus work orders.
-> If true, what looks like "inefficiency" may actually be purposeful process governance - and the question becomes whether this control justifies its operational cost.
+
 
 ---
 
 ### Pain Point 3 (MEDIUM): Agda/Visma - Employees Don't Use What They Have
 
-- System has self-service features (shift preferences, digital payslips, schedule swaps)
-- Employees don't know about them or don't use them
-- Helena (HR) manually handles requests the system could automate
+- System has self-service features (shift preferences, digital payslips, schedule swaps, leave request)
+- Some employees don't know about them or don't use them
+- Helena (HR) manually handles requests
 - Estimated waste: ~75K SEK/year
 
 **This is a training problem, not a system problem.** 
@@ -188,9 +188,9 @@ However, the system would be more efficient with built-in analytical capabilitie
 **Why Idus confidence is LOW:**
 - Only 1 person interviewed out of 15-30 users
 - Tom is the gatekeeper of the system - potential bias
-- Waste figures are his estimates, not measured data
+- Waste figures is based from the interview, not measured data
 - No technician or shift leader perspective included
-- SAP integration status not verified with Rusal IT team
+
 
 **The Idus waste figures are NOT validated.** Potential waste areas have been identified, but actual numbers could be significantly different - higher or lower - once more stakeholders are consulted and technical facts are confirmed.
 
@@ -261,7 +261,7 @@ However, the system would be more efficient with built-in analytical capabilitie
 | **Timeline** | Q2 2026 at earliest |
 
 **Why defer:** Return doesn't justify urgency. Current process works.
-Bring up only if there's remaining budget after priorities 1 and 2.
+
 
 ---
 
@@ -301,7 +301,6 @@ ASCENDO WORKFLOW (Reference Standard):
 **Why this matters for the Idus discussion:**
 - SAP integration IS achievable at Kubal (Ascendo proves it)
 - Successful integration requires effective vendor partnership with IT
-- **Concern:** Did the Idus vendor deliver on agreed integration features during implementation?
 - **Question:** Was seamless SAP integration part of the original Idus contract specifications?
 - Ascendo sets the benchmark for what "good" looks like and should be the standard when evaluating any system
 
@@ -350,12 +349,14 @@ Three out of four systems work well. This is optimization, not crisis management
 We found potential issues, but they come from one person. The waste figures
 are not validated. We need a broader study before committing budget.
 
-**3. The Excel insight changes the equation.**  
-Shift leaders maintain shadow Excel workflows as approval checkpoints before entries reach Idus or Flexite. This suggests the issue is about intentional workflow control requiring manual triage decisions, not only system capabilities. The solution may be redesigning the approval process to enable direct system entry with appropriate governance built in.
+**3. Excel workflows indicate process redesign opportunity**  
+Shift leaders maintain shadow Excel workflows as approval checkpoints before entries reach Idus or Flexite. This suggests intentional workflow control requiring manual filtering, not system capability gaps.  
+Solution: Evaluate whether governance can be embedded directly in systems, enabling direct entry while maintaining necessary oversight.
 
-**4. There's a clear quick win.**
-Agda training: 25K investment, 75K/year return, 4-month payback.
-This can start immediately.
+
+**4. Agda training represents immediate quick win**
+Investment: 25K SEK | Annual return: 75K SEK | Payback period: 4 months
+Ready to launch immediately with high confidence.
 
 **5. Ascendo is the benchmark.**
 It proves our team can achieve excellent system integration.
