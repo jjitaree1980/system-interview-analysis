@@ -345,7 +345,7 @@ are not validated. We need a broader study before committing budget.
 
 **3. The Excel insight changes the equation.**  
 Shift leaders maintain shadow Excel workflows as approval checkpoints before entries reach Idus or Flexite.   
-This suggests the issue is about intentional workflow control requiring manual triage decisions, not system capability.   
+This suggests the issue is about intentional workflow control requiring manual triage decisions, not only system capabilities.   
 The solution may be redesigning the approval process to enable direct system entry with appropriate governance built in.
 
 **4. There's a clear quick win.**
