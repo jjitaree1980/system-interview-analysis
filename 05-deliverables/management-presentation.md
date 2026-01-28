@@ -49,7 +49,7 @@ Each system was evaluated through structured interviews with the super users who
 | **Core function** | Excellent | Excellent | Good | Unclear |
 | **SAP integration** | Perfect | N/A | N/A (standalone) | Reported broken |
 | **User adoption** | 100% | Partial (training gap) | 100% | One person + Excel |
-| **IT support needed** | Rarely | Never | Rarely | Rarely, but need IT support for external inhouse app (WH search & Downtime) |
+| **IT support needed** | Rarely | Never | Rarely | Rarely, but need IT support <br>for external inhouse app <br>(WH search & Downtime) |
 | **Data confidence** | HIGH | HIGH | HIGH | LOW |
 | **Investment needed** | None | Low (training) | Optional | Must validate first |
 
