@@ -1,7 +1,7 @@
 # IT Systems Portfolio Assessment - Kubal
 
 **Date:** January 2026  
-**Purpose:** Present assessment findings, highlight gaps, and get approval for next steps  
+**Purpose:** Present portfolio assessment, identify improvement opportunities, and obtain decision on investments
 
 ---
 
