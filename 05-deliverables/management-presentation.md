@@ -14,8 +14,8 @@ Each system was evaluated through structured interviews with the super users who
 
 | # | System | What It Does | Who Uses It |
 |---|--------|-------------|-------------|
-| 1 | **Idus** | Maintenance management (work orders, spare parts) | ~15-30 technicians & shift leaders |
-| 2 | **Agda/Visma** | HR, payroll, scheduling | All employees (~400) |
+| 1 | **Idus** | CMMS | ~15-30 technicians & shift leaders |
+| 2 | **Agda/Visma** | HR & payroll | All employees (~400) |
 | 3 | **Flexite** | Safety incident reporting & compliance | All employees |
 | 4 | **Ascendo** | Invoice scanning, processing & payment | 3-4 economy staff |
 
@@ -27,8 +27,8 @@ Each system was evaluated through structured interviews with the super users who
                 PORTFOLIO STATUS: HEALTHY
            3 out of 4 systems performing well
 
-    System        Health         Action
-    ─────────────────────────────────────────
+    System        Health                     Action
+    ────────────────────────────────────────────────────────────
     Ascendo       ██████████  Excellent    → Maintain
     Agda/Visma    ████████──  Strong       → Train users
     Flexite       ███████───  Adequate     → Optional upgrade
@@ -36,7 +36,7 @@ Each system was evaluated through structured interviews with the super users who
 ```
 
 > **Key message:** This is NOT a crisis. Most of our IT portfolio works well.
-> We have one system (Idus) where we need more information before acting.
+> There is one system (Idus) that need more information before acting.
 
 ---
 
