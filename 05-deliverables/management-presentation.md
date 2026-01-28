@@ -362,7 +362,7 @@ Use as the benchmark for Idus and other system improvements.
 
 ---
 
-**Document:** Management Presentation - IT Systems Portfolio Assessment
+**Document:** IT Systems Portfolio Assessment
 **Version:** 1.0
 **Source:** Executive Summary v3, Detailed Analysis Final Report
 **Status:** Ready for presentation
