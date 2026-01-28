@@ -51,7 +51,13 @@ Each system was evaluated through structured interviews with the super users who
 | **User adoption** | 100% | Partial (training gap) | 100% | One person + Excel |
 | **IT support needed** | Rarely | Never | Rarely | Rarely, but need IT support <br>for external inhouse app <br>(WH search & Downtime) |
 | **Data confidence** | HIGH | HIGH | HIGH | LOW |
-| **Investment needed** | Optional | Low (training) <br> Interest in Onbord feature | Optional | Must validate first |
+| **Investment needed** | Optional | Low (training) <br> Optional| Optional | Must validate first |
+
+> **Note for investment needed**
+> 
+> Ascendo: Need to expand features for more capabilities   
+> Agda/Visma: Interested in Onboard feature    
+> Flexite: Users report satisfaction, but assessment reveals missing analytics capabilities. For long-term value realization, investment in analytics features is recommended.
 
 ### What Each System Does Well
 
