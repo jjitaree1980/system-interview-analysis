@@ -7,7 +7,7 @@
 
 ## What This Assessment Is About
 
-IT assessed all 4 business-critical IT systems at Kubal over a 2-month period (December 2025 - January 2026).   
+IT assessed all 4 business-critical systems at Kubal over a 2-month period (December 2025 - January 2026).   
 Each system was evaluated through structured interviews with the super users who manage them daily.
 
 **The 4 systems:**
@@ -35,7 +35,7 @@ Each system was evaluated through structured interviews with the super users who
     Idus          ██────────  Uncertain    → Validate first
 ```
 
-> **Key message:** This is NOT a crisis. Most of our IT portfolio works well.
+> **Key message:** Most of our IT portfolio works well.
 > There is one system (Idus) that need more information before acting.
 
 ---
@@ -151,7 +151,7 @@ SAME SHIFT LEADERS, TWO DIFFERENT BEHAVIOURS:
 ### Pain Point 4 (LOW): Flexite - Manual Government Reporting
 
 - Exporting data for Arbetsmiljöverket or another agencies requires manual formatting and manual reporting
-- User does trend analysis manually (but does it well)
+- User does trendanalysis manually (but does it well)
 - Annual cost of manual work: ~66K SEK/year
 - Most of this is part of their core role, not pure waste
 
@@ -170,7 +170,8 @@ However, the system would be more efficient with built-in analytical capabilitie
 | Employee feature awareness | Agda/Visma | MEDIUM | YES - training campaign |
 | Key-person dependencies | All systems | MEDIUM | MEDIUM - cross-training |
 | Government report automation | Flexite | LOW | MEDIUM - vendor feature or alternative replacement |
-| Analytics capability | Flexite | LOW | Optional enhancement - no immediate business case, but potential long-term value. |
+| Analytics capability | Flexite  | LOW | Optional enhancement - no immediate business case, but potential long-term value. |
+| Analytics capability | Idus |  HIGH| UNCLEAR - needs validation of intent but now it takes 2 days for process monthly report|
 
 **Pattern:** Idus contains most high-severity gaps, but validation is required before committing to solutions.
 
@@ -191,9 +192,9 @@ However, the system would be more efficient with built-in analytical capabilitie
 - Waste figures is based from the interview, not measured data
 - No technician or shift leader perspective included
 
-
+<!--
 **The Idus waste figures are NOT validated.** Potential waste areas have been identified, but actual numbers could be significantly different - higher or lower - once more stakeholders are consulted and technical facts are confirmed.
-
+-->
 ---
 
 ## 6. OPPORTUNITIES TO IMPROVE - Ranked by Priority
@@ -210,7 +211,9 @@ However, the system would be more efficient with built-in analytical capabilitie
 | **Confidence** | HIGH |
 | **Timeline** | Q1 2026 |
 
+<!--
 **Why first:** Cheapest investment. Clearest return. Lowest risk. Proven need.
+-->
 
 ---
 
@@ -226,8 +229,8 @@ However, the system would be more efficient with built-in analytical capabilitie
 | **Timeline** | Month 1-3 study, Month 4 decision |
 
 **What the study answers:**
-1. Is the SAP integration truly broken, or misconfigured?
-2. Do shift leaders actually want direct Idus access?
+1. Is the SAP integration truly broken, or misconfigured? Interviews revealed the integration may be fixable through a version upgrade. However, the person who implemented the current integration has left, and no one internally can maintain it. This raises questions about vendor quality and knowledge transfer practices.
+2. Why is approval required before work order creation? Is this intentional governance or unnecessary friction?
 3. Would giving them access eliminate the Excel problem?
 4. What do technicians actually need (mobile? desktop? both?)
 5. Is the current system worth upgrading, or should we look at alternatives?
