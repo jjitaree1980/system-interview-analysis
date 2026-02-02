@@ -218,7 +218,6 @@
 **How do users contact you?**
 - [ ] Email
 - [ ] Phone
-- [ ] Teams/Slack
 - [ ] Walk up to desk
 - [ ] Other: _____
 
