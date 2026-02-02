@@ -4,11 +4,11 @@
 
 **Systems to assess:** Ascendo, Idus, Flexite, Agda/Visma
 
-**Interview time:** 30-40 minutes per system
+**Interview time:** 25-35 minutes per system
 
 ---
 
-## SECTION 1: SYSTEM OVERVIEW & HOSTING
+## SECTION 1: SYSTEM OVERVIEW
 
 **System name:** ___________________
 
@@ -16,57 +16,119 @@
 
 **Number of active users:** _____
 
+**Who currently manages this system?** _____
+
+**Who else is involved?** _____
+
 ---
 
-### **Hosting & Infrastructure (CRITICAL - Ask first)**
+## SECTION 2: HOSTING & INFRASTRUCTURE
 
-**How is this system hosted?**
+### How is this system hosted?
 - [ ] Cloud/SaaS (vendor manages everything)
 - [ ] Vendor-hosted (vendor manages servers, we manage system)
 - [ ] Self-hosted on our local servers
 - [ ] Other: _____
 
-**Who manages these components?**
-- Servers/infrastructure: Vendor / Us / Other: _____
-- Backups: Vendor / Us / Other: _____
-- System updates/patches: Vendor / Us / Other: _____
-- System monitoring: Vendor / Us / Other: _____
+### Who manages these components?
 
-**Vendor information:**
+| Component | Vendor | Us | Other |
+|-----------|--------|----|----|
+| Servers/infrastructure | [ ] | [ ] | [ ] |
+| Backups | [ ] | [ ] | [ ] |
+| System updates/patches | [ ] | [ ] | [ ] |
+| System monitoring | [ ] | [ ] | [ ] |
+| Database | [ ] | [ ] | [ ] |
+
+### Vendor information
 - Vendor/product name: _____
 - Support contract? Yes / No
 - Main vendor contact: _____
 
 ---
 
-**INTERVIEWER NOTE:**
-- If ALL answers are "Vendor" → SKIP Section 2 (infrastructure questions)
-- If ANY answers are "Us" → ASK all of Section 2
+## SECTION 3: TIME OVERVIEW
+
+"Let me get a quick overview of time spent on this system. Rough estimates are fine."
+
+### Total Time
+**Total time spent on this system per week (all activities):** _____ hours
 
 ---
 
-## SECTION 2: TECHNICAL OPERATIONS (Skip if cloud/SaaS vendor-managed)
+### Time Breakdown
+
+**Approximately how many hours per week on each category:**
+
+| Activity Category | Hours per week |
+|-------------------|----------------|
+| **TECHNICAL OPERATIONS** | |
+| System monitoring & health checks | _____ |
+| Technical troubleshooting & fixing issues | _____ |
+| System updates & patches (average weekly) | _____ |
+| Integration monitoring & troubleshooting | _____ |
+| Backup verification | _____ |
+| **USER MANAGEMENT** | |
+| Creating/removing user accounts | _____ |
+| Password resets | _____ |
+| Changing permissions | _____ |
+| **USER SUPPORT** | |
+| Technical support (can't log in, errors, system down) | _____ |
+| Business support ("how do I...", process questions) | _____ |
+| **BUSINESS ACTIVITIES** | |
+| Business configuration (workflows, rules, settings) | _____ |
+| Creating reports & data exports | _____ |
+| User training | _____ |
+| Business documentation | _____ |
+| **OTHER** | |
+| Vendor coordination | _____ |
+| Meetings about this system | _____ |
+| Other (specify): _____ | _____ |
+| **TOTAL** | _____ |
+
+---
+
+### Busy Periods
+- Busiest week in last year: _____ hours
+- How often are busy periods? _____ times per year
+- What triggers busy periods? _____
+
+---
+
+### Task Classification
+**Of all the work above, roughly what percentage is:**
+- Purely technical (requires IT skills, not business knowledge): _____%
+- Purely business (requires business process knowledge): _____%
+- Mixed (requires both technical and business knowledge): _____%
+
+---
+
+## SECTION 4: TECHNICAL OPERATIONS DETAIL
+
+**Note: Ask this section only if user spends time on technical operations (monitoring, troubleshooting, updates, backups)**
 
 ### Daily/Weekly Technical Checks
 
 **What technical checks do you perform regularly?**
-- System is running/accessible: Yes / No - Frequency: _____ - Time: _____ min
-- Backups completed successfully: Yes / No - Frequency: _____ - Time: _____ min
-- Review error logs: Yes / No - Frequency: _____ - Time: _____ min
-- Server disk space/resources: Yes / No - Frequency: _____ - Time: _____ min
-- Other checks: _____ - Frequency: _____ - Time: _____ min
 
-**Total time on technical monitoring per week:** _____ hours
+| Check | Do this? | How often? | Minutes per check |
+|-------|----------|------------|-------------------|
+| System is running/accessible | Yes / No | _____ | _____ |
+| Backups completed successfully | Yes / No | _____ | _____ |
+| Review error logs | Yes / No | _____ | _____ |
+| Server disk space/resources | Yes / No | _____ | _____ |
+| Integration status | Yes / No | _____ | _____ |
+| Other: _____ | Yes / No | _____ | _____ |
 
 ---
 
 ### Technical Issues & Incidents
 
-**Last 3 months - TECHNICAL issues only:**
-(System down, cannot access, error messages, performance problems)
-- How many technical incidents? _____
-- How many minor (fixed in <1 hour)? _____
-- How many major (>1 hour or caused downtime)? _____
+**Last 3 months - Technical problems:**
+(System down, can't access, error messages, performance issues)
+- Total technical incidents: _____
+- Minor (fixed in < 1 hour): _____
+- Major (> 1 hour or downtime): _____
 
 **Most recent significant technical issue:**
 - What happened? _____
@@ -74,90 +136,123 @@
 - Who helped fix it? _____
 
 **Recurring technical problems:**
-- Any technical issues that keep happening? _____
+- Any issues that keep happening? Yes / No
+- If yes, describe: _____
 - How often? _____ times per _____
 - Time to fix each time? _____ minutes
-
-**Time spent on technical troubleshooting per week (average):** _____ hours
 
 ---
 
 ### System Updates & Patches
 
 **Last 12 months:**
-- System updates/patches applied: _____ times
-- Average time per update (planning + testing + implementation): _____ hours
-- Any updates cause problems? Yes / No - Describe: _____
+- How many system updates/patches? _____
+- Average time per update (planning + testing + doing it): _____ hours
+- Any updates cause problems? Yes / No
+- If yes, describe: _____
 
 **Update process:**
 - Can you test updates before production? Yes / No
 - Need scheduled downtime for updates? Yes / No
 - Who approves updates? _____
 
-**Total time on updates per year:** _____ hours
+---
+
+### Backup Management
+
+**Do you verify backups work?**
+- Yes / No
+- If yes, how often? _____
+- Time per verification: _____ minutes
+
+**Have you done a restore?**
+- Yes / No
+- If yes, how long did it take? _____ hours
 
 ---
 
-## SECTION 3: USER ACCESS MANAGEMENT
+## SECTION 5: USER ACCESS MANAGEMENT DETAIL
 
-**Creating new user accounts:**
-- How many per month? _____
+**Note: Ask this section only if user spends time on user access management**
+
+### Creating New Users
+- How many new user accounts per month? _____
 - Time per account (technical setup): _____ minutes
-- Time per account (deciding permissions): _____ minutes
 - Who decides what access level someone needs? _____
+- Time to decide permissions: _____ minutes
 
-**Removing/deactivating users:**
-- How many per month? _____
+### Removing Users
+- How many users removed per month? _____
+- How do you find out someone should be removed? _____
 - Time per removal: _____ minutes
 
-**Changing user permissions:**
-- How many requests per month? _____
+### Changing Permissions
+- How many permission change requests per month? _____
 - Time per change: _____ minutes
+- Who decides permission levels? _____
 
-**Password resets:**
-- How many per week? _____
+### Password Resets
+- How many password resets per week? _____
 - Time per reset: _____ minutes
 - Can users reset their own passwords? Yes / No
 
-**Total time on user access per week:** _____ hours
-
 ---
 
-## SECTION 4: USER SUPPORT
+## SECTION 6: USER SUPPORT DETAIL
+
+**Note: Ask this section only if user spends significant time on user support**
+
+### Support Volume
 
 **Per week, how many support requests about:**
-- **Technical issues** (cannot log in, error messages, system slow/down): _____ requests
-- **Business questions** ("how do I...", process questions, functionality): _____ requests
-- **Data questions** (where is data, why is this value X): _____ requests
-- **Reports/exports** (need specific report or data export): _____ requests
 
-**Average time per support request:** _____ minutes
+| Request Type | Number per week | Average minutes per request |
+|--------------|----------------|----------------------------|
+| Technical issues (can't log in, errors, system down) | _____ | _____ |
+| Business questions ("how do I...", process) | _____ | _____ |
+| Data questions (where is data, why this value) | _____ | _____ |
+| Reports/exports | _____ | _____ |
+| Other: _____ | _____ | _____ |
 
-**Total user support time per week:** _____ hours
-
+### Support Channels
 **How do users contact you?**
-- Email / Phone / Teams/Slack / Walk up to desk / Other: _____
+- [ ] Email
+- [ ] Phone
+- [ ] Teams/Slack
+- [ ] Walk up to desk
+- [ ] Other: _____
 
 ---
 
-## SECTION 5: CURRENT IT INVOLVEMENT
+## SECTION 7: CURRENT IT INVOLVEMENT
+
+### When IT is Currently Involved
 
 **When do users currently contact IT about this system?**
-- Cannot access system / Login problems
-- System error messages
-- Performance issues
-- Other: _____
+- [ ] Cannot access system / Login problems
+- [ ] System error messages
+- [ ] Performance issues (system slow)
+- [ ] Network/connectivity issues
+- [ ] Other: _____
 
-**What does IT currently help with?**
+**What does IT currently help with for this system?**
 - _____
 - _____
+- _____
 
-**What does your team handle vs IT currently?**
-- Your team handles: _____
-- IT handles: _____
+**What does your team handle vs what IT handles?**
+- Your team: _____
+- IT team: _____
+- Unclear/overlap: _____
 
 **How often do you need IT support for this system?**
-- Never / Rarely / Monthly / Weekly / Daily
+- [ ] Never
+- [ ] Rarely (few times per year)
+- [ ] Monthly
+- [ ] Weekly
+- [ ] Daily
+
+### Current IT Collaboration
 
 **What works well with current IT support?**
 - _____
@@ -165,9 +260,14 @@
 **Where could IT provide better support or tools?**
 - _____
 
+**Any frustrations with current IT support?**
+- _____
+
 ---
 
-## SECTION 6: INTEGRATIONS
+## SECTION 8: INTEGRATIONS
+
+### Connected Systems
 
 **Which other systems does this one connect/integrate with?**
 1. _____
@@ -175,149 +275,154 @@
 3. _____
 4. _____
 
-**Last 3 months - Integration issues:**
-- How many times did an integration break or have problems? _____
+**How critical are these integrations?**
+- [ ] Very critical - business stops if broken
+- [ ] Important - causes problems if broken
+- [ ] Nice to have - can work around if broken
+
+---
+
+### Integration Issues
+
+**Last 3 months:**
+- How many times did an integration break? _____
 - What typically breaks? _____
-- How do you discover integration is broken? _____
-- Average time to fix integration issues? _____ hours
-- Who do you need to contact for help? _____
-
-**Time spent on integration issues per month (average):** _____ hours
+- How do you discover it's broken? _____
+- Average time to fix? _____ hours
+- Who do you contact for help? _____
 
 ---
 
-## SECTION 7: VENDOR COORDINATION
+## SECTION 9: VENDOR COORDINATION
 
-**Last 12 months - Vendor interactions:**
-- **Technical support tickets** (system errors, bugs, technical issues): _____ tickets
-- **Business/feature discussions** (new features, configuration help): _____ interactions
-- Average time per vendor interaction: _____ hours
-- Vendor response time: Good / Average / Poor
+**Note: Ask this section only if user spends time coordinating with vendor**
 
-**Vendor meetings/calls:**
-- How many per year? _____
-- Who attends from your side? _____
-- Average meeting length: _____ hours
+### Vendor Interactions
 
-**Total time on vendor coordination per year:** _____ hours
+**Last 12 months:**
 
----
+| Interaction Type | Number | Average time each |
+|------------------|--------|-------------------|
+| Technical support tickets (bugs, errors) | _____ | _____ hours |
+| Business/feature discussions | _____ | _____ hours |
+| Vendor meetings/calls | _____ | _____ hours |
 
-## SECTION 8: BUSINESS ACTIVITIES
+**Vendor responsiveness:**
+- [ ] Good
+- [ ] Average
+- [ ] Poor
 
-**Business configuration & rules:**
-- Time spent on workflows, approval rules, business settings per week: _____ hours
-
-**Reports & data exports:**
-- Regular reports you create/run per week: _____ hours
-- Ad-hoc data requests per week: _____ hours
-
-**User training:**
-- Time training new users (business processes): _____ hours per person
-- New users per year: _____
-- Other training sessions per year: _____ hours
-
-**Business documentation:**
-- Creating/updating user guides, process documentation per year: _____ hours
-
-**Meetings about this system:**
-- Per week/month: _____ - Length: _____ hours
-
-**Total business activities time per week:** _____ hours
+**Who attends vendor meetings from your side?** _____
 
 ---
 
-## SECTION 9: CRITICALITY & REQUIREMENTS
+## SECTION 10: BUSINESS ACTIVITIES DETAIL
 
-**System criticality:**
-- How critical is this system? (1-5, where 5=business cannot operate): _____
-- What business processes depend on it? _____
+**Note: Ask this section only if user spends time on business configuration, reports, training**
 
-**Peak/Critical periods:**
-- When is system most critical? (times of day/month/year): _____
-- Do you need to be available outside normal hours during these times? Yes / No
+### Business Configuration
+**Time spent on:**
+- Setting up workflows, approval rules: _____ hours per month
+- Configuring business settings: _____ hours per month
+- Other configuration: _____ hours per month
+
+### Reports & Data
+**Time spent on:**
+- Regular reports (weekly/monthly): _____ hours per week
+- Ad-hoc data requests: _____ hours per week
+- Number of regular reports you create: _____
+
+### User Training
+**Time spent on:**
+- Training new users (business processes): _____ hours per person
+- How many new users per year? _____
+- Other training sessions: _____ hours per year
+
+### Documentation
+**Time spent on:**
+- Creating/updating user guides: _____ hours per year
+- Process documentation: _____ hours per year
+
+---
+
+## SECTION 11: CRITICALITY & REQUIREMENTS
+
+### System Criticality
+
+**How critical is this system?**
+- [ ] 5 - Critical (business cannot operate without it)
+- [ ] 4 - Very important (major disruption if down)
+- [ ] 3 - Important (causes problems if down)
+- [ ] 2 - Useful (can work around if down temporarily)
+- [ ] 1 - Nice to have (minimal impact if down)
+
+**What business processes depend on this system?**
+- _____
+- _____
+
+---
+
+### Peak/Critical Periods
+
+**When is this system most critical?**
+- Time of day: _____
+- Days of week: _____
+- Times of month: _____ (e.g., month-end, payroll days)
+- Times of year: _____ (e.g., year-end closing)
+
+**During these critical times:**
+- Need to be available outside normal hours? Yes / No
 - Have you been called nights/weekends? _____ times last year
 
-**If system goes down:**
-- How many users affected? _____
-- Maximum acceptable downtime: _____ hours / minutes
-- What business processes stop? _____
-- Business impact (revenue loss, compliance, safety, etc.): _____
+---
 
-**Compliance/regulatory requirements:**
-- Any special data retention requirements? _____
-- Any audit requirements? _____
-- Any regulatory reporting? _____
+### If System Goes Down
+
+**Maximum acceptable downtime:** _____ hours / _____ minutes
+
+**How many users affected?** _____
+
+**What business processes stop?**
+- _____
+- _____
+
+**Business impact:**
+- [ ] Revenue loss
+- [ ] Cannot fulfill orders
+- [ ] Compliance issues
+- [ ] Safety concerns
+- [ ] Other: _____
 
 ---
 
-## SECTION 10: TIME SUMMARY & BREAKDOWN
+### Compliance/Regulatory
 
-### Current Weekly Time
-
-**Total time spent on this system per week (all activities):** _____ hours
-
----
-
-### Time Breakdown by Category
-
-| Activity Category | Hours per week |
-|-------------------|----------------|
-| **TECHNICAL OPERATIONS** | |
-| System monitoring & health checks | _____ |
-| Backup verification | _____ |
-| Technical troubleshooting & incidents | _____ |
-| System updates & patches (average weekly) | _____ |
-| Integration monitoring & troubleshooting | _____ |
-| **USER MANAGEMENT** | |
-| Creating/removing user accounts (technical) | _____ |
-| Password resets | _____ |
-| Deciding user permissions (business decision) | _____ |
-| **SUPPORT** | |
-| Technical user support | _____ |
-| Business user support ("how to" questions) | _____ |
-| **BUSINESS ACTIVITIES** | |
-| Business configuration (rules, workflows) | _____ |
-| Creating reports & data exports | _____ |
-| User training | _____ |
-| Business documentation | _____ |
-| **OTHER** | |
-| Vendor coordination | _____ |
-| Meetings about system | _____ |
-| Other (specify): _____ | _____ |
-| **TOTAL** | _____ |
+**Any special requirements?**
+- Data retention requirements: _____
+- Audit requirements: _____
+- Regulatory reporting: _____
+- GDPR/privacy concerns: _____
+- Other: _____
 
 ---
 
-### Task Classification
+## SECTION 12: PAIN POINTS & IMPROVEMENTS
 
-**Of all the work above, estimate percentage that is:**
-- Purely technical (requires IT skills, not business knowledge): _____%
-- Mixed (requires both technical and business knowledge): _____%
-- Purely business (requires business process knowledge): _____%
+### What Takes Most Time
 
----
-
-### Busy Periods
-
-**Busiest week in last year:** _____ hours
-
-**How often are busy periods?** _____ times per year
-
-**What triggers busy periods?**
-- Month-end / Year-end / Payroll / Audits / Other: _____
-
----
-
-## SECTION 11: PAIN POINTS & IMPROVEMENTS
-
-**What tasks take the most time?**
+**Rank your top 3 most time-consuming tasks:**
 1. _____
 2. _____
 3. _____
 
-**What takes time but adds least value (repetitive, manual, frustrating)?**
+**What takes time but adds least value?**
+(Repetitive, manual, frustrating tasks)
 - _____
+- _____
+
+---
+
+### Desired Improvements
 
 **If you could change 3 things about managing this system, what would they be?**
 1. _____
@@ -326,17 +431,46 @@
 
 ---
 
-## SECTION 12: KNOWLEDGE & HANDOVER
+### Where IT Could Help
 
-**Current documentation:**
-- Technical procedures documented? Yes / Partially / No
-- Business processes documented? Yes / Partially / No
-- Troubleshooting guides exist? Yes / Partially / No
+**Where would better IT support be most helpful?**
 
-**If someone new needed to manage the technical aspects of this system:**
+| Area | Would help a lot | Would help somewhat | Not needed |
+|------|------------------|---------------------|------------|
+| Automated monitoring/alerts | [ ] | [ ] | [ ] |
+| Better backup verification | [ ] | [ ] | [ ] |
+| Help with system updates/patches | [ ] | [ ] | [ ] |
+| Password resets / user access | [ ] | [ ] | [ ] |
+| Technical troubleshooting support | [ ] | [ ] | [ ] |
+| Integration monitoring | [ ] | [ ] | [ ] |
+| Vendor technical coordination | [ ] | [ ] | [ ] |
+| Better documentation/runbooks | [ ] | [ ] | [ ] |
+| Other: _____ | [ ] | [ ] | [ ] |
+
+---
+
+## SECTION 13: KNOWLEDGE & HANDOVER
+
+### Current Documentation
+
+**What documentation exists?**
+- [ ] Technical procedures - Quality: Good / Partial / Poor / None
+- [ ] Business processes - Quality: Good / Partial / Poor / None
+- [ ] Troubleshooting guides - Quality: Good / Partial / Poor / None
+- [ ] User training materials - Quality: Good / Partial / Poor / None
+
+---
+
+### Knowledge Transfer
+
+**If someone new needed to manage the technical aspects:**
 - What business knowledge would they need? _____
 - What would be hardest to hand over? _____
 - Estimated knowledge transfer time: _____ hours
+
+---
+
+### Coverage
 
 **If you're on vacation:**
 - Who covers for you? _____
@@ -345,12 +479,14 @@
 
 ---
 
-## SECTION 13: FINAL QUESTIONS
+## SECTION 14: FINAL QUESTIONS
 
 **What's working well now that should not change?**
 - _____
+- _____
 
 **What concerns would you have if technical operations were managed differently?**
+- _____
 - _____
 
 **Any other important information about managing this system?**
@@ -360,78 +496,324 @@
 
 ---
 
-# SUMMARY & CALCULATIONS (IT INTERNAL USE - DO NOT SHARE)
-
-## System: ___________________
-
-### Quick Facts
-- Hosting: Cloud/SaaS / Self-hosted
-- Users: _____
-- Criticality (1-5): _____
-- Vendor: _____
+# IT INTERNAL USE ONLY - DO NOT SHARE WITH INTERVIEWEE
 
 ---
 
-### Time Analysis
+## INTERVIEW SUMMARY
 
-**Total current time:** _____ hours/week
-
-**Breakdown:**
-- **Technical operations** (monitoring, backups, troubleshooting, updates): _____ hours/week
-- **User access management** (technical execution): _____ hours/week
-- **Technical user support**: _____ hours/week
-- **Vendor technical coordination**: _____ hours/week
-- **Integration troubleshooting**: _____ hours/week
-
-**= POTENTIAL IT WORKLOAD: _____ hours/week**
+**Date:** ___________
+**Interviewee:** ___________
+**System:** ___________
+**Interviewer:** ___________
 
 ---
 
-**Remains with business team:**
-- **Business user support** (process questions): _____ hours/week
-- **Business configuration**: _____ hours/week
-- **Reports & data**: _____ hours/week
-- **Training & documentation**: _____ hours/week
-- **User permission decisions**: _____ hours/week
+## QUICK FACTS
 
-**= STAYS WITH BUSINESS TEAM: _____ hours/week**
-
----
-
-**Coordination overhead estimate:** +2-3 hours/week (if roles split)
-
-**One-time setup:**
-- Knowledge transfer: _____ hours
-- Documentation creation: ~20-40 hours (estimate)
-- Process setup: ~10-20 hours (estimate)
+- **Hosting:** Cloud/SaaS / Self-hosted / Other: _____
+- **Total users:** _____
+- **Criticality (1-5):** _____
+- **Vendor:** _____
+- **Current manager:** _____
 
 ---
 
-### Assessment
+## TIME ANALYSIS
 
-**Complexity Level:**
-- [ ] Light (2-4 hrs/week IT time)
-- [ ] Medium (5-10 hrs/week IT time)
-- [ ] Heavy (15-20 hrs/week IT time)
+### Total Current Time
+**Total time per week:** _____ hours
+
+---
+
+### Technical vs Business Split
+
+**TECHNICAL OPERATIONS (Potential IT workload):**
+
+| Task | Hours/week | Notes |
+|------|------------|-------|
+| System monitoring & health checks | _____ | |
+| Technical troubleshooting | _____ | |
+| System updates/patches | _____ | |
+| Backup verification | _____ | |
+| Integration troubleshooting | _____ | |
+| Technical user support | _____ | |
+| Vendor technical coordination | _____ | |
+| User account creation (technical) | _____ | |
+| Password resets | _____ | |
+| **SUBTOTAL - TECHNICAL** | _____ | |
+
+---
+
+**BUSINESS/FUNCTIONAL (Stays with current team):**
+
+| Task | Hours/week | Notes |
+|------|------------|-------|
+| Business user support | _____ | |
+| Business configuration | _____ | |
+| Reports & data exports | _____ | |
+| User training | _____ | |
+| Business documentation | _____ | |
+| User permission decisions | _____ | |
+| Vendor business discussions | _____ | |
+| Meetings | _____ | |
+| **SUBTOTAL - BUSINESS** | _____ | |
+
+---
+
+### Calculation
+
+**Potential IT workload:** _____ hours/week (Technical subtotal)
+
+**Coordination overhead (estimate):** +2-3 hours/week (if roles split)
+
+**Total IT time needed:** _____ hours/week
+
+**Remains with business team:** _____ hours/week (Business subtotal)
+
+---
+
+## COMPLEXITY ASSESSMENT
+
+**System complexity level:**
+- [ ] **Light** (2-4 hrs/week IT time)
+  - Stable, few incidents, minimal integrations
+  - SaaS with vendor managing most things
+  
+- [ ] **Medium** (5-10 hrs/week IT time)
+  - Moderate incidents, some integrations
+  - Self-hosted or complex SaaS setup
+  
+- [ ] **Heavy** (15-20 hrs/week IT time)
+  - Complex integrations, frequent issues
+  - Self-hosted with full infrastructure management
+
+---
+
+## ONE-TIME SETUP COSTS
+
+**Knowledge transfer:** _____ hours (from Section 13)
+
+**Documentation to create:**
+- [ ] Technical procedures (~20 hours)
+- [ ] Troubleshooting runbooks (~10 hours)
+- [ ] Integration documentation (~15 hours)
+- [ ] Incident response procedures (~10 hours)
+
+**Estimated total setup:** _____ hours
+
+---
+
+## CURRENT IT INVOLVEMENT
+
+**IT already helps with:**
+- _____
+- _____
+
+**Frequency of current IT support:** Never / Rarely / Monthly / Weekly / Daily
+
+**What works well:** _____
+
+**What could improve:** _____
+
+---
+
+## KEY RISKS & CONCERNS
+
+**Technical risks:**
+- _____
+- _____
+
+**Business knowledge required:**
+- _____
+- _____
+
+**User concerns about changes:**
+- _____
+- _____
+
+**Integration dependencies:**
+- _____
+- _____
+
+---
+
+## VENDOR ASSESSMENT
+
+**Vendor:** _____
+
+**Support quality:** Good / Average / Poor
+
+**Technical tickets per year:** _____
+
+**Vendor responsiveness:** _____
+
+**Contract/SLA info:** _____
+
+---
+
+## RESOURCE ASSESSMENT
 
 **Can current IT staff handle this?**
 - [ ] Yes - with existing capacity
 - [ ] Yes - but need to reassign from other work
 - [ ] No - would need additional staff
+- [ ] Depends on: _____
 
-**Key risks/concerns:**
+**Required IT skills:**
+- [ ] General system administration
+- [ ] Database management
+- [ ] Integration/API knowledge
+- [ ] Specific platform expertise: _____
+- [ ] Business process knowledge
+
+**Skill gaps:**
 - _____
 - _____
-
-**Recommendation if asked to take this on:**
-- [ ] Yes - straightforward
-- [ ] Yes - with conditions: _____
-- [ ] No - reason: _____
 
 ---
 
-## NOTES
+## RECOMMENDATION
 
-**Follow-up needed:**
+**If IT management asks to take on Service Owner role for this system:**
 
-**Other observations:**
+- [ ] **Yes - Straightforward**
+  - Low complexity, clear benefits
+  - Reason: _____
+
+- [ ] **Yes - With Conditions**
+  - Conditions needed: _____
+
+- [ ] **Hybrid - Specific Tasks Only**
+  - IT should take on: _____
+  - Business should keep: _____
+
+- [ ] **No - Not Recommended**
+  - Reason: _____
+
+---
+
+## PRIORITY AREAS FOR IT SUPPORT
+
+**Immediate wins (high value, low effort):**
+1. _____
+2. _____
+3. _____
+
+**Medium-term improvements:**
+1. _____
+2. _____
+
+**Not worth IT involvement:**
+- _____
+- _____
+
+---
+
+## FOLLOW-UP NEEDED
+
+**Questions to clarify:**
+- _____
+
+**Additional people to interview:**
+- _____
+
+**Documents to review:**
+- _____
+
+---
+
+## NOTES & OBSERVATIONS
+
+**Key insights:**
+- _____
+- _____
+
+**Red flags:**
+- _____
+- _____
+
+**Opportunities:**
+- _____
+- _____
+
+**Other comments:**
+- _____
+
+---
+
+## ANNUAL TIME CALCULATION
+
+**Weekly IT time:** _____ hours
+
+**Weeks per year:** 52
+
+**Annual routine hours:** _____ hours (weekly × 52)
+
+**Annual project hours:** _____ hours (major updates, improvements)
+
+**Total annual hours:** _____ hours
+
+**FTE equivalent:** _____ (total hours ÷ 1,840 hours/year)
+
+---
+
+## COMPARISON ACROSS SYSTEMS
+
+**Use this section after interviewing all 4 systems**
+
+| System | Total hrs/week | IT workload | Business workload | Complexity | Priority |
+|--------|----------------|-------------|-------------------|------------|----------|
+| Ascendo | _____ | _____ | _____ | L/M/H | _____ |
+| Idus | _____ | _____ | _____ | L/M/H | _____ |
+| Flexite | _____ | _____ | _____ | L/M/H | _____ |
+| Agda/Visma | _____ | _____ | _____ | L/M/H | _____ |
+| **TOTAL** | _____ | _____ | _____ | | |
+
+**Total IT workload across all systems:** _____ hours/week
+
+**Coordination overhead (3 hrs/week × 4 systems):** +12 hours/week
+
+**Total IT time needed:** _____ hours/week
+
+**FTE required:** _____ (total hours ÷ 40 hours/week)
+
+---
+
+## FINAL RECOMMENDATION TO IT MANAGEMENT
+
+**Based on assessment of all 4 systems:**
+
+**Scenario A: Take on all 4 systems**
+- Total IT time needed: _____ hours/week = _____ FTE
+- Staff required: Hire _____ / Reassign existing / Current capacity sufficient
+- One-time setup: _____ hours
+- Estimated cost: _____
+- Recommendation: Yes / No / Conditional
+
+**Scenario B: Take on selected systems only**
+- Recommend IT take: _____
+- Recommend business keep: _____
+- Total IT time needed: _____ hours/week = _____ FTE
+- Rationale: _____
+
+**Scenario C: Hybrid approach (specific tasks only)**
+- IT takes on tasks: _____
+- Business keeps tasks: _____
+- Total IT time needed: _____ hours/week = _____ FTE
+- Rationale: _____
+
+**Scenario D: Keep status quo**
+- Recommendation: Business teams continue managing
+- Provide support only: _____
+- Rationale: _____
+
+---
+
+**Recommended approach:** Scenario _____ 
+
+**Why:** _____
+
+**Next steps:** _____
+
+**Timeline:** _____
