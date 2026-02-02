@@ -303,7 +303,7 @@ Check the appropriate column for each component:
 **How do users contact you for support?** (Check all that apply)
 - [ ] Email
 - [ ] Phone
-- [ ] Teams/Slack
+- [ ] Skype/other chats
 - [ ] Walk up to your desk
 - [ ] Other: _____
 
