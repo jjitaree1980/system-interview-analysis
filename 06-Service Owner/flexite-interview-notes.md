@@ -1,19 +1,12 @@
 # System Management Self-Assessment Questionnaire
 
 **Purpose:** To better understand our IT landscape and how our critical systems are currently managed.
-
-**Instructions for completing this assessment:**
-- Please answer all questions that apply to your system
-- Rough estimates are fine - we're looking for approximate time, not exact tracking
-- If a question doesn't apply to your system, write "N/A" or leave blank
-- This should take approximately 30-40 minutes to complete
-
 ---
 
 ## YOUR INFORMATION
 
 **Your name:** Sofia
-
+**Your department:** Säkerhet & skydd
 
 ---
 
