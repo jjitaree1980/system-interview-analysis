@@ -125,7 +125,7 @@ IT currently involve this process
 | **User training** | 1-2 | Training new users, training sessions |
 | **Business documentation** | 0 | Writing user guides, process documentation |
 
-**Subtotal - Business Activities:** 1 hours/week
+**Subtotal - Business Activities:** 2 hours/week
 
 ---
 
