@@ -97,11 +97,11 @@ IT currently involve this process
 
 | Activity | Hours per week | Examples/notes |
 |----------|----------------|----------------|
-| **Creating/removing user accounts** | 0.5 | Setting up new users, removing when people leave |
-| **Password resets** | 0.21 | Helping users who forgot passwords |
-| **Changing user permissions** | 0.4 | Adjusting what users can access/do |
+| **Creating/removing user accounts** | 0.3 | Setting up new users, removing when people leave |
+| **Password resets** | 0.15 | Helping users who forgot passwords |
+| **Changing user permissions** | 0.05 | Adjusting what users can access/do |
 
-**Subtotal - User Management:** 1.11 hours/week
+**Subtotal - User Management:** 0.5 hours/week
 
 ---
 
@@ -145,7 +145,7 @@ IT currently involve this process
 
 ### TOTAL TIME CHECK
 
-**Add up all subtotals above:** 1.41 hours/week
+**Add up all subtotals above:** 0.8 hours/week
 
 *This should roughly match your "normal week" estimate at the top of this section. If very different, please review and adjust.*
 
