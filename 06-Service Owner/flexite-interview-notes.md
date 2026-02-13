@@ -97,11 +97,11 @@ IT currently involve this process
 
 | Activity | Hours per week | Examples/notes |
 |----------|----------------|----------------|
-| **Creating/removing user accounts** | 2.5 | Setting up new users, removing when people leave |
+| **Creating/removing user accounts** | 0.5 | Setting up new users, removing when people leave |
 | **Password resets** | 0.5 | Helping users who forgot passwords |
 | **Changing user permissions** | 0.5 | Adjusting what users can access/do |
 
-**Subtotal - User Management:** 3.5 hours/week
+**Subtotal - User Management:** 1.5 hours/week
 
 ---
 
@@ -122,10 +122,10 @@ IT currently involve this process
 |----------|----------------|----------------|
 | **Business configuration** | 0 | Setting up workflows, approval rules, business settings |
 | **Creating reports & data exports** | 0 | Running reports, exporting data for users |
-| **User training** | 1-2 | Training new users, training sessions |
+| **User training** | 0 | Training new users, training sessions |
 | **Business documentation** | 0 | Writing user guides, process documentation |
 
-**Subtotal - Business Activities:** 2 hours/week
+**Subtotal - Business Activities:** 0 hours/week
 
 ---
 
@@ -133,19 +133,19 @@ IT currently involve this process
 
 | Activity | Hours per week | Examples/notes |
 |----------|----------------|----------------|
-| **Vendor coordination** | 0 | Contacting vendor for support, meetings with vendor |
+| **Vendor coordination** | 0.1 | Contacting vendor for support, meetings with vendor |
 | **Meetings about this system** | 0 | Regular meetings, planning meetings |
 | **Other (please specify):** | _____ | |
 | _____ | _____ | |
 
-**Subtotal - Other:** 0 hours/week
+**Subtotal - Other:** 0.1 hours/week
 - Usually contact for vendor support 4-5 hours, max 1 time per year, purpose for some change request which need tech knowledge to manage. By lack of tech knowledge skill and do not want to crash the system, so they contact vendor for support.
 
 ---
 
 ### TOTAL TIME CHECK
 
-**Add up all subtotals above:** 5 hours/week
+**Add up all subtotals above:** 1.8 hours/week
 
 *This should roughly match your "normal week" estimate at the top of this section. If very different, please review and adjust.*
 
