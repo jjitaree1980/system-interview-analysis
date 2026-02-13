@@ -42,9 +42,11 @@ Check the appropriate column for each component:
 | System monitoring | [ ] | [x] | [ ] |
 | Database | [ ] | [x] | [ ] |
 
+Note : Currently IT have manage above components.
+
 ### Vendor information
 - **Vendor/product name:** Idus AB
-- **Do we have a support contract?** Yes / No / Not sure
+- **Do we have a support contract?** No
 
 ---
 
@@ -55,14 +57,14 @@ Check the appropriate column for each component:
 ### Total Time
 **Approximately how much total time do you spend on this system per week?**
 
-**Normal week:** _____ hours per week
+**Normal week:** 4 hours per week
 
-**Busiest week (month-end, year-end, etc.):** _____ hours per week
+**Busiest week (month-end, year-end, etc.):** 6 hours per week
 
-**How often are busy weeks?** _____ times per year
+**How often are busy weeks?** 12 times per year
 
 **What makes weeks busy?** (Check all that apply)
-- [ ] Month-end closing
+- [x] Month-end closing
 - [ ] Year-end closing
 - [ ] Payroll processing
 - [ ] Audit periods
@@ -81,13 +83,13 @@ Check the appropriate column for each component:
 
 | Activity | Hours per week | Examples/notes |
 |----------|----------------|----------------|
-| **System monitoring & health checks** | _____ | Checking if system is running, reviewing logs, checking backups |
-| **Technical troubleshooting & fixing issues** | _____ | System down, error messages, performance problems |
-| **System updates & patches** | _____ | Installing updates, testing patches (average per week) |
-| **Integration monitoring & troubleshooting** | _____ | Fixing connections to other systems |
-| **Backup verification** | _____ | Checking backups completed successfully |
+| **System monitoring & health checks** | 0 | Checking if system is running, reviewing logs, checking backups |
+| **Technical troubleshooting & fixing issues** | 0 | System down, error messages, performance problems |
+| **System updates & patches** | 0 | Installing updates, testing patches (average per week) |
+| **Integration monitoring & troubleshooting** | 0 | Fixing connections to other systems |
+| **Backup verification** | 0 | Checking backups completed successfully |
 
-**Subtotal - Technical Operations:** _____ hours/week
+**Subtotal - Technical Operations:** 0 hours/week
 
 ---
 
@@ -96,8 +98,8 @@ Check the appropriate column for each component:
 | Activity | Hours per week | Examples/notes |
 |----------|----------------|----------------|
 | **Creating/removing user accounts** | 0.5 | Setting up new users, removing when people leave |
-| **Password resets** | _____ | Helping users who forgot passwords |
-| **Changing user permissions** | _____ | Adjusting what users can access/do |
+| **Password resets** | 0 | Helping users who forgot passwords |
+| **Changing user permissions** | 0 | Adjusting what users can access/do |
 
 **Subtotal - User Management:** 0.5 hours/week
 
@@ -107,10 +109,10 @@ Check the appropriate column for each component:
 
 | Activity | Hours per week | Examples/notes |
 |----------|----------------|----------------|
-| **Technical support** | _____ | Can't log in, error messages, system slow/down |
-| **Business support** | _____ | "How do I...", process questions, how to use features |
+| **Technical support** | 0.5 | Can't log in, error messages, system slow/down |
+| **Business support** | 1.2 | "How do I...", process questions, how to use features |
 
-**Subtotal - User Support:** _____ hours/week
+**Subtotal - User Support:** 1.7 hours/week
 
 ---
 
@@ -118,12 +120,12 @@ Check the appropriate column for each component:
 
 | Activity | Hours per week | Examples/notes |
 |----------|----------------|----------------|
-| **Business configuration** | _____ | Setting up workflows, approval rules, business settings |
-| **Creating reports & data exports** | _____ | Running reports, exporting data for users |
-| **User training** | _____ | Training new users, training sessions |
-| **Business documentation** | _____ | Writing user guides, process documentation |
+| **Business configuration** | 0.1 | Setting up workflows, approval rules, business settings |
+| **Creating reports & data exports** | 0.07 | Running reports, exporting data for users |
+| **User training** | 0.13 | Training new users, training sessions |
+| **Business documentation** | 0 | Writing user guides, process documentation |
 
-**Subtotal - Business Activities:** _____ hours/week
+**Subtotal - Business Activities:** 0.3 hours/week
 
 ---
 
@@ -131,18 +133,18 @@ Check the appropriate column for each component:
 
 | Activity | Hours per week | Examples/notes |
 |----------|----------------|----------------|
-| **Vendor coordination** | _____ | Contacting vendor for support, meetings with vendor |
-| **Meetings about this system** | _____ | Regular meetings, planning meetings |
+| **Vendor coordination** | 0 | Contacting vendor for support, meetings with vendor |
+| **Meetings about this system** | 0 | Regular meetings, planning meetings |
 | **Other (please specify):** | _____ | |
 | _____ | _____ | |
 
-**Subtotal - Other:** _____ hours/week
+**Subtotal - Other:** 0 hours/week
 
 ---
 
 ### TOTAL TIME CHECK
 
-**Add up all subtotals above:** _____ hours/week
+**Add up all subtotals above:** 2.5 hours/week
 
 *This should roughly match your "normal week" estimate at the top of this section. If very different, please review and adjust.*
 
@@ -155,7 +157,7 @@ Check the appropriate column for each component:
 - **Purely technical skills** (IT knowledge, not business knowledge): _____%
   - *Example: Checking server logs, applying patches, troubleshooting errors*
 
-- **Purely business knowledge** (process knowledge, not IT skills): _____%
+- **Purely business knowledge** (process knowledge, not IT skills): 100%
   - *Example: Deciding approval workflows, training users on processes, business reports*
 
 - **Mixed** (both technical and business knowledge needed): _____%
@@ -246,7 +248,7 @@ Check the appropriate column for each component:
 ### Removing Users
 - **Users removed per month:** 1-2
 - **How do you know when to remove someone?** Got notify from HR/Department owner
-- **Time per removal:** 2-5 minutes
+- **Time per removal:** 2 minutes
 
 ### Changing Permissions
 - **Permission change requests per month:** Rarely
@@ -278,10 +280,10 @@ Check the appropriate column for each component:
 
 ### Support Channels
 **How do users contact you for support?** (Check all that apply)
-- [ ] Email
-- [ ] Phone
+- [x] Email
+- [x] Phone
 - [ ] Skype/other chats
-- [ ] Walk up to your desk
+- [x] Walk up to your desk
 - [ ] Other: _____
 
 ---
@@ -291,26 +293,26 @@ Check the appropriate column for each component:
 ### When IT is Currently Involved
 
 **When do users currently contact IT (not you) about this system?** (Check all that apply)
-- [ ] Cannot access system / Login problems
-- [ ] System error messages
-- [ ] Performance issues (system slow)
-- [ ] Network/connectivity issues
+- [x] Cannot access system / Login problems
+- [x] System error messages
+- [x] Performance issues (system slow)
+- [x] Network/connectivity issues
 - [ ] Never - users only contact me/my team
 - [ ] Other: _____
 
 **What does IT currently help you with for this system?**
-- _____
-- _____
+- Check integration to SAP
+- Check if network down or user cannot loggin
 - _____
 
 **What do you handle vs what IT handles?**
 - **Your team handles:** _____
 - **IT team handles:** _____
-- **Unclear/both:** _____
+- **Unclear/both:** 30% / 70%
 
 **How often do you need IT support for this system?**
 - [ ] Never
-- [ ] Rarely (few times per year)
+- [x] Rarely (few times per year)
 - [ ] A few times per month
 - [ ] Weekly
 - [ ] Daily
@@ -323,7 +325,7 @@ Check the appropriate column for each component:
 ### Connected Systems
 
 **Which other systems does this one connect/integrate with?**
-1. _____
+1. SAP
 2. _____
 3. _____
 4. _____
