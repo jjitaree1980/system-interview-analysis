@@ -60,7 +60,7 @@ Check the appropriate column for each component:
 
 **Normal week:** 40 hours per week
 
-**Busiest week (month-end, year-end, etc.):** 45 hours per week
+**Busiest week (month-end, year-end, etc.):** 40 hours per week
 
 **How often are busy weeks?** 12 times per year
 
@@ -70,7 +70,7 @@ Check the appropriate column for each component:
 - [x] Payroll processing
 - [ ] Audit periods
 - [ ] System updates
-- [ ] Other: _____
+- [x] Other: Prepare for sommarvikarier
 
 ---
 
@@ -123,10 +123,10 @@ Check the appropriate column for each component:
 |----------|----------------|----------------|
 | **Business configuration** | 0.1 | Setting up workflows, approval rules, business settings |
 | **Creating reports & data exports** | 0 | Running reports, exporting data for users |
-| **User training** | 1 | Training new users, training sessions |
+| **User training** | 0.5 | Training new users, training sessions |
 | **Business documentation** | 0 | Writing user guides, process documentation |
 
-**Subtotal - Business Activities:** 1 hours/week
+**Subtotal - Business Activities:** 0.5 hours/week
 
 ---
 
@@ -145,7 +145,7 @@ Check the appropriate column for each component:
 
 ### TOTAL TIME CHECK
 
-**Add up all subtotals above:** 1.62 hours/week
+**Add up all subtotals above:** 1.12 hours/week
 
 *This should roughly match your "normal week" estimate at the top of this section. If very different, please review and adjust.*
 
