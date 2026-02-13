@@ -109,10 +109,10 @@ Note : Currently IT have manage above components.
 
 | Activity | Hours per week | Examples/notes |
 |----------|----------------|----------------|
-| **Technical support** | 0.5 | Can't log in, error messages, system slow/down |
-| **Business support** | 1.2 | "How do I...", process questions, how to use features |
+| **Technical support** | 0.25 | Can't log in, error messages, system slow/down |
+| **Business support** | 0.34 | "How do I...", process questions, how to use features |
 
-**Subtotal - User Support:** 1.7 hours/week
+**Subtotal - User Support:** 0.6 hours/week
 
 ---
 
@@ -144,7 +144,7 @@ Note : Currently IT have manage above components.
 
 ### TOTAL TIME CHECK
 
-**Add up all subtotals above:** 2.5 hours/week
+**Add up all subtotals above:** 1.4 hours/week
 
 *This should roughly match your "normal week" estimate at the top of this section. If very different, please review and adjust.*
 
