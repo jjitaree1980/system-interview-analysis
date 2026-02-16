@@ -121,7 +121,7 @@ IT currently involve this process
 | Activity | Hours per week | Examples/notes |
 |----------|----------------|----------------|
 | **Business configuration** | 0 | Setting up workflows, approval rules, business settings |
-| **Creating reports & data exports** | 0 | Running reports, exporting data for users |
+| **Creating reports & data exports** | 0.25 | Running reports, exporting data for users |
 | **User training** | 0 | Training new users, training sessions |
 | **Business documentation** | 0 | Writing user guides, process documentation |
 
@@ -145,7 +145,7 @@ IT currently involve this process
 
 ### TOTAL TIME CHECK
 
-**Add up all subtotals above:** 0.8 hours/week
+**Add up all subtotals above:** 1.05 hours/week
 
 *This should roughly match your "normal week" estimate at the top of this section. If very different, please review and adjust.*
 
