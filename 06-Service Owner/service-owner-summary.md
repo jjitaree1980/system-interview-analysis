@@ -1,5 +1,6 @@
 # Service Owner Analysis summary
-´´´ 
+
+```
 IT Capacity Requirements - Service Owner Model
 
 System          Current IT │ Service Owner Addition │ New Total
@@ -20,7 +21,7 @@ TOTAL           5.32 hrs    │ +10.2 hrs              │ 15.56 hrs/month
                 (64 hrs/yr) │ (+122 hrs/yr)          │ (187 hrs/yr)
 
 Current IT: 4% FTE  →  Service Owner IT: 12% FTE  →  Additional: 8% FTE
-´´´´
+```
 
 ## Summary Overview
 
