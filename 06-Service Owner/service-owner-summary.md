@@ -20,8 +20,8 @@ Agda/Visma      ▓           │ ████████               │ 2.1
 TOTAL           5.32 hrs    │ +10.2 hrs              │ 15.56 hrs/month
                 (64 hrs/yr) │ (+122 hrs/yr)          │ (187 hrs/yr)
 
-Current IT: 3.5% FTE  →  Service Owner IT: 10.1% FTE  →  Additional: 6.6% FTE
-FTE is based on 46 weeks (1840 hours)
+Current IT: 3.5% FTE  →  Service Owner IT: 10.1% FTE  →  Additional: 6.6% FTE (+2.65 hr/wk)
+FTE is calculated by hours/ FTE 46 weeks (1840 hours)
 ```
 
 ## Summary Overview
