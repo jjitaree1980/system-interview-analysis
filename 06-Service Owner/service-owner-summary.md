@@ -104,7 +104,7 @@
 **Staffing Translation:**
 - Current IT time: 5.32 hrs/month (64 hrs/year) = 4% FTE
 - Service Owner IT time: 15.56 hrs/month (187 hrs/year) = 12% FTE
-- **Additional IT capacity needed: ~8% FTE (122 hours/year)**
+- **Additional IT capacity needed: ~8% FTE (122 hours/year) or 2 hours 18 minutes per week**
 
 ### Peak Capacity Planning
 
