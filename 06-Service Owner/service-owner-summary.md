@@ -20,7 +20,8 @@ Agda/Visma      ▓           │ ████████               │ 2.1
 TOTAL           5.32 hrs    │ +10.2 hrs              │ 15.56 hrs/month
                 (64 hrs/yr) │ (+122 hrs/yr)          │ (187 hrs/yr)
 
-Current IT: 4% FTE  →  Service Owner IT: 12% FTE  →  Additional: 8% FTE
+Current IT: 3.5% FTE  →  Service Owner IT: 10.1% FTE  →  Additional: 6.6% FTE
+FTE is based on 46 weeks (1840 hours)
 ```
 
 ## Summary Overview
@@ -125,9 +126,9 @@ Current IT: 4% FTE  →  Service Owner IT: 12% FTE  →  Additional: 8% FTE
 | **TOTAL** | **5.32 hrs/month** | **+10.2 hrs/month** | **15.56 hrs/month** |
 
 **Staffing Translation:**
-- Current IT time: 5.32 hrs/month (64 hrs/year) = 4% FTE
-- Service Owner IT time: 15.56 hrs/month (187 hrs/year) = 12% FTE
-- **Additional IT capacity needed: ~8% FTE (122 hours/year) or 2 hours 18 minutes per week**
+- Current IT time: 5.32 hrs/month (64 hrs/year) = 3.5% FTE
+- Service Owner IT time: 15.56 hrs/month (187 hrs/year) = 10.1% FTE
+- **Additional IT capacity needed: ~6.6% FTE (122 hours/year) or 2.65 hrs/week**
 
 ### Peak Capacity Planning
 
