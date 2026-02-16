@@ -1,5 +1,27 @@
 # Service Owner Analysis summary
-## COMPLETE PORTFOLIO - All 4 Systems
+´´´ 
+IT Capacity Requirements - Service Owner Model
+
+System          Current IT │ Service Owner Addition │ New Total
+────────────────────────────────────────────────────────────────
+Ascendo         ▓           │ ████████████████████   │ 3.0 hrs
+                0.16 hrs    │ +2.8 hrs               │
+
+Flexite         ████        │ ████████████           │ 4.9 hrs
+                2.5 hrs     │ +2.4 hrs               │
+
+Idus            ████        │ ████████████████       │ 5.5 hrs
+                2.5 hrs     │ +3.0 hrs               │
+
+Agda/Visma      ▓           │ ████████               │ 2.16 hrs
+                0.16 hrs    │ +2.0 hrs               │
+────────────────────────────────────────────────────────────────
+TOTAL           5.32 hrs    │ +10.2 hrs              │ 15.56 hrs/month
+                (64 hrs/yr) │ (+122 hrs/yr)          │ (187 hrs/yr)
+
+Current IT: 4% FTE  →  Service Owner IT: 12% FTE  →  Additional: 8% FTE
+´´´´
+
 ## Summary Overview
 
 | System | Current Business Owner Time | Current IT Time | Total System Management | User Count |
