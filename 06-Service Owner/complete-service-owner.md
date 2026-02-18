@@ -14,14 +14,14 @@ Current IT  │ + Service Owner Core Tasks  │ = New Total
 ████        │ ████████████████            │
 
 WHAT IT ACTUALLY IS - YEAR 1 (Complete Picture with Setup):
-Current IT  │ + Core │ + Training │ + Docs │ + Setup │ + Hidden Burdens                │ = REAL Total
-5.32 hrs    │ +10.2  │ +13.0      │ +1.1   │ +8.3    │ +32.8                           │ 70.7 hrs/month (46.1% FTE)
-████        │ ██████ │ ████████   │ ██     │ ████████│ ████████████████████████████████│
+Current IT  │ + Core │ + Training │ + Docs │ + Setup │ + Hidden Burdens      │ = REAL Total
+5.32 hrs    │ +10.2  │ +13.0      │ +1.1   │ +8.3    │ +32.8                 │ 70.7 hrs/month (46.1% FTE)
+████        │ ██████ │ ████████   │ ██     │ ████████│ ██████████████████████│
 
 WHAT IT ACTUALLY IS - YEAR 2+ (Steady State):
-Current IT  │ + Core │ + Training │ + Docs │ + Hidden Burdens                    │ = REAL Total
-5.32 hrs    │ +10.2  │ +13.0      │ +0.3   │ +32.8                               │ 61.6 hrs/month (40.2% FTE)
-████        │ ██████ │ ████████   │ ▓      │ ████████████████████████████████████│
+Current IT  │ + Core │ + Training │ + Docs │ + Hidden Burdens          │ = REAL Total
+5.32 hrs    │ +10.2  │ +13.0      │ +0.3   │ +32.8                     │ 61.6 hrs/month (40.2% FTE)
+████        │ ██████ │ ████████   │ ▓      │ ██████████████████████████│
 
 Setup work: 100 hours one-time (process dev, ticketing, metrics, knowledge transfer) 
             = 8.3 hrs/month average in Year 1 only
@@ -62,10 +62,6 @@ The hidden burdens are 3.2X larger than the visible core tasks!
 - **Peak months (Mar-May) :** 91 hrs/month = **22.8 hrs/week = 274 minutes/day**
 
 **FTE calculation basis:** 1 FTE = 40 hrs/week × 46 working weeks = 1,840 hours/year
-
-
-
-
 
 ---
 
