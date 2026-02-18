@@ -30,16 +30,24 @@ The hidden burdens are 3.2X larger than the visible core tasks!
 
 ### Complete IT Burden Breakdown
 
-| Component | Year 1 (hrs/month) | Year 2+ (hrs/month) | Hours/Year (Y2+) | FTE % (Y2+) | % of Total (Y2+) |
-|-----------|-------------------|---------------------|------------------|-------------|------------------|
-| **Core Service Owner tasks** | 10.2 hrs | 10.2 hrs | 122 hrs | 6.6% | 17% |
-| **Technical onboarding training** | 13.0 hrs | 13.0 hrs | 156 hrs | 8.5% | 21% |
-| **Documentation** | **1.1 hrs** | **0.3 hrs** | **4 hrs** | **0.2%** | **<1%** |
-| **Hidden operational burdens** | 32.8 hrs | 32.8 hrs | 394 hrs | 21.4% | 53% |
-| **Setup work (one-time)** | **8.3 hrs*** | **0 hrs** | **0 hrs** | **0%** | **-** |
-| | | | | | |
-| **TOTAL YEAR 1** | **65.4 hrs/month** | - | **785 hrs/year** | **42.7% FTE** | - |
-| **TOTAL YEAR 2+** | - | **56.3 hrs/month** | **676 hrs/year** | **36.7% FTE** | 100% |
+| Component | Year 1 (hrs/month) | Year 2+ (hrs/month) | Hours/Year (Y1) | Hours/Year (Y2+) | FTE % (Y1) | FTE % (Y2+) | % of Total (Y2+) |
+|-----------|-------------------|---------------------|-----------------|------------------|------------|-------------|------------------|
+| **Core Service Owner tasks** | 10.2 hrs | 10.2 hrs | 122 hrs | 122 hrs | 6.6% | 6.6% | 17% |
+| **Technical onboarding training** | 13.0 hrs | 13.0 hrs | 156 hrs | 156 hrs | 8.5% | 8.5% | 21% |
+| **Documentation** | **1.1 hrs** | **0.3 hrs** | **13 hrs** | **4 hrs** | **0.7%** | **0.2%** | **<1%** |
+| **Hidden operational burdens** | 32.8 hrs | 32.8 hrs | 394 hrs | 394 hrs | 21.4% | 21.4% | 53% |
+| **Setup work (one-time)** | **8.3 hrs*** | **0 hrs** | **100 hrs** | **0 hrs** | **5.4%** | **0%** | **-** |
+| | | | | | | | |
+| **TOTAL YEAR 1** | **65.4 hrs/month** | - | **785 hrs/year** | - | **42.7% FTE** | - | - |
+| **TOTAL YEAR 2+** | - | **56.3 hrs/month** | - | **676 hrs/year** | - | **36.7% FTE** | 100% |
+
+## Key Differences Between Year 1 and Year 2+
+
+| Metric | Year 1 | Year 2+ | Difference |
+|--------|--------|---------|------------|
+| **Documentation** | 13 hrs/year (0.7% FTE) | 4 hrs/year (0.2% FTE) | -9 hrs (-0.5% FTE) |
+| **Setup work** | 100 hrs/year (5.4% FTE) | 0 hrs/year (0% FTE) | -100 hrs (-5.4% FTE) |
+| **Total burden** | 785 hrs/year (42.7% FTE) | 676 hrs/year (36.7% FTE) | -109 hrs (-6.0% FTE) |
 
 ***Setup work breakdown (Year 1 only):**
 - Process development: 32 hours
@@ -54,6 +62,10 @@ The hidden burdens are 3.2X larger than the visible core tasks!
 - **Peak months (Mar-May) :** 91 hrs/month = **22.8 hrs/week = 274 minutes/day**
 
 **FTE calculation basis:** 1 FTE = 40 hrs/week × 46 working weeks = 1,840 hours/year
+
+
+
+
 
 ---
 
